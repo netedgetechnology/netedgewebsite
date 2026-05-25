@@ -1,5 +1,0 @@
-Reporting-MTA: dns; server.gettyhosting.com
-
-Action: failed
-Final-Recipient: rfc822;support@netedgetechnology.com
-Status: 5.0.0

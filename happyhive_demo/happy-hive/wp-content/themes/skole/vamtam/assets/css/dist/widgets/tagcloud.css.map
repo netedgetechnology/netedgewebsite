@@ -1,1 +1,0 @@
-{"version":3,"sources":["/wp-content/themes/skole/vamtam/assets/css/src/widgets/tagcloud.less","<input css 14>"],"names":[],"mappings":"AAAA;EAEE,iBAAA;EACA,gBAAA;EACA,oBAAA;EACA,kBAAA;CCAD","file":"to.css","sourcesContent":[null,".tagcloud a {\n  font-weight: 400;\n  margin: 0px 3px;\n  padding-bottom: 1px;\n  border-width: 2px;\n}\n/*# sourceMappingURL=tagcloud.css.map */"]}

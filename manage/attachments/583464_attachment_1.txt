@@ -1,9 +1,0 @@
-Reporting-MTA: dns;SER-gczbexchmb.whgcc.cn
-Received-From-MTA: dns;netedgetechnology.com
-Arrival-Date: Mon, 18 May 2026 21:23:31 +0000
-
-Final-Recipient: rfc822;sales@whgcc.cn
-Action: failed
-Status: 5.1.1
-Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
-

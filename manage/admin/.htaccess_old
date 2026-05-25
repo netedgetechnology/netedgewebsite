@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "/home/netedge/public_html/manage/admin/"
-AuthUserFile "/home/netedge/.htpasswds/public_html/manage/admin/passwd"
-require valid-user

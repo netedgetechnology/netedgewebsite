@@ -1,4 +1,0 @@
-Options +FollowSymLinks
-  RewriteEngine on
- 
-  RewriteRule ^about-affenpinscher\.html$ about-breed.php?spe=Affenpinscher [T=application/x-httpd-php]

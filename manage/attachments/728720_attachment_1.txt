@@ -1,5 +1,0 @@
-Reporting-MTA: dns; cp-wc94.per01.ds.network
-
-Action: failed
-Final-Recipient: rfc822;sales@netedgetechnology.com
-Status: 5.0.0

@@ -1,5 +1,0 @@
-															
-	msg=audit(09/12/16	07:14:28.831:461177816)	:	item=1	name=ordercustomization18_test.php	inode=4475668									
-	msg=audit(09/12/16	07:14:28.831:461177816)	:	item=0	name=/	inode=4474377									
-	msg=audit(09/12/16	07:14:28.831:461177816)	:	cwd=/											
-	msg=audit(09/12/16	07:14:28.831:461177816)	:	arch=x86_64	syscall=open	success=yes	uid=trainpetdog	gid=trainpetdog	euid=trainpetdog	suid=trainpetdog	fsuid=trainpetdog	egid=trainpetdog	sgid=trainpetdog	fsgid=trainpetdog	exe=/usr/local/sbin/vsftpd
