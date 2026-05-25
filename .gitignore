@@ -44,3 +44,8 @@ _faq_backup_*/
 _faq_full_removal_backup_*/
 _seo_backup_*/
 _server_management_rebuild_*/
+
+# Exclude unrelated folders
+happyhive/
+happyhive_demo/
+manage/
