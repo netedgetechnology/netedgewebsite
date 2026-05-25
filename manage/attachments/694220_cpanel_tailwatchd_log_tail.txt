@@ -1,0 +1,75 @@
+[1;32mdovecot restarted successfully.[0m
+	Jun 17 00:36:31 server2 dovecot: imap(earl@quotagame.com): Server shutting down. in=63, out=913, bytes=63/913
+	Jun 17 00:36:31 server2 dovecot: imap(bparsons@ofgh.ca): Server shutting down. in=3532, out=41605, bytes=3532/41605
+	[1;30;43mJun 17 00:36:34 server2 dovecot: log: Warning: Killed with signal 15 (by pid=323265 uid=0 code=kill)[0m
+	Jun 17 00:36:39 server2 dovecot: master: Dovecot v2.2.16 starting up for imap, pop3 (core dumps disabled)
+	[1;30;43mJun 17 00:36:39 server2 dovecot: master: Warning: /hdd1 is no longer mounted. See http://wiki2.dovecot.org/Mountpoints[0m
+[1mLog Messages[0m
+	Starting Dovecot Imap: [  OK  ]
+[1mStartup Log[0m
+	dovecot (/usr/sbin/dovecot) is running as root with PID 323298 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “dovecot” to restart ………waiting for “dovecot” to initialize ……
+[187051] [2015-06-17 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434513600
+[187051] [2015-06-16 23:02:41 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 23:02:41 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434510000
+[187051] [2015-06-16 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434506400
+[187051] [2015-06-16 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434502800
+[187051] [2015-06-16 20:32:26 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 20:32:26 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434499200
+[187051] [2015-06-16 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434495600
+[187051] [2015-06-16 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434492000
+[187051] [2015-06-16 17:03:49 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 17:03:49 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434488400
+[187051] [2015-06-16 16:18:01 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1434484800 - 1434488400
+[187051] [2015-06-16 16:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434484800
+[187051] [2015-06-16 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434481200
+[187051] [2015-06-16 14:16:32 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 14:16:32 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434477600
+[187051] [2015-06-16 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434474000
+[187051] [2015-06-16 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434470400
+[187051] [2015-06-16 11:05:53 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 11:05:53 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434466800
+[187051] [2015-06-16 10:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434463200
+[187051] [2015-06-16 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434459600
+[187051] [2015-06-16 08:05:43 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 08:05:43 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434456000
+[187051] [2015-06-16 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434452400
+[187051] [2015-06-16 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434448800
+[187051] [2015-06-16 05:14:56 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 05:14:56 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434445200
+[187051] [2015-06-16 04:36:20 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 04:36:20 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1434441600 - 1434445200
+[187051] [2015-06-16 04:36:20 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434441600
+[187051] [2015-06-16 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434438000
+[187051] [2015-06-16 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434434400
+[187051] [2015-06-16 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1434430800
+[187051] [2015-06-16 00:55:37 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[187051] [2015-06-16 00:55:37 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch::ChkServd] [INFO] Opening /var/log/chkservd.log in append mode
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restored /var/log/exim_mainlog to position 33181249
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restoring /var/log/exim_mainlog to catch up position 33181249
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Reading back thirty lines of /var/log/exim_mainlog starting at 33164865
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Caught up /var/log/exim_mainlog to 33181249
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restored /var/log/maillog to position 41286510
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restoring /var/log/maillog to catch up position 41286510
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Reading back thirty lines of /var/log/maillog starting at 41270126
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Caught up /var/log/maillog to 41286510
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restored /var/log/exim_mainlog (size:33181249) to 33179209 (requested 33179209)
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] Restored /var/log/maillog (size:41286510) to 41278723 (requested 41278723)
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] /var/log/exim_mainlog opened with inode 2636739
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [INFO] /var/log/maillog opened with inode 2669111
+[187051] [2015-06-16 00:55:05 -0400] [Cpanel::TailWatch] [START] 187051 1434430504
+[187034] [2015-06-16 00:55:04 -0400] [Cpanel::TailWatch] The tailwatchd driver 'Cpanel::TailWatch::JailManager' is not enabled.
+[187034] [2015-06-16 00:55:04 -0400] [Cpanel::TailWatch] The tailwatchd driver 'Cpanel::TailWatch::ModSecLog' is not enabled.
+[187034] [2015-06-16 00:55:04 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1434427200 - 1434430800
+[187034] [2015-06-16 00:55:04 -0400] [Cpanel::TailWatch] [INFO] inotify enabled.  watch file is /var/cpanel/.tailwatchd_inotify_alarm_trick

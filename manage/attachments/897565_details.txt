@@ -1,0 +1,31 @@
+Reporting-MTA: dns; cq13.worldstream.nl
+X-Postfix-Queue-ID: 3197016012C7
+X-Postfix-Sender: rfc822; jatuporn.sitthinan@bansard.co.th
+Arrival-Date: Fri, 31 Jul 2015 04:44:49 +0200 (CEST)
+
+Final-Recipient: rfc822; afitoussi@bansard.com
+Original-Recipient: rfc822;afitoussi@bansard.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; bansard-com.mail.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.7.1 Service unavailable; Client host
+    [109.236.85.49] blocked using FBLW15; To request removal from this list
+    please forward this message to delist@messaging.microsoft.com
+
+Final-Recipient: rfc822; egrellet@bansard.com
+Original-Recipient: rfc822;egrellet@bansard.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; bansard-com.mail.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.7.1 Service unavailable; Client host
+    [109.236.85.49] blocked using FBLW15; To request removal from this list
+    please forward this message to delist@messaging.microsoft.com
+
+Final-Recipient: rfc822; mremy@BANSARD.COM
+Original-Recipient: rfc822;mremy@BANSARD.COM
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; bansard-com.mail.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.7.1 Service unavailable; Client host
+    [109.236.85.49] blocked using FBLW15; To request removal from this list
+    please forward this message to delist@messaging.microsoft.com

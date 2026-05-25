@@ -1,0 +1,6 @@
+Output from vmstat:
+procs -----------memory---------- ---swap-- -----io---- --system-- -----cpu------
+  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+  1  2 180560 165444 230880 2310156    0    0    68   115    0    0  4  1 89  6  0
+
+

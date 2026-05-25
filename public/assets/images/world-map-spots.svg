@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" role="img" aria-label="World map with client spots">
+  <defs>
+    <radialGradient id="oceanGlow" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff7ff"/>
+      <stop offset="55%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0f172a" flood-opacity=".10"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="620" rx="34" fill="url(#oceanGlow)"/>
+
+  <g fill="#d7e7fb" stroke="#bcd7f6" stroke-width="2" filter="url(#softShadow)">
+    <path d="M156 172c-45 22-76 63-64 104 10 34 42 42 72 51 36 11 45 34 60 68 18 41 62 54 99 31 39-24 36-65 23-101-11-30-34-48-43-77-9-30 22-52 9-78-18-37-100-25-156 2z"/>
+    <path d="M318 118c-36 13-57 44-48 76 10 36 51 36 78 54 34 22 25 58 51 83 34 33 91 15 103-32 9-35-19-58-39-83-23-28-18-62-52-82-26-15-62-27-93-16z"/>
+    <path d="M430 370c-45 10-63 49-41 86 24 41 83 48 122 18 36-28 25-77-19-96-18-8-42-13-62-8z"/>
+    <path d="M574 150c53-45 149-60 222-35 54 18 91 60 76 101-13 36-68 31-103 49-37 20-44 60-91 68-61 10-121-24-138-75-13-40 2-82 34-108z"/>
+    <path d="M815 150c60-25 145-8 198 37 41 35 43 82 3 107-36 22-91 5-130 26-42 22-42 70-87 82-48 13-97-23-101-72-4-50 50-65 65-104 11-30 21-62 52-76z"/>
+    <path d="M950 280c60-30 159-18 221 30 57 44 52 111-8 139-53 25-110-12-160 2-54 15-79 70-134 50-51-19-52-86-15-126 28-30 57-75 96-95z"/>
+    <path d="M1020 470c50-20 136 5 168 47 31 42-9 84-74 78-63-6-129-69-112-107 4-8 10-14 18-18z"/>
+    <path d="M758 414c35 4 64 33 64 68 0 38-35 67-74 58-37-9-56-49-40-83 10-22 27-39 50-43z"/>
+  </g>
+
+  <g fill="none" stroke="#c7dff8" stroke-width="1.5" opacity=".65">
+    <path d="M130 120h1140M130 210h1140M130 300h1140M130 390h1140M130 480h1140"/>
+    <path d="M230 80v470M420 80v470M610 80v470M800 80v470M990 80v470M1180 80v470"/>
+  </g>
+
+  <!-- many soft client spots on the map itself -->
+  <g fill="#0b5fc0" opacity=".78">
+    <circle cx="195" cy="245" r="4"/><circle cx="225" cy="270" r="4"/><circle cx="260" cy="230" r="4"/>
+    <circle cx="302" cy="328" r="4"/><circle cx="355" cy="420" r="4"/><circle cx="410" cy="438" r="4"/>
+    <circle cx="455" cy="210" r="4"/><circle cx="505" cy="250" r="4"/><circle cx="555" cy="300" r="4"/>
+    <circle cx="640" cy="198" r="4"/><circle cx="690" cy="210" r="4"/><circle cx="730" cy="250" r="4"/>
+    <circle cx="785" cy="288" r="4"/><circle cx="840" cy="210" r="4"/><circle cx="890" cy="245" r="4"/>
+    <circle cx="935" cy="315" r="4"/><circle cx="980" cy="355" r="4"/><circle cx="1035" cy="330" r="4"/>
+    <circle cx="1090" cy="380" r="4"/><circle cx="1145" cy="430" r="4"/><circle cx="1055" cy="520" r="4"/>
+    <circle cx="785" cy="468" r="4"/><circle cx="760" cy="500" r="4"/>
+  </g>
+</svg>

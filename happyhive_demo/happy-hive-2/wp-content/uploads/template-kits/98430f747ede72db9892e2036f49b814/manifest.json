@@ -1,0 +1,2092 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Kindleon - Kindergarten & Child Care Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact \u2013 Section \u2013 Metform",
+            "screenshot": "screenshots\/contact-section-metform.jpg",
+            "source": "templates\/contact-section-metform.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/contact-section-metform\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Class",
+            "screenshot": "screenshots\/our-class.jpg",
+            "source": "templates\/our-class.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/our-class\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Class\u00a0Detail",
+            "screenshot": "screenshots\/our-class-detail.jpg",
+            "source": "templates\/our-class-detail.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/our-class-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Activities",
+            "screenshot": "screenshots\/activities.jpg",
+            "source": "templates\/activities.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/activities\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Teachers",
+            "screenshot": "screenshots\/teachers.jpg",
+            "source": "templates\/teachers.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/teachers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/kindle.1onestrong.com\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.29.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.13",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.9.9",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Logo-04.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Logo-04-800x208.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 48283,
+            "dimensions": [
+                1202,
+                313
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Logo-03.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Logo-03-800x255.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 44222,
+            "dimensions": [
+                982,
+                313
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-020.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-020-800x560.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 127406,
+            "dimensions": [
+                912,
+                638
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-05.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-05-800x410.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 8424,
+            "dimensions": [
+                1920,
+                984
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Heros-5.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Heros-5-800x1038.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 109880,
+            "dimensions": [
+                912,
+                1183
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Heros-4.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Heros-4-800x1038.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 110072,
+            "dimensions": [
+                912,
+                1183
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Heros-3.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Heros-3-800x1039.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 239776,
+            "dimensions": [
+                912,
+                1184
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Heros-2.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Heros-2-800x1038.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 149829,
+            "dimensions": [
+                912,
+                1183
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Heros-1.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Heros-1-800x1038.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 136029,
+            "dimensions": [
+                912,
+                1183
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-026.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-026-800x360.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 21931,
+            "dimensions": [
+                833,
+                375
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Image-02.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-02-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 133351,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-03.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-03-800x521.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 142098,
+            "dimensions": [
+                1500,
+                977
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-09.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-09-800x512.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 196218,
+            "dimensions": [
+                1037,
+                664
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-08.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-08.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 180423,
+            "dimensions": [
+                777,
+                635
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-04.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-04-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 158901,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-05.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-05-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 132051,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-06.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-06-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 144721,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-07.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-07-800x560.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 213160,
+            "dimensions": [
+                1500,
+                1050
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-08.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-08-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 169189,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-010.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-010-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 108941,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-09.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-09-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 146324,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-011.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-011-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                }
+            ],
+            "filesize": 108169,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-012.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-012-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 130834,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-013.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-013.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 17480,
+            "dimensions": [
+                420,
+                420
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-011.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-011.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 13787,
+            "dimensions": [
+                420,
+                420
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-014.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-014.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 15004,
+            "dimensions": [
+                420,
+                420
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-012.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-012.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 15138,
+            "dimensions": [
+                420,
+                420
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-021.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-021.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 24821,
+            "dimensions": [
+                714,
+                614
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-018.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-018.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 54860,
+            "dimensions": [
+                700,
+                481
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-016.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-016.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 92130,
+            "dimensions": [
+                700,
+                481
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-019.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-019.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 111036,
+            "dimensions": [
+                700,
+                481
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-030-1.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-030-1-800x768.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 215842,
+            "dimensions": [
+                900,
+                864
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-015.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-015-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 224541,
+            "dimensions": [
+                1500,
+                999
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-021.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-021-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 153256,
+            "dimensions": [
+                1500,
+                844
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-019.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-019-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 174362,
+            "dimensions": [
+                1500,
+                1002
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-016.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-016-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 164878,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-020.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-020-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 148632,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-017.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-017-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 196433,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-018.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-018-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-class.json",
+                    "name": "Our Class"
+                },
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 130739,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-027-1.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-027-1-800x777.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 181196,
+            "dimensions": [
+                873,
+                848
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-028-1.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-028-1-800x360.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 20815,
+            "dimensions": [
+                833,
+                375
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Team-01.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-01-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 69263,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-03.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-03-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 133592,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-02.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-02-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 97456,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-05.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-05-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 76021,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-06.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-06-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 105919,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-04.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-04-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 87003,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-08.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-08-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 79293,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Team-07.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Team-07-800x946.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 88723,
+            "dimensions": [
+                978,
+                1156
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-033.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-033-800x572.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-class-detail.json",
+                    "name": "Our Class\u00a0Detail"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 79463,
+            "dimensions": [
+                1500,
+                1073
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-031.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-031-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 79665,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-025.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-025-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 186466,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-024.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-024-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 135995,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-023.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-023-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 149096,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-022.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-022-800x549.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 143861,
+            "dimensions": [
+                1500,
+                1030
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-028.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-028-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 157769,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-031.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-031-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 213063,
+            "dimensions": [
+                804,
+                804
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Blog-02.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-02-800x676.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 177797,
+            "dimensions": [
+                1500,
+                1267
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-027.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-027-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 122291,
+            "dimensions": [
+                1500,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-035.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-035-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 181884,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-032.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-032-800x561.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 220778,
+            "dimensions": [
+                1500,
+                1051
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-034.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-034-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 133679,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-029.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-029-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 97501,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-030.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-030-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/activities.json",
+                    "name": "Activities"
+                }
+            ],
+            "filesize": 105307,
+            "dimensions": [
+                1500,
+                1002
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Blog-07.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-07-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/teachers.json",
+                    "name": "Teachers"
+                }
+            ],
+            "filesize": 134295,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-035.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-035.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 52748,
+            "dimensions": [
+                704,
+                704
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-032.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-032.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 72368,
+            "dimensions": [
+                704,
+                704
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-033.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-033.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 58951,
+            "dimensions": [
+                704,
+                704
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-034.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-034.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 34845,
+            "dimensions": [
+                704,
+                704
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-026.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-026-800x938.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 144494,
+            "dimensions": [
+                1200,
+                1407
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "404-page.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/404-page-800x331.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 50313,
+            "dimensions": [
+                1344,
+                556
+            ],
+            "image_source": "self_created",
+            "image_urls": ""
+        },
+        {
+            "filename": "Blog-06.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-06-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 187975,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Blog-05.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-05-800x527.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 153135,
+            "dimensions": [
+                1500,
+                988
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Blog-04.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-04-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 192927,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Blog-03.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Blog-03-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 107576,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-014.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-014-800x542.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 115083,
+            "dimensions": [
+                1500,
+                1016
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-036.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-036.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 43457,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-037.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-037.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 47232,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-038.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-038.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 54474,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Shape-039.png",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Shape-039.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 34997,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        },
+        {
+            "filename": "Image-013.jpg",
+            "thumbnail_url": "https:\/\/kindle.1onestrong.com\/wp-content\/uploads\/2025\/05\/Image-013-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 130744,
+            "dimensions": [
+                1500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/R4KCJQZSF6"
+        }
+    ]
+}

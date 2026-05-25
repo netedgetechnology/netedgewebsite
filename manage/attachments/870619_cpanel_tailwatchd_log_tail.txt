@@ -1,0 +1,75 @@
+[1;32mspamd restarted successfully.[0m
+	Sep 10 08:16:04 server2 spamd[161461]: prefork: child states: IS
+	Sep 10 08:16:04 server2 spamd[161461]: prefork: child states: II
+	Sep 10 08:16:05 server2 spamd[161484]: spamd: connection from localhost [127.0.0.1]:58972 to port 783, fd 5
+	Sep 10 08:16:05 server2 spamd[161484]: spamd: setuid to deltabin succeeded
+	Sep 10 08:16:05 server2 spamd[161484]: spamd: checking message <5acafcc2021077318a53f08d9e66da68@async.facebook.com> for deltabin:608
+[1mLog Messages[0m
+	spamd (/usr/local/cpanel/3rdparty/perl/514/bin/spamd --daemonize --allowed-ips=127.0.0.1 --max-children=5 --pidfile=/var/run/spamd.pid -i127.0.0.1) is running as root with PID 161461 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “spamd” to restart ………waiting for “spamd” to initialize ……
+[700833] [2015-09-10 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441886400
+[700833] [2015-09-10 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441882800
+[700833] [2015-09-10 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441879200
+[700833] [2015-09-10 05:06:29 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 05:06:29 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441875600
+[700833] [2015-09-10 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441872000
+[700833] [2015-09-10 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441868400
+[700833] [2015-09-10 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441864800
+[700833] [2015-09-10 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441861200
+[700833] [2015-09-10 00:57:54 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 00:57:54 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441857600 - 1441861200
+[700833] [2015-09-10 00:57:54 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 00:54:21 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 00:54:21 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441857600 - 1441861200
+[700833] [2015-09-10 00:54:21 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 00:52:22 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 00:52:21 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441857600 - 1441861200
+[700833] [2015-09-10 00:52:21 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 00:43:08 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 00:43:08 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441857600 - 1441861200
+[700833] [2015-09-10 00:43:08 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 00:39:39 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-10 00:39:38 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441857600 - 1441861200
+[700833] [2015-09-10 00:39:38 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-10 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441857600
+[700833] [2015-09-09 23:05:41 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 23:05:41 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441854000
+[700833] [2015-09-09 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441850400
+[700833] [2015-09-09 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441846800
+[700833] [2015-09-09 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441843200
+[700833] [2015-09-09 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441839600
+[700833] [2015-09-09 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441836000
+[700833] [2015-09-09 17:55:49 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:55:49 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:55:49 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:55:08 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:55:08 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:55:08 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:54:41 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:54:41 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:54:41 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:53:53 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:53:53 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:53:53 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:53:21 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:53:21 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:53:21 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:52:43 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:52:43 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:52:43 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:52:02 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:52:02 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:52:02 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:51:30 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:51:30 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:51:30 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:50:59 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:50:59 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:50:59 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-09 17:50:42 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-09 17:50:42 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441832400 - 1441836000
+[700833] [2015-09-09 17:50:42 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG

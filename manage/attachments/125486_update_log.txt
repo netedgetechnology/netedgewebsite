@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from cPanel Update (upcp) - Slave (1021442) at Sat Jun 20 04:31:01 2015
+[2015-06-20 04:31:01 -0400]   Detected cron=1 (cron mode set from command line)
+[2015-06-20 04:31:01 -0400]   1% complete
+[2015-06-20 04:31:01 -0400]   Running Standardized hooks
+[2015-06-20 04:31:01 -0400]   2% complete
+[2015-06-20 04:31:01 -0400]   mtime on upcp is 1434421337 (Mon Jun 15 22:22:17 2015)
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow (1021444) at Sat Jun 20 04:31:02 2015
+[2015-06-20 04:31:02 -0400]   Retrieved public key from vendor: cpanel, category: release, url: https://securedownloads.cpanel.net/cPanelPublicKey.asc
+[2015-06-20 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development, url: https://securedownloads.cpanel.net/cPanelDevelopmentKey.asc
+[2015-06-20 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development-sts, url: https://securedownloads.cpanel.net/STSTestKey.asc
+[2015-06-20 04:31:03 -0400]   Detected version '11.50.0.10' from version file.
+[2015-06-20 04:31:03 -0400]   Running version '11.50.0.10' of updatenow.
+[2015-06-20 04:33:19 -0400]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-06-20 04:33:36 -0400] ***** FATAL: Unable to retrieve tier version info: timeout
+[2015-06-20 04:33:36 -0400]   The Administrator will be notified to review this output when this script completes
+=> Log closed Sat Jun 20 04:33:36 2015
+[2015-06-20 04:33:36 -0400]   17% complete
+[2015-06-20 04:33:36 -0400] E Running `/usr/local/cpanel/scripts/updatenow --upcp --log=/var/cpanel/updatelogs/update.1434789061.log` failed, exited with code 255 (signal = 0)

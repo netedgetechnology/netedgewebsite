@@ -1,0 +1,69 @@
+#!/bin/sh
+eval 'if [ -x /usr/local/cpanel/3rdparty/bin/perl ]; then exec /usr/local/cpanel/3rdparty/bin/perl -x -- $0 ${1+"$@"}; else exec /usr/bin/perl -x $0 ${1+"$@"}; fi;'
+  if 0;
+
+#!/usr/bin/perl
+# cpanel - scripts/upcp                           Copyright(c) 2012 cPanel, Inc.
+#                                                           All rights Reserved.
+# copyright@cpanel.net                                         http://cpanel.net
+# This code is subject to the cPanel license. Unauthorized copying is prohibited
+
+BEGIN {
+    unshift @INC, q{/usr/local/cpanel};
+
+    # if we are being called with a compile check flag ( perl -c ), skip the begin block
+    # so we don't actually call upcp.static when just checking syntax and such is OK
+    return if $^C;
+
+    # static never gets --use-checked and should pass all the begin block checks
+    return if $0 =~ /\.static$/;
+
+
+# let the '--use-check' instance compiled
+    if ( grep { $_ eq '--use-check' } @ARGV ) {
+        no warnings;
+
+        # dynamic definition of the INIT block
+        eval "INIT { exit(0); }";
+        return;
+    }
+
+    system("$0 --use-check >/dev/null 2>&1");
+
+    # compilation is ok with '--use-check', we will continue the non static version
+    return if $? == 0;
+
+    my $static = $0 . ".static";
+    if ( -f $static ) {
+        print STDERR "We determined that $0 had compilation issues..\n";
+        print STDERR "Trying to exec $static " . join( ' ', @ARGV ) . "\n";
+        exec( $^X, $static, @ARGV );
+    }
+}
+
+require 5.006;
+use strict;
+use Cpanel::Env             ();
+use Cpanel::ProcessCheck    ();
+use Cpanel::SafeRun::Errors ();
+use Cpanel::Update::Logger  ();
+use IO::Handle              ();
+use POSIX                   ();
+
+use Cpanel::Unix::PID::Tiny ();
+
+open( STDERR, ">&STDOUT" );
+$| = 1;
+umask(0022);
+
+open( STDERR, ">&STDOUT" );
+$| = 1;
+umask(0022);
+
+## case 47517: move root check and setupenv higher where it was 11.28
+if ( $> != 0 ) {
+    die "upcp must be run as root";
+}
+
+setupenv();
+unset_rlimits();

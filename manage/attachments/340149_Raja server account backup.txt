@@ -1,0 +1,98 @@
+						Raja server account backup 
+
+move the back up to /drive2/backup_folders/             
+=============================================================================================================================
+/home/walksofk 
+tar -zvcf walksofk.tar.gz  /home/walksofk			done
+maldet -a /home/walksofk/public_html
+maldet ID:  maldet --report 020513-2041.288464			done
+------------------------------------------------------------------------
+/home/eloantvc 
+
+tar -zvcf eloantvc.tar.gz  /home/eloantvc 			done
+
+maldet -a /home/eloantvc/public_html
+maldet ID: 	maldet --report 020513-2108.307917		done
+---------------------------------------------------------------------
+/home/delhicho 
+
+tar -zvcf delhicho.tar.gz  /home/delhicho 			done
+maldet -a /home/delhicho/public_html				done
+maldet ID:   maldet --report 020513-2128.321694
+-------------------------------------------------------------------------
+/home/sellonei 
+
+tar -zvcf sellonei.tar.gz  /home/sellonei			done
+maldet -a /home/sellonei/public_html
+maldet ID:  maldet --report 020513-2145.332564			done
+------------------------------------------------------------------------
+/home/dancefun 
+tar -zvcf dancefun.tar.gz  /home/dancefun 			done
+maldet -a /home/dancefun/public_html
+Maldet ID:  maldet --report 020513-2146.333480			done
+
+------------------------------------------------------------------------
+/home/fuelstre 
+tar -zvcf fuelstre.tar.gz  /home/fuelstre			done
+maldet -a /home/fuelstre/public_html
+Maldet ID:  maldet --report 020513-2150.336271			done		
+--------------------------------------------------------------------------
+/home/hatedboo 
+tar -zvcf hatedboo.tar.gz  /home/hatedboo			done
+maldet -a /home/hatedboo/public_html
+maldet ID:  maldet --report 020513-2154.339028			done
+--------------------------------------------------------------------------
+/home/soni 
+tar -zvcf soni.tar.gz  /home/soni				done
+maldet -a /home/soni/public_html
+maldet ID: maldet --report 020513-2158.342891			done
+--------------------------------------------------------------------------
+/home/gamesbla 
+   tar -zvcf gamesbla.tar.gz /home/gamesbla			done
+maldet -a /home/gamesbla/public_html			
+Maldet ID:  maldet --report 020513-2201.346026			done
+-------------------------------------------------------------------------
+/home/flowstre
+tar -zvcf flowstre.tar.gz /home/flowstre			done
+maldet -a /home/flowstre/public_html
+maldet ID:  maldet --report 020513-2226.360857			done  
+-------------------------------------------------------------------------
+
+/home/cpeasyapache
+tar -zvcf cpeasyapache.tar.gz /home/cpeasyapache		done
+maldet -a /home/cpeasyapache/public_html
+maldet ID: **PATH INVALID PUBLIC_HTML NOT FOUND**		not done
+
+--------------------------------------------------------------------------
+/home/bighozti 
+tar -zvcf bighozti.tar.gz /home/bighozti			done
+maldet -a /home/bighozti/public_html
+Maldet ID:  maldet --report 020513-2302.383335			done
+--------------------------------------------------------------------------
+/home/dangerou 
+tar -zvcf dangerou.tar.gz /home/dangerou			done
+maldet -a /home/dangerou/public_html
+MAldet ID: maldet --report 020513-2313.391406			done
+--------------------------------------------------------------------------
+/home/espacecl 
+tar -zvcf espacecl.tar.gz /home/espacecl			done
+maldet -a /home/espacecl/public_html
+Maldet ID:  maldet --report 020513-2315.392887			done
+---------------------------------------------------------------------------
+/home/jaybeeen
+tar -zvcf jaybeeen.tar.gz /home/jaybeeen			done
+maldet -a /home/jaybeeen/public_html
+Maldet ID:  maldet --report 020513-2318.395108			done
+---------------------------------------------------------------------------   
+/home/exload 
+tar -zvcf exload.tar.gz /home/exload				done
+maldet -a /home/exload/public_html
+Maldet ID:  maldet --report 020513-2320.396477			done
+--------------------------------------------------------------------------
+/home/ceoclix
+tar -zvcf ceoclix.tar.gz /home/ceoclix				done
+maldet -a /home/ceoclix/public_html
+Maldet ID: maldet --report 020513-2321.397310			done
+--------------------------------------------------------------------------
+
+

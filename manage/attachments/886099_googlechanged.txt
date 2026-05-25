@@ -1,0 +1,8 @@
+----
+type=PATH msg=audit(05/20/16 06:03:48.922:459816438) : item=0 name=/home/trainpetdog.com/httpdocs/google-analytics.js inode=4474717 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 06:03:48.922:459816438) :  cwd=/ 
+type=SYSCALL msg=audit(05/20/16 06:03:48.922:459816438) : arch=x86_64 syscall=open success=yes exit=32 a0=7f4bea21c400 a1=80000 a2=0 a3=0 items=1 ppid=348 pid=464 auid=unset uid=www-data gid=www-data euid=www-data suid=www-data fsuid=www-data egid=www-data sgid=www-data fsgid=www-data tty=(none) ses=4294967295 comm=/usr/sbin/apach exe=/usr/lib/apache2/mpm-itk/apache2 key=tpdchnage 
+----
+type=PATH msg=audit(05/20/16 06:03:59.346:459816468) : item=0 name=/home/trainpetdog.com/httpdocs/google-analytics.js inode=4474717 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 06:03:59.346:459816468) :  cwd=/ 
+type=SYSCALL msg=audit(05/20/16 06:03:59.346:459816468) : arch=x86_64 syscall=open success=yes exit=32 a0=7f4bf21bb608 a1=80000 a2=0 a3=7fff621aa3e0 items=1 ppid=384 pid=515 auid=unset uid=www-data gid=www-data euid=www-data suid=www-data fsuid=www-data egid=www-data sgid=www-data fsgid=www-data tty=(none) ses=4294967295 comm=/usr/sbin/apach exe=/usr/lib/apache2/mpm-itk/apache2 key=tpdchnage 

@@ -1,0 +1,38 @@
+==========
+Old Server
+==========
+
+Admin Panel Details:
+--------------------
+URL: www.genes2me.com/admin
+Username: admin
+Password: Genes2Me#2020#
+
+
+RDP Login Details:
+------------------
+Host: 103.92.235.46:33889
+Username: administrator
+Password: G3nE*2LwqR!cTrM
+
+
+Plesk Login Details:
+--------------------
+URL: http://103.92.235.46:8880/
+Username: administrator
+Password: G3nE*2LwqR!cTrM
+
+
+==========
+New Server
+==========
+RDP Details
+-----------
+https://148.66.128.82/
+Username: genesme
+Password: U#42Mptr[Q#3K2
+
+Plesk Details
+-------------
+Username:- admin
+Password:- E24y3fa?

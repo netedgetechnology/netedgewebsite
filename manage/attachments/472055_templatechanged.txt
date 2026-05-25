@@ -1,0 +1,40 @@
+----
+type=PATH msg=audit(05/20/16 05:20:22.598:459816069) : item=1 name=template_subscriptionthankssegnewmail.tpl inode=5047878 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 05:20:22.598:459816069) : item=0 name=/template inode=5047611 dev=08:06 mode=dir,755 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 05:20:22.598:459816069) :  cwd=/template 
+type=SYSCALL msg=audit(05/20/16 05:20:22.598:459816069) : arch=x86_64 syscall=open success=yes exit=4 a0=7fd3915aa9b0 a1=841 a2=1b6 a3=746e6f6974706972 items=2 ppid=1 pid=16370 auid=unset uid=trainpetdog gid=trainpetdog euid=trainpetdog suid=trainpetdog fsuid=trainpetdog egid=trainpetdog sgid=trainpetdog fsgid=trainpetdog tty=(none) ses=4294967295 comm=vsftpd exe=/usr/sbin/vsftpd key=home 
+----
+type=PATH msg=audit(05/20/16 05:20:22.518:459816065) : item=1 name=template_subscriptionthankssegnewmail.tpl inode=5047489 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 05:20:22.518:459816065) : item=0 name=/template inode=5047611 dev=08:06 mode=dir,755 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 05:20:22.518:459816065) :  cwd=/template 
+type=SYSCALL msg=audit(05/20/16 05:20:22.518:459816065) : arch=x86_64 syscall=unlink success=yes exit=0 a0=7fd3915aa9b0 a1=7fd3915a4593 a2=1 a3=746e6f6974706972 items=2 ppid=1 pid=16370 auid=unset uid=trainpetdog gid=trainpetdog euid=trainpetdog suid=trainpetdog fsuid=trainpetdog egid=trainpetdog sgid=trainpetdog fsgid=trainpetdog tty=(none) ses=4294967295 comm=vsftpd exe=/usr/sbin/vsftpd key=home 
+----
+type=PATH msg=audit(05/20/16 05:22:25.704:459816088) : item=4 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/%%E7^E7A^E7A715F2%%template_subscriptionthankssegnewmail.tpl.php inode=5047902 dev=08:06 mode=file,600 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 05:22:25.704:459816088) : item=3 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/%%E7^E7A^E7A715F2%%template_subscriptionthankssegnewmail.tpl.php inode=5047765 dev=08:06 mode=file,777 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 05:22:25.704:459816088) : item=2 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/wrtlKZXpO inode=5047902 dev=08:06 mode=file,600 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 05:22:25.704:459816088) : item=1 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/ inode=5047757 dev=08:06 mode=dir,777 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 05:22:25.704:459816088) : item=0 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/ inode=5047757 dev=08:06 mode=dir,777 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 05:22:25.704:459816088) :  cwd=/home/trainpetdog.com/httpdocs 
+type=SYSCALL msg=audit(05/20/16 05:22:25.704:459816088) : arch=x86_64 syscall=rename success=yes exit=0 a0=7f4bfb5c73b8 a1=7f4bfb3cf208 a2=3 a3=0 items=5 ppid=10628 pid=16752 auid=unset uid=www-data gid=www-data euid=www-data suid=www-data fsuid=www-data egid=www-data sgid=www-data fsgid=www-data tty=(none) ses=4294967295 comm=/usr/sbin/apach exe=/usr/lib/apache2/mpm-itk/apache2 key=home 
+----
+type=PATH msg=audit(05/20/16 06:04:03.070:459822015) : item=0 name=%%E7^E7A^E7A715F2%%template_subscriptionthankssegnewmail.tpl.php inode=5047902 dev=08:06 mode=file,777 ouid=www-data ogid=www-data rdev=00:00 
+type=CWD msg=audit(05/20/16 06:04:03.070:459822015) :  cwd=/root 
+type=SYSCALL msg=audit(05/20/16 06:04:03.070:459822015) : arch=x86_64 syscall=fchmodat success=yes exit=0 a0=4 a1=255d618 a2=1ff a3=8000 items=1 ppid=537 pid=558 auid=root uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=(none) ses=245634 comm=chmod exe=/bin/chmod key=tpdchnage 
+----
+type=PATH msg=audit(05/20/16 06:06:02.700:459827545) : item=1 name=template_subscriptionthankssegnewmail.tpl inode=5047878 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 06:06:02.700:459827545) : item=0 name=/template inode=5047611 dev=08:06 mode=dir,755 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 06:06:02.700:459827545) :  cwd=/template 
+type=SYSCALL msg=audit(05/20/16 06:06:02.700:459827545) : arch=x86_64 syscall=unlink success=yes exit=0 a0=7fd3915a4520 a1=7fd3915a3a03 a2=1 a3=746e6f6974706972 items=2 ppid=1 pid=1463 auid=unset uid=trainpetdog gid=trainpetdog euid=trainpetdog suid=trainpetdog fsuid=trainpetdog egid=trainpetdog sgid=trainpetdog fsgid=trainpetdog tty=(none) ses=4294967295 comm=vsftpd exe=/usr/sbin/vsftpd key=home 
+----
+type=PATH msg=audit(05/20/16 06:06:02.768:459827549) : item=1 name=template_subscriptionthankssegnewmail.tpl inode=2834438 dev=08:06 mode=file,644 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 06:06:02.768:459827549) : item=0 name=/template inode=5047611 dev=08:06 mode=dir,755 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 06:06:02.768:459827549) :  cwd=/template 
+type=SYSCALL msg=audit(05/20/16 06:06:02.768:459827549) : arch=x86_64 syscall=open success=yes exit=4 a0=7fd3915a4520 a1=841 a2=1b6 a3=746e6f6974706972 items=2 ppid=1 pid=1463 auid=unset uid=trainpetdog gid=trainpetdog euid=trainpetdog suid=trainpetdog fsuid=trainpetdog egid=trainpetdog sgid=trainpetdog fsgid=trainpetdog tty=(none) ses=4294967295 comm=vsftpd exe=/usr/sbin/vsftpd key=home 
+----
+type=PATH msg=audit(05/20/16 06:09:41.439:459827601) : item=4 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/%%E7^E7A^E7A715F2%%template_subscriptionthankssegnewmail.tpl.php inode=4030468 dev=08:06 mode=file,600 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 06:09:41.439:459827601) : item=3 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/%%E7^E7A^E7A715F2%%template_subscriptionthankssegnewmail.tpl.php inode=5047902 dev=08:06 mode=file,777 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 06:09:41.439:459827601) : item=2 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/wrtmuGIno inode=4030468 dev=08:06 mode=file,600 ouid=www-data ogid=www-data rdev=00:00 
+type=PATH msg=audit(05/20/16 06:09:41.439:459827601) : item=1 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/ inode=5047757 dev=08:06 mode=dir,777 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=PATH msg=audit(05/20/16 06:09:41.439:459827601) : item=0 name=/home/trainpetdog.com/httpdocs/smarty/templates_c/ inode=5047757 dev=08:06 mode=dir,777 ouid=trainpetdog ogid=trainpetdog rdev=00:00 
+type=CWD msg=audit(05/20/16 06:09:41.439:459827601) :  cwd=/home/trainpetdog.com/httpdocs 
+type=SYSCALL msg=audit(05/20/16 06:09:41.439:459827601) : arch=x86_64 syscall=rename success=yes exit=0 a0=7f4bfb5b3c30 a1=7f4bfb4a6c18 a2=3 a3=0 items=5 ppid=2364 pid=2377 auid=unset uid=www-data gid=www-data euid=www-data suid=www-data fsuid=www-data egid=www-data sgid=www-data fsgid=www-data tty=(none) ses=4294967295 comm=/usr/sbin/apach exe=/usr/lib/apache2/mpm-itk/apache2 key=home 

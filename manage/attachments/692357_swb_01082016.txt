@@ -1,0 +1,10 @@
+msg=audit(08/01/16	02:00:41.097:460688978)	:	arch=x86_64	syscall=open	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(08/01/16	02:00:40.981:460688977)	:	item=1	name=upsalecharge-emerchant.php	inode=4442278									
+	msg=audit(08/01/16	02:00:40.981:460688977)	:	item=0	name=/	inode=4442265									
+	msg=audit(08/01/16	02:00:40.981:460688977)	:	cwd=/											
+	msg=audit(08/01/16	02:00:40.981:460688977)	:	arch=x86_64	syscall=unlink	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(08/01/16	03:43:50.388:460690550)	:	item=1	name=about-american-eskimo_mob.html	inode=6537220									
+	msg=audit(08/01/16	03:43:50.388:460690550)	:	item=0	name=/American-Eskimo	inode=4932633									
+	msg=audit(08/01/16	03:43:50.388:460690550)	:	cwd=/American-Eskimo

@@ -1,0 +1,98 @@
+1) We need to have the collis logo hanged to the UL logo = Done
+Ans -- https://b2ps.com/dev2/newb2ps1/interac_card_tool.html#
+https://b2ps.com/dev2/newb2ps1/issuer_manufacturer.html#
+https://b2ps.com/dev2/newb2ps1/image_editor_issuer.html#
+https://b2ps.com/dev2/newb2ps1/pvt.html#
+https://b2ps.com/dev2/newb2ps1/interac_card_tool.html#
+https://b2ps.com/dev2/newb2ps1/image_editor_issuer.html#
+
+2) The UL logo was uploaded onto the software ticket.
+UL.Original.1110x1110.256.jpg
+
+3) From PDF file " Mar 2016 B2PS Web Site Adjustments  for Netedgetehnology v2(1) "
+
+A. B2PS. com Web Site Adjustments Mar 2016
+Basically we need to change the Brand name Collis to UL.
+Home page
+
+B. Adjust Slide Show Image wording Replace Collis brand name with UL.
+
+C. Adjust Brand name as stated above
+
+D. Adjust Brand name as stated above - also same for the Collis Logo
+
+E. Products Page
+change the Page Title to EMV Testing Products
+Adjust the
+
+F. Adjust the Brand name Collis to UL
+Change Collis Tools to UL EMV Test Tools
+
+G. Again Adjust the Brand Name Collis to UL and any text content references.
+
+H. Adjust Brand collis in the page titles and the text content
+change the Merchant and Test Suite to UL Brand Test Tool ( 5 pages)
+
+4) There were four additional brochure documents that need to be added to the web site as part of the changes.
+
+Here is a description at to where those additional documents should be added:
+
+
+Fact Sheet - UL SmartStripe 201508-B2.PDF
+UL Brand Test Tool Page + Acquirers and Merchants Page
+Fact Sheet - UL Integrated Test Automation Module 201508.PDF
+UL Brand test Tool Page + Acquirers and Merchants Page
+Fact Sheet - UL Self-Test Platform-201602.PDF
+Acquirers and Merchants Page
+Fact Sheet - Visa payWave Test Tool 201508.PDF
+Acquirers and Merchants Page
+
+I believe the brochures that are on the other pages (e.g. Card Spy, Card Simulator, etc…) should also be on the Acquirers and Merchants page as well. (i.e. product section referenced from the Acquirer & Merchant page should have brochures on the Acquirers and Merchants Page as well as in the actual product page
+
+So the net result is:
+
+BTT Page:
+- BTT
+- SmartStripe
+- Auto Module
+
+Acquirers & Merchants Page:
+- BTT
+- SmartStripe
+- Auto Module
+- Visa PayWave
+- Self-Test Platform
+- Card Spy
+- Card Simulator
+- Card Image Editor
+
+5) the brochures that are on the other pages (e.g. Card Spy, Card Simulator, etc…) should also be on the Acquirers and Merchants page as well. (i.e. product section referenced from the Acquirer & Merchant page should have brochures on the Acquirers and Merchants Page as well as in the actual product page
+
+So the net result is:
+
+BTT Page:
+- BTT
+- SmartStripe
+- Auto Module
+
+Acquirers & Merchants Page:
+- BTT
+- SmartStripe
+- Auto Module
+- Visa PayWave
+- Self-Test Platform
+- Card Spy
+- Card Simulator
+- Card Image Editor
+
+6) Will you please confirm if we need to replace " Collis " to something else in this page?
+https://b2ps.com/dev2/newb2ps1/card_spy.html#
+
+Response: Not sue why you would be asking this question. All the changes to this web site are to change the collis brand name to UL. 
+
+7) 
+Please update the copyright year from 2014 to 2016 on all pages when you have a chance.
+
+
+8) https://b2ps.com/dev2/newb2ps1/card_spy.html#
+Do we need to change it to UL ?

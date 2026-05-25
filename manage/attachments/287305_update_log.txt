@@ -1,0 +1,222 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from cPanel Update (upcp) - Slave (27253) at Thu Oct 22 03:41:01 2015
+[2015-10-22 03:41:01 -0500]   Detected cron=1 (cron mode set from command line)
+[2015-10-22 03:41:01 -0500]   1% complete
+[2015-10-22 03:41:01 -0500]   Running Standardized hooks
+[2015-10-22 03:41:01 -0500]   2% complete
+[2015-10-22 03:41:01 -0500]   mtime on upcp is 1444812601 (Wed Oct 14 03:50:01 2015)
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow (27255) at Thu Oct 22 03:41:02 2015
+[2015-10-22 03:41:02 -0500]   Detected version '11.52.0.17' from version file.
+[2015-10-22 03:41:02 -0500]   Running version '11.52.0.17' of updatenow.
+[2015-10-22 03:41:02 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:33 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:33 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:41:33 -0500]   Target version set to '11.52.0.18'
+[2015-10-22 03:41:33 -0500]   Switching to 11.52.0.18 to determine if we can reach that version without failure.
+[2015-10-22 03:41:34 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/cpanel/scripts/updatenow.static.bz2
+[2015-10-22 03:41:34 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:34 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:34 -0500]   Using mirror '208.109.109.239' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:35 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:41:35 -0500]   Set permissions on /usr/local/cpanel/scripts/updatenow.static-cpanelsync to 0700
+[2015-10-22 03:41:35 -0500]   Become an updatenow.static for version: 11.52.0.18
+=> Log closed Thu Oct 22 03:41:35 2015
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow.static-cpanelsync (27255) at Thu Oct 22 03:41:36 2015
+[2015-10-22 03:41:36 -0500]   Detected version '11.52.0.17' from version file.
+[2015-10-22 03:41:36 -0500]   Running version '11.52.0.18' of updatenow.
+[2015-10-22 03:41:36 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:36 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:41:36 -0500]   Target version set to '11.52.0.18'
+[2015-10-22 03:41:36 -0500]   Checking license
+[2015-10-22 03:41:35 -0500]   License file check complete
+[2015-10-22 03:41:35 -0500]   Checking that the RPM DB is OK...
+[2015-10-22 03:41:35 -0500]   glibc-2.12-1.166.el6_7.3.x86_64
+[2015-10-22 03:41:35 -0500]   glibc-2.12-1.166.el6_7.3.i686
+[2015-10-22 03:41:35 -0500]   OK: RPM DB is responding to queries
+[2015-10-22 03:41:35 -0500]   Testing if rpm_is_working RPM is installed
+[2015-10-22 03:41:35 -0500]   package rpm_is_working is not installed
+[2015-10-22 03:41:35 -0500]   Testing if it's possible to install a simple RPM
+[2015-10-22 03:41:35 -0500]   Preparing...                ##################################################
+[2015-10-22 03:41:35 -0500]   rpm_is_working              ##################################################
+[2015-10-22 03:41:36 -0500]   Switching to version '11.52.0.18' of updatenow to perform sync.
+[2015-10-22 03:41:37 -0500]   checkyum version 22.3
+[2015-10-22 03:41:47 -0500]   All Needed RPMS are installed.
+[2015-10-22 03:41:47 -0500]   Staging 11.52.0.18 cpanelsync files prior to updating /usr/local/cpanel
+[2015-10-22 03:41:47 -0500]   Staging x3 theme changes
+[2015-10-22 03:41:47 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/.cpanelsync.bz2
+[2015-10-22 03:41:47 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:47 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:47 -0500]   Using mirror '208.109.109.239' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:48 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:41:48 -0500]   Maximum sync children set to 1 based on 14467M available memory.
+[2015-10-22 03:41:48 -0500]   Staging files for x3
+[2015-10-22 03:41:50 -0500]   Child: 1: Stage File: /var/tmp/27255.ANEL_SCRIPTS_UPDATENOW_STATIC_CPANELSYNC__.5Ht2JZae_YcGw9k7.tmp
+[2015-10-22 03:41:50 -0500]   Child 27398 created to stage files.
+[2015-10-22 03:41:50 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/webdav/accounts_webdav-es_419.js.xz
+[2015-10-22 03:41:50 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:50 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:50 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:50 -0500]   Using mirror '74.50.120.123' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:50 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/ssl/keys-es_419.js.xz
+[2015-10-22 03:41:50 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/mail/delegatelist-es_419.js.xz
+[2015-10-22 03:41:50 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/sql/deluserfromdbconfirm-es_419.js.xz
+[2015-10-22 03:41:50 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js/filemanager_editors-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/ssl/csrs-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js/webmaillogin-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/sql/userrights-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/mail/filters/editfilter-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/ssl/install-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/mail/pops-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/ftp/accounts-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/psql/index-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/ssl/crts-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/scripts/sprintf-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/filemanager/editors/html_editor-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js/stats-expander-es_419.js.xz
+[2015-10-22 03:41:51 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/security/mod_security/views/domainListController-es_419.js.xz
+[2015-10-22 03:41:52 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/scripts/humanbytes-es_419.js.xz
+[2015-10-22 03:41:52 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3/js2/mail/archive-es_419.js.xz
+=> Log closed Thu Oct 22 03:41:52 2015
+[2015-10-22 03:41:52 -0500]   Sync child 27398 exited cleanly.
+[2015-10-22 03:41:52 -0500]   Staging x3mail theme changes
+[2015-10-22 03:41:52 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/x3mail/.cpanelsync.bz2
+[2015-10-22 03:41:52 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:52 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:52 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:52 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:52 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:53 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:53 -0500]   Using mirror '69.72.212.10' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:56 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:41:56 -0500]   Maximum sync children set to 1 based on 14455M available memory.
+[2015-10-22 03:41:56 -0500]   Staging files for x3mail
+[2015-10-22 03:41:56 -0500]   Staging paper_lantern theme changes
+[2015-10-22 03:41:56 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/paper_lantern/.cpanelsync.bz2
+[2015-10-22 03:41:56 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:56 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:57 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:58 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:58 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:58 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:41:58 -0500]   Using mirror '69.72.212.10' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:33 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:42:33 -0500]   Maximum sync children set to 1 based on 14452M available memory.
+[2015-10-22 03:42:33 -0500]   Staging files for paper_lantern
+[2015-10-22 03:42:33 -0500]   Child: 1: Stage File: /var/tmp/27255.ANEL_SCRIPTS_UPDATENOW_STATIC_CPANELSYNC__.vYO7Tky6POrRPHWE.tmp
+[2015-10-22 03:42:33 -0500]   Child 27437 created to stage files.
+[2015-10-22 03:42:33 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/paper_lantern/styled/retro/sprites/icon_spritemap.css.xz
+[2015-10-22 03:42:33 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:33 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:33 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:33 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:34 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:34 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:35 -0500]   Using mirror '69.72.212.10' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:42:35 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/paper_lantern/styled/basic/sprites/icon_spritemap.css.gz.cpanelsync.nodecompress
+[2015-10-22 03:42:36 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/paper_lantern/styled/retro/sprites/icon_spritemap.css.gz.cpanelsync.nodecompress
+[2015-10-22 03:42:36 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/paper_lantern/styled/retro/sprites/icon_spritemap.png.xz
+=> Log closed Thu Oct 22 03:43:30 2015
+[2015-10-22 03:43:30 -0500]   Sync child 27437 exited cleanly.
+[2015-10-22 03:43:30 -0500]   Staging cpanel changes
+[2015-10-22 03:43:30 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/.cpanelsync.bz2
+[2015-10-22 03:43:30 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:30 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:30 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:30 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:30 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:31 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:34 -0500]   Using mirror '69.72.212.10' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:43:43 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:43:43 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/cpanel/.cpanelsync.bz2
+[2015-10-22 03:44:44 -0500]   Using mirror '208.74.125.42' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:44:46 -0500]   Successfully verified signature for cpanel (key types: release).
+[2015-10-22 03:44:46 -0500]   Maximum sync children set to 1 based on 14390M available memory.
+[2015-10-22 03:44:46 -0500]   Staging files for binaries/linux-c6-x86_64
+[2015-10-22 03:45:06 -0500]   Staging files for cpanel
+[2015-10-22 03:45:29 -0500]   Child: 1: Stage File: /var/tmp/27255.ANEL_SCRIPTS_UPDATENOW_STATIC_CPANELSYNC__.0MJ_rBE2F91skqBc.tmp
+[2015-10-22 03:45:29 -0500]   Child 27556 created to stage files.
+[2015-10-22 03:45:29 -0500]   Retrieving and staging /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp.xz
+[2015-10-22 03:45:50 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:50 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:50 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:50 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:50 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:51 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:52 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:52 -0500] E HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0
+[2015-10-22 03:45:52 -0500]   Retrying download of /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp.xz (attempt 2/5): HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0 at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 41766.
+[2015-10-22 03:45:52 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:52 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:53 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:53 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:53 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:54 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:54 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:54 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:54 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500] E HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0
+[2015-10-22 03:45:58 -0500]   Retrying download of /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp.xz (attempt 3/5): HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0 at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 41766.
+[2015-10-22 03:45:58 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:58 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:45:59 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:00 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:00 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:00 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:00 -0500] E HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0
+[2015-10-22 03:46:00 -0500]   Retrying download of /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp.xz (attempt 4/5): HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0 at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 41766.
+[2015-10-22 03:46:00 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:00 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:01 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:01 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:01 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:01 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:01 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:02 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:02 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:02 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500] E HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0
+[2015-10-22 03:46:03 -0500]   Retrying download of /cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp.xz (attempt 5/5): HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0 at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 41766.
+[2015-10-22 03:46:03 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:03 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:04 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:04 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:04 -0500]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:04 -0500]   Using mirror '206.130.99.76' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:04 -0500]   Using mirror '208.74.121.37' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:05 -0500]   Using mirror '91.121.124.18' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:05 -0500]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:05 -0500]   Using mirror '122.201.72.171' for host 'httpupdate.cpanel.net'.
+[2015-10-22 03:46:05 -0500] E HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0
+[2015-10-22 03:46:05 -0500]   The Administrator will be notified to review this output when this script completes
+[2015-10-22 03:46:05 -0500] E Unable to stage file from /binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp => /usr/local/cpanel/bin/admin/Cpanel/multiphp: HTTP download returned an error while downloading “/cpanelsync/11.52.0.18/binaries/linux-c6-x86_64/bin/admin/Cpanel/multiphp” to “/usr/local/cpanel/bin/admin/Cpanel/multiphp-cpanelsync”: 0 at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 41766.
+[2015-10-22 03:46:05 -0500]   The Administrator will be notified to review this output when this script completes
+=> Log closed Thu Oct 22 03:46:06 2015
+[2015-10-22 03:46:06 -0500] E Sync child 27556 exited with signal: 0 and code: 1
+[2015-10-22 03:46:06 -0500]   The Administrator will be notified to review this output when this script completes
+[2015-10-22 03:46:06 -0500] E Failed to deserialize staged_files from: /var/tmp/27255.ANEL_SCRIPTS_UPDATENOW_STATIC_CPANELSYNC__.0MJ_rBE2F91skqBc.tmp because of an error: malformed JSON string, neither tag, array, object, number, string or atom, at character offset 0 (before "(end of string)") at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 25083.
+[2015-10-22 03:46:06 -0500]   The Administrator will be notified to review this output when this script completes
+[2015-10-22 03:46:06 -0500] ***** FATAL: Failed to stage “cpanel changes” because of an error: Failed to deserialize staged_files from: /var/tmp/27255.ANEL_SCRIPTS_UPDATENOW_STATIC_CPANELSYNC__.0MJ_rBE2F91skqBc.tmp because of an error: malformed JSON string, neither tag, array, object, number, string or atom, at character offset 0 (before "(end of string)") at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 25083.
+[2015-10-22 03:46:06 -0500]   The Administrator will be notified to review this output when this script completes
+=> Log closed Thu Oct 22 03:46:06 2015
+[2015-10-22 03:46:06 -0500]   17% complete
+[2015-10-22 03:46:06 -0500] E Running `/usr/local/cpanel/scripts/updatenow --upcp --log=/var/cpanel/updatelogs/update.1445503261.log` failed, exited with code 12 (signal = 0)

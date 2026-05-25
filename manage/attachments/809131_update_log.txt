@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from cPanel Update (upcp) - Slave (950893) at Fri Aug 28 04:31:01 2015
+[2015-08-28 04:31:01 -0400]   Detected cron=1 (cron mode set from command line)
+[2015-08-28 04:31:01 -0400]   1% complete
+[2015-08-28 04:31:01 -0400]   Running Standardized hooks
+[2015-08-28 04:31:01 -0400]   2% complete
+[2015-08-28 04:31:01 -0400]   mtime on upcp is 1434421337 (Mon Jun 15 22:22:17 2015)
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow (950895) at Fri Aug 28 04:31:03 2015
+[2015-08-28 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: release, url: https://securedownloads.cpanel.net/cPanelPublicKey.asc
+[2015-08-28 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development, url: https://securedownloads.cpanel.net/cPanelDevelopmentKey.asc
+[2015-08-28 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development-sts, url: https://securedownloads.cpanel.net/STSTestKey.asc
+[2015-08-28 04:31:03 -0400]   Detected version '11.50.0.29' from version file.
+[2015-08-28 04:31:03 -0400]   Running version '11.50.0.29' of updatenow.
+[2015-08-28 04:31:03 -0400]   Using mirror '67.205.110.4' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:31:38 -0400]   Using mirror '52.3.172.183' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:31:45 -0400]   Successfully verified signature for cpanel (key types: release).
+[2015-08-28 04:31:45 -0400]   Target version set to '11.50.0.30'
+[2015-08-28 04:31:45 -0400]   Switching to 11.50.0.30 to determine if we can reach that version without failure.
+[2015-08-28 04:31:46 -0400]   Retrieving and staging /cpanelsync/11.50.0.30/cpanel/scripts/updatenow.static.bz2
+[2015-08-28 04:31:49 -0400]   Using mirror '52.3.172.183' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:34:18 -0400]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:34:21 -0400]   Retrying download of /cpanelsync/11.50.0.30/cpanel/scripts/updatenow.static.bz2 (attempt 2/5): timeout
+[2015-08-28 04:35:21 -0400]   Using mirror '74.50.120.123' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:38:21 -0400]   Using mirror '216.246.55.158' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:38:21 -0400]   Retrying download of /cpanelsync/11.50.0.30/cpanel/scripts/updatenow.static.bz2 (attempt 3/5): httpupdate.cpanel.net did not have any working mirrors.  Please check your internet connection or dns server. at /usr/local/cpanel/Cpanel/HttpRequest.pm line 930, <$__ANONIO__> line 2.
+[2015-08-28 04:42:15 -0400]   Using mirror '74.50.120.123' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:42:51 -0400]   Using mirror '208.74.121.39' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:45:45 -0400]   Using mirror '159.253.142.50' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:49:08 -0400]   Using mirror '52.3.172.183' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:50:14 -0400]   Successfully verified signature for cpanel (key types: release).
+[2015-08-28 04:50:14 -0400]   Set permissions on /usr/local/cpanel/scripts/updatenow.static-cpanelsync to 0700
+[2015-08-28 04:50:14 -0400]   Become an updatenow.static for version: 11.50.0.30
+=> Log closed Fri Aug 28 04:50:14 2015
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow.static-cpanelsync (950895) at Fri Aug 28 04:50:14 2015
+[2015-08-28 04:50:14 -0400]   Retrieved public key from vendor: cpanel, category: release, url: https://securedownloads.cpanel.net/cPanelPublicKey.asc
+[2015-08-28 04:50:15 -0400]   Retrieved public key from vendor: cpanel, category: development, url: https://securedownloads.cpanel.net/cPanelDevelopmentKey.asc
+[2015-08-28 04:50:15 -0400]   Retrieved public key from vendor: cpanel, category: development-sts, url: https://securedownloads.cpanel.net/STSTestKey.asc
+[2015-08-28 04:50:15 -0400]   Detected version '11.50.0.29' from version file.
+[2015-08-28 04:50:15 -0400]   Running version '11.50.0.30' of updatenow.
+[2015-08-28 04:51:47 -0400]   Using mirror '208.74.121.39' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:52:07 -0400]   Using mirror '83.170.94.2' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:55:04 -0400]   Using mirror '208.74.121.39' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:58:39 -0400]   Using mirror '67.227.128.74' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:58:44 -0400] ***** FATAL: Unable to retrieve tier version info: Died at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 36919.
+[2015-08-28 04:58:44 -0400]   The Administrator will be notified to review this output when this script completes
+=> Log closed Fri Aug 28 04:58:44 2015
+[2015-08-28 04:58:44 -0400]   17% complete
+[2015-08-28 04:58:44 -0400] E Running `/usr/local/cpanel/scripts/updatenow --upcp --log=/var/cpanel/updatelogs/update.1440750661.log` failed, exited with code 255 (signal = 0)

@@ -1,0 +1,16 @@
+---
+Reported-From: abuse-team@blocklist.de
+Category: abuse
+Report-Type: login-attack
+Service: ssh
+Version: 0.1
+User-Agent: Fail2BanFeedBackScript blocklist.de V0.1
+Date: Fri, 31 May 2013 11:50:52 +0200
+Source-Type: ip-address
+Source: 204.15.193.201
+Port: 22
+Report-ID: 310328769@blocklist.de
+Schema-URL: http://www.x-arf.org/schema/abuse_login-attack_0.1.2.json
+Attachment: text/plain
+
+

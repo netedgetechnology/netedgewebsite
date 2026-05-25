@@ -1,0 +1,24 @@
+zencart 
+
+root directory 
+
+/var/www/html/zencart
+
+admin folder renamed as canchange
+
+ chmod 744 configure.php
+
+folder temporary moved to  
+
+#mv zc_install/ /root/source/
+
+Note :- (from /var/www/html/zencart)
+
+
+Note:- If not required than it must be deleted after Hardik Sir's Permission. 
+
+login 
+http://209.208.108.169/zencart
+
+hardik@netedgetechnology.net
+hello@123

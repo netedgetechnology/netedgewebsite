@@ -1,0 +1,78 @@
+[767084] [2015-07-30 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438261200
+[767084] [2015-07-30 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438257600
+[767084] [2015-07-30 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438254000
+[767084] [2015-07-30 06:00:01 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438250400
+[767084] [2015-07-30 05:04:42 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-30 05:04:41 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-30 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438246800
+[767084] [2015-07-30 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438243200
+[767084] [2015-07-30 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438239600
+[767084] [2015-07-30 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438236000
+[767084] [2015-07-30 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438232400
+[767084] [2015-07-30 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438228800
+[767084] [2015-07-29 23:08:59 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 23:08:59 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438225200
+[767084] [2015-07-29 22:52:07 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 22:52:07 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438221600
+[767084] [2015-07-29 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438218000
+[767084] [2015-07-29 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438214400
+[767084] [2015-07-29 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438210800
+[767084] [2015-07-29 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438207200
+[767084] [2015-07-29 17:11:33 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 17:11:33 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438203600
+[767084] [2015-07-29 16:38:03 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 16:38:03 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 16:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438200000
+[767084] [2015-07-29 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438196400
+[767084] [2015-07-29 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438192800
+[767084] [2015-07-29 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438189200
+[767084] [2015-07-29 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438185600
+[767084] [2015-07-29 11:13:01 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 11:13:01 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438182000
+[767084] [2015-07-29 10:22:47 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 10:22:47 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 10:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438178400
+[767084] [2015-07-29 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438174800
+[767084] [2015-07-29 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438171200
+[767084] [2015-07-29 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438167600
+[767084] [2015-07-29 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438164000
+[1;32mdovecot restarted successfully.[0m
+	Jul 29 05:47:43 server2 dovecot: imap(reservations@markhamtaxi.ca): Server shutting down. in=136, out=1592, bytes=136/1592
+	[1;30;43mJul 29 05:47:43 server2 dovecot: log: Warning: Killed with signal 15 (by pid=490851 uid=0 code=kill)[0m
+	Jul 29 05:47:45 server2 dovecot: master: Dovecot v2.2.16 starting up for imap, pop3 (core dumps disabled)
+	[1;30;43mJul 29 05:47:45 server2 dovecot: master: Warning: /hdd1 is no longer mounted. See http://wiki2.dovecot.org/Mountpoints[0m
+	Jul 29 05:47:46 server2 dovecot: imap-login: Login: user=<roy@deltabingo.com>, method=PLAIN, rip=24.114.58.95, lip=204.15.193.199, mpid=490897, TLS, session=<G7OmegAcDwAYcjpf>
+[1mLog Messages[0m
+	Starting Dovecot Imap: [  OK  ]
+[1mStartup Log[0m
+	dovecot (/usr/sbin/dovecot) is running as root with PID 490877 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “dovecot” to restart …………
+[1;32mdovecot restarted successfully.[0m
+	Jul 29 05:40:50 server2 dovecot: imap(docs@supportinformationexchange.com): Disconnected: Logged out in=635, out=13769, bytes=635/13769
+	Jul 29 05:40:50 server2 dovecot: pop3-login: Login: user=<sheryl@sherylk.ca>, method=PLAIN, rip=50.101.115.84, lip=204.15.193.199, mpid=488149, TLS, session=<lu/RYQActQAyZXNU>
+	Jul 29 05:40:50 server2 dovecot: pop3(sheryl@sherylk.ca): Disconnected: Logged out top=0/0, retr=0/0, del=0/0, size=0, bytes=12/43
+	Jul 29 05:40:50 server2 dovecot: imap-login: Login: user=<george@deltabingo.com>, method=PLAIN, rip=73.49.176.35, lip=204.15.193.199, mpid=488151, TLS, session=<AKjZYQAccwBJMbAj>
+	Jul 29 05:40:51 server2 dovecot: pop3-login: Aborted login (auth failed, 1 attempts in 2 secs): user=<victoria.hong@cosmomusic.ca>, method=PLAIN, rip=104.156.64.3, lip=204.15.193.196, session=<JYLCYQAcxABonEAD>
+[1mLog Messages[0m
+	Starting Dovecot Imap: [  OK  ]
+[1mStartup Log[0m
+	dovecot (/usr/sbin/dovecot) is running as root with PID 488010 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “dovecot” to restart ………waiting for “dovecot” to initialize ……
+[767084] [2015-07-29 05:03:08 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 05:03:08 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438160400
+[767084] [2015-07-29 04:45:07 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 04:45:07 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1438156800 - 1438160400
+[767084] [2015-07-29 04:45:07 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 04:12:38 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-07-29 04:12:38 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-07-29 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438156800
+[767084] [2015-07-29 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1438153200

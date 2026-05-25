@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<values>
+  <add key="TCAdmin.ConfigUtility.Database.DBMS" value="MySql" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.Provider" value="TCAdmin.DatabaseProviders.MySql.MySqlManager,TCAdmin.DatabaseProviders.MySql" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.ConnectionString" value="Data Source=192.168.128.15;User Id=Remote1;Password=Franchibarrage1;Database=tcadmin;Pooling=false;Compress=false;Connection Lifetime=900;Connect Timeout=30;" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.ConnectionString.Encrypted" value="False" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Monitor.ServerId" value="7" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.Server" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.User" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.Password" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.Database" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.Params" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Database.WebService.Url" value="" type="System.String,mscorlib" />
+  <add key="TCAdmin.ConfigUtility.Certificate.Thumbprint" value="" type="System.String,mscorlib" />
+</values>

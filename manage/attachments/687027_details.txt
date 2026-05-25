@@ -1,0 +1,12 @@
+Reporting-MTA: dns; zmail.znlbearings.com
+X-Postfix-Queue-ID: 10D00C21D60
+X-Postfix-Sender: rfc822; narendra.goswami@znlbearings.com
+Arrival-Date: Thu, 22 Nov 2012 03:14:50 -0800 (PST)
+
+Final-Recipient: rfc822; giri@znlbearings.com
+Original-Recipient: rfc822;giri@znlbearings.com
+Action: relayed
+Status: 2.1.5
+Remote-MTA: dns; zmail.znlbearings.com
+Diagnostic-Code: smtp; 250 2.1.5 Delivery OK
+

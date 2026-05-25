@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow (1021444) at Sat Jun 20 04:31:02 2015
+[2015-06-20 04:31:02 -0400]   Retrieved public key from vendor: cpanel, category: release, url: https://securedownloads.cpanel.net/cPanelPublicKey.asc
+[2015-06-20 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development, url: https://securedownloads.cpanel.net/cPanelDevelopmentKey.asc
+[2015-06-20 04:31:03 -0400]   Retrieved public key from vendor: cpanel, category: development-sts, url: https://securedownloads.cpanel.net/STSTestKey.asc
+[2015-06-20 04:31:03 -0400]   Detected version '11.50.0.10' from version file.
+[2015-06-20 04:31:03 -0400]   Running version '11.50.0.10' of updatenow.
+[2015-06-20 04:33:19 -0400]   Using mirror '76.76.26.254' for host 'httpupdate.cpanel.net'.
+[2015-06-20 04:33:36 -0400] ***** FATAL: Unable to retrieve tier version info: timeout
+[2015-06-20 04:33:36 -0400]   The Administrator will be notified to review this output when this script completes
+=> Log closed Sat Jun 20 04:33:36 2015

@@ -1,0 +1,70 @@
+[700833] [2015-09-02 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441180800
+[700833] [2015-09-02 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441177200
+[700833] [2015-09-02 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441173600
+[700833] [2015-09-02 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441170000
+[700833] [2015-09-02 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441166400
+[700833] [2015-09-01 23:02:11 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 23:02:11 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441162800
+[700833] [2015-09-01 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441159200
+[700833] [2015-09-01 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441155600
+[700833] [2015-09-01 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441152000
+[700833] [2015-09-01 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441148400
+[700833] [2015-09-01 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441144800
+[700833] [2015-09-01 17:18:49 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 17:18:49 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441141200 - 1441144800
+[700833] [2015-09-01 17:18:49 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 17:18:45 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 17:18:45 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441141200 - 1441144800
+[700833] [2015-09-01 17:18:45 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 17:17:54 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 17:17:54 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441141200 - 1441144800
+[700833] [2015-09-01 17:17:54 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 17:17:46 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 17:17:46 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441141200 - 1441144800
+[700833] [2015-09-01 17:17:46 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 17:04:08 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 17:04:08 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441141200
+[700833] [2015-09-01 16:31:52 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 16:31:52 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441137600 - 1441141200
+[700833] [2015-09-01 16:31:52 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 16:06:11 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 16:06:11 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441137600 - 1441141200
+[700833] [2015-09-01 16:06:11 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 16:04:09 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 16:04:09 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441137600 - 1441141200
+[700833] [2015-09-01 16:04:09 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 16:02:47 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441137600 - 1441141200
+[700833] [2015-09-01 16:02:46 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 16:02:46 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 16:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441137600
+[700833] [2015-09-01 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441134000
+[700833] [2015-09-01 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441130400
+[700833] [2015-09-01 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441126800
+[700833] [2015-09-01 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441123200
+[700833] [2015-09-01 11:04:28 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 11:04:28 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441119600
+[700833] [2015-09-01 10:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441116000
+[700833] [2015-09-01 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441112400
+[700833] [2015-09-01 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441108800
+[700833] [2015-09-01 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441105200
+[700833] [2015-09-01 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441101600
+[700833] [2015-09-01 05:13:06 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 05:13:06 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441098000
+[700833] [2015-09-01 04:43:44 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-09-01 04:43:43 -0400] [Cpanel::TailWatch::Eximstats] Loading email sending limits from 1441094400 - 1441098000
+[700833] [2015-09-01 04:43:43 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-09-01 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441094400
+[700833] [2015-09-01 03:00:36 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441090800
+[700833] [2015-09-01 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441087200
+[700833] [2015-09-01 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441083600
+[700833] [2015-09-01 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441080000
+[700833] [2015-08-31 23:07:30 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[700833] [2015-08-31 23:07:30 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[700833] [2015-08-31 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441076400
+[700833] [2015-08-31 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441072800
+[700833] [2015-08-31 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441069200
+[700833] [2015-08-31 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1441065600

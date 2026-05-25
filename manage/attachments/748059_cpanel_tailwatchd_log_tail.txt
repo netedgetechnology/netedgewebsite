@@ -1,0 +1,74 @@
+[1;32mspamd restarted successfully.[0m
+	Aug 17 00:47:55 server2 spamd[388837]: spamd: server successfully spawned child process, pid 388856
+	Aug 17 00:47:55 server2 spamd[388837]: prefork: child states: IS
+	Aug 17 00:47:55 server2 spamd[388837]: prefork: child states: II
+[1mLog Messages[0m
+	spamd (/usr/local/cpanel/3rdparty/perl/514/bin/spamd --daemonize --allowed-ips=127.0.0.1 --max-children=5 --pidfile=/var/run/spamd.pid -i127.0.0.1) is running as root with PID 388837 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “spamd” to restart ………waiting for “spamd” to initialize ……
+[767084] [2015-08-17 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439784000
+[767084] [2015-08-16 23:01:28 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-16 23:01:28 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-16 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439780400
+[767084] [2015-08-16 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439776800
+[767084] [2015-08-16 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439773200
+[767084] [2015-08-16 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439769600
+[767084] [2015-08-16 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439766000
+[767084] [2015-08-16 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439762400
+[767084] [2015-08-16 17:06:00 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-16 17:06:00 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-16 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439758800
+[767084] [2015-08-16 16:00:01 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439755200
+[767084] [2015-08-16 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439751600
+[767084] [2015-08-16 14:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439748000
+[767084] [2015-08-16 13:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439744400
+[767084] [2015-08-16 12:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439740800
+[767084] [2015-08-16 11:08:49 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-16 11:08:49 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-16 11:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439737200
+[767084] [2015-08-16 10:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439733600
+[767084] [2015-08-16 09:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439730000
+[767084] [2015-08-16 08:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439726400
+[767084] [2015-08-16 07:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439722800
+[767084] [2015-08-16 06:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439719200
+[767084] [2015-08-16 05:12:38 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-16 05:12:38 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-16 05:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439715600
+[767084] [2015-08-16 04:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439712000
+[767084] [2015-08-16 03:11:35 -0400] [Cpanel::TailWatch] [INFO] /var/log/maillog opened with inode 2638387
+[767084] [2015-08-16 03:11:35 -0400] [Cpanel::TailWatch] [INFO] Reopening /var/log/maillog and starting at the beginning
+[767084] [2015-08-16 03:11:35 -0400] [Cpanel::TailWatch] [INFO] /var/log/maillog was smaller then the last time we read it (current size:0, current position: 166675360, previous position:166675360)!
+[767084] [2015-08-16 03:11:14 -0400] [Cpanel::TailWatch] [INFO] /var/log/exim_mainlog opened with inode 2636460
+[767084] [2015-08-16 03:11:14 -0400] [Cpanel::TailWatch] [INFO] Reopening /var/log/exim_mainlog and starting at the beginning
+[767084] [2015-08-16 03:11:14 -0400] [Cpanel::TailWatch] [INFO] /var/log/exim_mainlog was smaller then the last time we read it (current size:0, current position: 101874479, previous position:101874479)!
+[767084] [2015-08-16 03:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439708400
+[767084] [2015-08-16 02:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439704800
+[767084] [2015-08-16 01:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439701200
+[767084] [2015-08-16 00:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439697600
+[767084] [2015-08-15 23:14:17 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-15 23:14:17 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-15 23:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439694000
+[1;32mdovecot restarted successfully.[0m
+	Aug 15 22:42:25 server2 dovecot: pop3(brittany@cosmomusic.ca): Disconnected: Logged out top=0/0, retr=0/0, del=0/0, size=0, bytes=12/43
+	Aug 15 22:42:25 server2 dovecot: pop3(iain@cosmomusic.ca): Disconnected: Logged out top=0/0, retr=0/0, del=0/0, size=0, bytes=12/43
+	Aug 15 22:42:25 server2 dovecot: pop3(kevink@cosmomusic.ca): Disconnected: Logged out top=0/0, retr=0/0, del=0/0, size=0, bytes=12/43
+	Aug 15 22:42:27 server2 dovecot: pop3-login: Aborted login (auth failed, 1 attempts in 2 secs): user=<victoria.hong@cosmomusic.ca>, method=PLAIN, rip=104.156.64.3, lip=204.15.193.196, session=<+PGWomQdRwBonEAD>
+	Aug 15 22:42:27 server2 dovecot: pop3-login: Aborted login (auth failed, 1 attempts in 2 secs): user=<caroline@cosmomusic.a>, method=PLAIN, rip=104.156.64.3, lip=204.15.193.196, session=<XzyXomQdTABonEAD>
+[1mLog Messages[0m
+	Starting Dovecot Imap: [  OK  ]
+[1mStartup Log[0m
+	dovecot (/usr/sbin/dovecot) is running as root with PID 714070 (pidfile check method).
+[1mService Status[0m
+…finished.
+Waiting for “dovecot” to restart ………waiting for “dovecot” to initialize ……
+[767084] [2015-08-15 22:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439690400
+[767084] [2015-08-15 21:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439686800
+[767084] [2015-08-15 20:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439683200
+[767084] [2015-08-15 19:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439679600
+[767084] [2015-08-15 18:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439676000
+[767084] [2015-08-15 17:00:49 -0400] [Cpanel::TailWatch] [INFO] Flushing all readers
+[767084] [2015-08-15 17:00:49 -0400] [Cpanel::TailWatch] [INFO] tailwatch saving positions and reloading configuration on SIG
+[767084] [2015-08-15 17:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439672400
+[767084] [2015-08-15 16:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439668800
+[767084] [2015-08-15 15:00:00 -0400] [Cpanel::TailWatch::Eximstats] Resetting email limits to new starttime of 1439665200

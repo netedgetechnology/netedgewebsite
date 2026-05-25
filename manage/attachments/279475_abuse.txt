@@ -1,0 +1,59 @@
+Hello--
+
+We recently received a DMCA Copyright/Take-down Notice regarding allegedly infringing materials on your site. A copy of the notice is pasted below.
+
+In order for SEO Web Hosting to maintain Safe Harbor status, we are required to block access to the site or remove the allegedly infringing materials. Please note, we are not accusing you of copyright infringement. SEO Web Hosting can not and does not make accusations or judgments in these matters, but we are required to remove access to the material "expeditiously" when we receive a DMCA complaint. By our policies, we remove access within 48 hours of receipt of the DMCA.
+
+You can avoid suspension by removing access to the infringing materials, and responding back and letting us know you have done so. If we do not hear from you that the material has been removed, we will have to suspend your site. Once your site is suspended, the quickest way to reinstate your site is to let us know that you will remove the allegedly infringing materials. Please let us know if you intend to do this so we can reinstate your site and give you access to do so.
+
+If you feel that these materials do not violate copyright law (either through licensing arrangements, "fair use" or other permitted use), we'll need a DMCA Counter-Notice that we can forward to the copyright holder or complainant.
+
+You can read the Notice and Take-down Procedures here:
+http://www.chillingeffects.org/dmca512/faq.cgi#QID130
+
+You can read the Counter-Notice and Put-Back procedures here:
+http://www.chillingeffects.org/dmca512/faq.cgi#QID132
+
+We will not be able to immediately reinstate the site, but we will provide the counter-notification to the complainant, including your contact information. They will have 10 days from when we send the complaint to inform us they intend to take further action. If they do not respond, we can re-enable access to the material at the end of that ten days.
+
+Please let us know if you have any questions.
+
+Thanks so much,
+
+
+====================================================================================================
+
+Hello,
+
+The copyrighted work at issue is the full text and HTML/CSS files that made up philosopherprofiles.com until around March of this year. The original files can still be found on the subdomain of my site: http://projects.smallhadroncollider.com
+
+The current site, also at philosopherprofiles.com, seems to be nothing more than a copy of the old site, minus images, plus some spammy links. It also contains the original link to my company's website, which I do not want associated with adverts for Viagra or SEO companies.
+
+My contact details are as follows:
+
+Mark Wales
+Small Hadron Collider
+Mild Bunch HQ, 108c Stokes Croft, Bristol, BS1 3RU, UK
++447595 665 249
+
+I have a good faith belief that use of the copyrighted materials described above as allegedly infringing is not authorized by the copyright owner, its agent, or the law.
+
+I swear, under penalty of perjury, that the information in the notification is accurate and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+Please remove all of my material from the website (including HTML and CSS files) as well as any references to me and its other contributors. Do what you will the domain - it no longer appears in Google searches, so it is practically worthless for SEO purposes.
+
+Mark
+Small Hadron Collider
+Web Development & Design
+http://smallhadroncollider.com
+Mild Bunch HQ, 108c Stokes Croft, BS1 3RU
+====================================================================================================
+
+Domain is resolving to IP 129.121.76.219, which is routed to your server CLSRV004
+
+Best regards
+
+Tomica H.
+Night Shift Supervisor
+SEO Hosting
+http://help.seowebhosting.net

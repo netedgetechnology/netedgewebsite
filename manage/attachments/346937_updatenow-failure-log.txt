@@ -1,0 +1,14 @@
+----------------------------------------------------------------------------------------------------
+=> Log opened from /usr/local/cpanel/scripts/updatenow.static-cpanelsync (950895) at Fri Aug 28 04:50:14 2015
+[2015-08-28 04:50:14 -0400]   Retrieved public key from vendor: cpanel, category: release, url: https://securedownloads.cpanel.net/cPanelPublicKey.asc
+[2015-08-28 04:50:15 -0400]   Retrieved public key from vendor: cpanel, category: development, url: https://securedownloads.cpanel.net/cPanelDevelopmentKey.asc
+[2015-08-28 04:50:15 -0400]   Retrieved public key from vendor: cpanel, category: development-sts, url: https://securedownloads.cpanel.net/STSTestKey.asc
+[2015-08-28 04:50:15 -0400]   Detected version '11.50.0.29' from version file.
+[2015-08-28 04:50:15 -0400]   Running version '11.50.0.30' of updatenow.
+[2015-08-28 04:51:47 -0400]   Using mirror '208.74.121.39' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:52:07 -0400]   Using mirror '83.170.94.2' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:55:04 -0400]   Using mirror '208.74.121.39' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:58:39 -0400]   Using mirror '67.227.128.74' for host 'httpupdate.cpanel.net'.
+[2015-08-28 04:58:44 -0400] ***** FATAL: Unable to retrieve tier version info: Died at /usr/local/cpanel/scripts/updatenow.static-cpanelsync line 36919.
+[2015-08-28 04:58:44 -0400]   The Administrator will be notified to review this output when this script completes
+=> Log closed Fri Aug 28 04:58:44 2015

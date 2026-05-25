@@ -1,0 +1,45 @@
+															
+	msg=audit(09/09/16	01:06:18.475:461139253)	:	item=1	name=upsaletimen.php	inode=622606									
+	msg=audit(09/09/16	01:06:18.475:461139253)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:06:18.475:461139253)	:	cwd=/											
+	msg=audit(09/09/16	01:06:18.475:461139253)	:	arch=x86_64	syscall=unlink	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:06:21.847:461139254)	:	item=1	name=order_dogmatt_first_traincmnmnew1302.php	inode=622743									
+	msg=audit(09/09/16	01:06:21.847:461139254)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:06:21.847:461139254)	:	cwd=/											
+	msg=audit(09/09/16	01:06:21.847:461139254)	:	arch=x86_64	syscall=unlink	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:06:25.055:461139256)	:	item=1	name=order_dogmatt_first_traincmnmnew1302.php	inode=622743									
+	msg=audit(09/09/16	01:06:25.055:461139256)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:06:25.055:461139256)	:	cwd=/											
+	msg=audit(09/09/16	01:06:25.055:461139256)	:	arch=x86_64	syscall=open	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:06:24.811:461139255)	:	item=1	name=upsaletimen.php	inode=622606									
+	msg=audit(09/09/16	01:06:24.811:461139255)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:06:24.811:461139255)	:	cwd=/											
+	msg=audit(09/09/16	01:06:24.811:461139255)	:	arch=x86_64	syscall=open	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:10:08.918:461139362)	:	item=1	name=upsaletimen_emoldtest.php	inode=622872									
+	msg=audit(09/09/16	01:10:08.918:461139362)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:10:08.918:461139362)	:	cwd=/											
+	msg=audit(09/09/16	01:10:08.918:461139362)	:	arch=x86_64	syscall=unlink	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:10:09.030:461139365)	:	item=1	name=upsaletimen_emoldtest.php	inode=622872									
+	msg=audit(09/09/16	01:10:09.030:461139365)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:10:09.030:461139365)	:	cwd=/											
+	msg=audit(09/09/16	01:10:09.030:461139365)	:	arch=x86_64	syscall=open	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:10:09.414:461139368)	:	item=1	name=order_dogmatt_first_traincmnmnew1302_emoldtest.php	inode=622852									
+	msg=audit(09/09/16	01:10:09.414:461139368)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:10:09.414:461139368)	:	cwd=/											
+	msg=audit(09/09/16	01:10:09.414:461139368)	:	arch=x86_64	syscall=unlink	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/09/16	01:10:09.502:461139369)	:	item=1	name=order_dogmatt_first_traincmnmnew1302_emoldtest.php	inode=622852									
+	msg=audit(09/09/16	01:10:09.502:461139369)	:	item=0	name=/	inode=4442265									
+	msg=audit(09/09/16	01:10:09.502:461139369)	:	cwd=/											
+	msg=audit(09/09/16	01:10:09.502:461139369)	:	arch=x86_64	syscall=open	success=yes	uid=secureweb	gid=secureweb	euid=secureweb	suid=secureweb	fsuid=secureweb	egid=secureweb	sgid=secureweb	fsgid=secureweb	exe=/usr/local/sbin/vsftpd
+															
+	msg=audit(09/12/16	07:14:28.831:461177816)	:	item=1	name=ordercustomization18_test.php	inode=4475668									
+	msg=audit(09/12/16	07:14:28.831:461177816)	:	item=0	name=/	inode=4474377									
+	msg=audit(09/12/16	07:14:28.831:461177816)	:	cwd=/											
+	msg=audit(09/12/16	07:14:28.831:461177816)	:	arch=x86_64	syscall=open	success=yes	uid=trainpetdog	gid=trainpetdog	euid=trainpetdog	suid=trainpetdog	fsuid=trainpetdog	egid=trainpetdog	sgid=trainpetdog	fsgid=trainpetdog	exe=/usr/local/sbin/vsftpd
