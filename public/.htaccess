@@ -1,0 +1,14 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Standalone CMS routes - must be before front controller
+RewriteRule ^cms/?$ cms.php [L,QSA]
+RewriteRule ^cms/login/?$ cms.php [L,QSA]
+RewriteRule ^cms/logout/?$ cms.php [L,QSA]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]

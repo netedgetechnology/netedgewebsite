@@ -1,0 +1,360 @@
+<?php
+declare(strict_types=1);
+
+require_once __DIR__ . '/../app/core/compat.php';
+
+define('BASE_PATH', dirname(__DIR__));
+define('APP_PATH', BASE_PATH . '/app');
+
+require APP_PATH . '/helpers/functions.php';
+require APP_PATH . '/core/Env.php';
+require APP_PATH . '/core/Database.php';
+require APP_PATH . '/core/Router.php';
+require APP_PATH . '/core/Controller.php';
+require APP_PATH . '/models/Page.php';
+require APP_PATH . '/models/Job.php';
+require APP_PATH . '/models/Contact.php';
+require APP_PATH . '/models/ContentBlocks.php';
+require APP_PATH . '/controllers/PageController.php';
+require APP_PATH . '/controllers/JobController.php';
+require APP_PATH . '/controllers/ContactController.php';
+
+\App\Core\Env::load(BASE_PATH . '/.env');
+
+if (env('APP_ENV', 'production') === 'local') {
+    ini_set('display_errors', '1');
+    error_reporting(E_ALL);
+} else {
+    ini_set('display_errors', '0');
+    error_reporting(E_ALL);
+}
+
+secure_session_start();
+
+$router = new \App\Core\Router();
+
+$router->get('/', [\App\Controllers\PageController::class, 'home']);
+$router->get('/jobs', [\App\Controllers\JobController::class, 'index']);
+$router->get('/jobs/{slug}', [\App\Controllers\JobController::class, 'show']);
+$router->post('/contact-us', [\App\Controllers\ContactController::class, 'submit']);
+$router->post('/contact-us/submit', [\App\Controllers\ContactController::class, 'submit']);
+$router->get('/inquire', [\App\Controllers\ContactController::class, 'inquire']);
+$router->post('/inquire/submit', [\App\Controllers\ContactController::class, 'inquireSubmit']);
+$router->get('/privacy-policy', [\App\Controllers\PageController::class, 'privacyPolicy']);
+$router->get('/terms', [\App\Controllers\PageController::class, 'terms']);
+$router->get('/discuss-a-requirement', [\App\Controllers\ContactController::class, 'discuss']);
+$router->post('/discuss-a-requirement/submit', [\App\Controllers\ContactController::class, 'discussSubmit']);
+$router->post('/jobs/{slug}/apply', [\App\Controllers\JobController::class, 'apply']);
+$router->get('/blog', function () {
+    header('Location: https://www.netedgetechnology.com/blog/', true, 302);
+    exit;
+});
+$router->get('/blog/', function () {
+    header('Location: https://www.netedgetechnology.com/blog/', true, 302);
+    exit;
+});
+// v53: direct static route for Server Management so the synced static view is rendered before the dynamic slug route.
+$router->get('/server-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'server-management',
+        'Server Management',
+        '24x7 remote server management, Linux server management, Windows server management, control panel management and game server management.'
+    );
+});
+
+// v54: direct static routes for completed static pages before dynamic slug route.
+$router->get('/achievements', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'achievements',
+        'Achievements',
+        ''
+    );
+});
+
+$router->get('/career', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'career',
+        'Career',
+        ''
+    );
+});
+
+$router->get('/cloud-infrastructure-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'cloud-infrastructure-management',
+        'Cloud Infrastructure Management',
+        ''
+    );
+});
+
+$router->get('/company', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'company',
+        'Company',
+        ''
+    );
+});
+
+$router->get('/contact-us', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'contact-us',
+        'Contact Us',
+        ''
+    );
+});
+
+$router->get('/datacenter-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'datacenter-management',
+        'Datacenter Management',
+        ''
+    );
+});
+
+$router->get('/dedicated-technical-staff', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'dedicated-technical-staff',
+        'Dedicated Technical Staff',
+        ''
+    );
+});
+
+$router->get('/email-security', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'email-security',
+        'Email Security',
+        ''
+    );
+});
+
+$router->get('/game-server-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'game-server-management',
+        'Game Server Management',
+        ''
+    );
+});
+
+$router->get('/home-office-automation', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'home-office-automation',
+        'Home Office Automation',
+        ''
+    );
+});
+
+$router->get('/iot-application-development', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'iot-application-development',
+        'Iot Application Development',
+        ''
+    );
+});
+
+$router->get('/it-infrastructure-automation', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'it-infrastructure-automation',
+        'It Infrastructure Automation',
+        ''
+    );
+});
+
+$router->get('/linux-server-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'linux-server-management',
+        'Linux Server Management',
+        ''
+    );
+});
+
+$router->get('/mobile-application-development', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'mobile-application-development',
+        'Mobile Application Development',
+        ''
+    );
+});
+
+$router->get('/monitoring-service', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'monitoring-service',
+        'Monitoring Service',
+        ''
+    );
+});
+
+$router->get('/network-tools', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'network-tools',
+        'Network Tools',
+        ''
+    );
+});
+
+$router->get('/noc-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'noc-management',
+        'Noc Management',
+        ''
+    );
+});
+
+$router->get('/partnership', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'partnership',
+        'Partnership',
+        ''
+    );
+});
+
+$router->get('/portfolio', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'portfolio',
+        'Portfolio',
+        ''
+    );
+});
+
+$router->get('/products', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'products',
+        'Products',
+        ''
+    );
+});
+
+$router->get('/remote-infrastructure-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'remote-infrastructure-management',
+        'Remote Infrastructure Management',
+        ''
+    );
+});
+
+$router->get('/s-e-o', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        's-e-o',
+        'S E O',
+        ''
+    );
+});
+
+$router->get('/security-services', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'security-services',
+        'Security Services',
+        ''
+    );
+});
+
+$router->get('/shared-technical-staff', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'shared-technical-staff',
+        'Shared Technical Staff',
+        ''
+    );
+});
+
+$router->get('/software-development', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'software-development',
+        'Software Development',
+        ''
+    );
+});
+
+$router->get('/ssl-certificate', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'ssl-certificate',
+        'Ssl Certificate',
+        ''
+    );
+});
+
+$router->get('/technical-support', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'technical-support',
+        'Technical Support',
+        ''
+    );
+});
+
+$router->get('/testimonials', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'testimonials',
+        'Testimonials',
+        ''
+    );
+});
+
+$router->get('/virtualization-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'virtualization-management',
+        'Virtualization Management',
+        ''
+    );
+});
+
+$router->get('/vps-server-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'vps-server-management',
+        'Vps Server Management',
+        ''
+    );
+});
+
+$router->get('/web-application-development', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'web-application-development',
+        'Web Application Development',
+        ''
+    );
+});
+
+$router->get('/webhosting-support', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'webhosting-support',
+        'Webhosting Support',
+        ''
+    );
+});
+
+$router->get('/why-us', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'why-us',
+        'Why Us',
+        ''
+    );
+});
+
+$router->get('/windows-server-management', function() {
+    (new \App\Controllers\PageController())->staticPage(
+        'windows-server-management',
+        'Windows Server Management',
+        ''
+    );
+});
+
+
+$router->get('/', [\App\Controllers\HomeController::class, 'index']);
+
+$router->get('/cms', [\App\Controllers\CmsController::class, 'index']);
+$router->get('/cms/login', [\App\Controllers\CmsController::class, 'login']);
+$router->post('/cms/login', [\App\Controllers\CmsController::class, 'authenticate']);
+$router->post('/cms/logout', [\App\Controllers\CmsController::class, 'logout']);
+$router->get('/cms/pages/{slug}', [\App\Controllers\CmsController::class, 'edit']);
+$router->post('/cms/pages/{slug}', [\App\Controllers\CmsController::class, 'save']);
+
+$router->get('/{slug}', [\App\Controllers\PageController::class, 'show']);
+
+$requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?: '/';
+$basePath = rtrim((string)env('APP_BASE_PATH', ''), '/');
+
+if ($basePath !== '' && strpos($requestPath, $basePath) === 0) {
+    $requestPath = substr($requestPath, strlen($basePath));
+    if ($requestPath === false || $requestPath === '') {
+        $requestPath = '/';
+    }
+}
+
+$router->dispatch($_SERVER['REQUEST_METHOD'], $requestPath);

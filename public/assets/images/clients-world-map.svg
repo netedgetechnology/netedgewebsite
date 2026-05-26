@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-label="Clients Around The World">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f5fbff"/>
+      <stop offset="1" stop-color="#eef7ff"/>
+    </linearGradient>
+    <radialGradient id="pinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#16b8d7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#16b8d7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+    <filter id="pinShadow" x="-80%" y="-80%" width="260%" height="260%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#0f172a" flood-opacity=".20"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="720" rx="34" fill="url(#bg)"/>
+
+  <g opacity=".55" fill="none" stroke="#d7e7f8" stroke-width="1.4">
+    <path d="M120 130h1360M120 230h1360M120 330h1360M120 430h1360M120 530h1360"/>
+    <path d="M220 80v560M420 80v560M620 80v560M820 80v560M1020 80v560M1220 80v560M1420 80v560"/>
+  </g>
+
+  <!-- more realistic simplified continents -->
+  <g fill="#cfe3f8" stroke="#a9cbed" stroke-width="2.2" filter="url(#shadow)">
+    <!-- North America -->
+    <path d="M183 195c42-57 117-84 196-77 63 6 115 30 142 71 24 37 8 70-35 77-38 6-55 24-61 58-9 51-47 75-94 65-42-9-58-40-90-63-33-24-89-19-104-59-9-24 14-51 46-72z"/>
+    <path d="M426 126c35-25 92-20 123 7 27 23 28 61-1 78-31 18-78 3-106-23-26-24-43-43-16-62z"/>
+    <!-- Central America -->
+    <path d="M368 383c43 5 87 19 115 45 15 14 9 33-12 35-46 5-92-13-129-38-20-13-7-46 26-42z"/>
+    <!-- South America -->
+    <path d="M501 451c51 23 86 72 83 128-3 54-38 101-78 119-29 13-54-2-56-34-3-43-25-70-47-105-26-42-15-93 24-111 22-10 48-8 74 3z"/>
+    <!-- Europe -->
+    <path d="M681 174c62-35 142-31 192 7 39 30 36 73-9 89-43 16-70-12-110 2-38 13-68 49-111 31-41-17-43-71-9-103 13-12 28-20 47-26z"/>
+    <!-- Africa -->
+    <path d="M772 307c74 17 119 82 111 163-8 78-58 136-117 135-49-1-81-44-70-95 10-47-24-84-31-129-8-51 41-89 107-74z"/>
+    <!-- Middle East / West Asia -->
+    <path d="M905 286c58-19 130 4 162 49 30 42 5 83-51 84-55 1-86-37-129-55-39-16-28-62 18-78z"/>
+    <!-- Asia -->
+    <path d="M1010 190c91-46 226-34 314 29 78 56 92 139 30 179-57 36-126 2-186 22-64 21-89 91-154 76-65-15-77-90-38-141 33-43-20-74-2-117 7-18 18-34 36-48z"/>
+    <path d="M1260 424c42-6 94 11 124 42 29 30 24 70-13 82-42 14-94-12-123-49-23-30-18-70 12-75z"/>
+    <!-- Australia -->
+    <path d="M1194 554c68-32 172-11 217 45 35 44-1 88-77 87-76-1-161-48-169-93-3-17 7-30 29-39z"/>
+    <!-- Greenland -->
+    <path d="M522 77c63-33 151-26 194 12 31 27 18 58-29 66-57 10-122 0-169-25-33-18-31-36 4-53z"/>
+  </g>
+
+  <!-- subtle connection lines -->
+  <g fill="none" stroke="#13b8d8" stroke-width="2.2" stroke-dasharray="8 10" opacity=".50">
+    <path d="M760 340C620 250 460 250 300 330"/>
+    <path d="M760 340C900 250 1070 250 1230 350"/>
+    <path d="M760 340C820 445 970 535 1265 610"/>
+    <path d="M760 340C660 450 570 500 505 565"/>
+  </g>
+
+  <!-- client spots -->
+  <g fill="#0646a8" opacity=".72">
+    <circle cx="258" cy="275" r="4"/><circle cx="305" cy="300" r="4"/><circle cx="360" cy="258" r="4"/>
+    <circle cx="400" cy="402" r="4"/><circle cx="508" cy="558" r="4"/><circle cx="540" cy="612" r="4"/>
+    <circle cx="705" cy="236" r="4"/><circle cx="760" cy="252" r="4"/><circle cx="822" cy="268" r="4"/>
+    <circle cx="790" cy="395" r="4"/><circle cx="828" cy="462" r="4"/><circle cx="906" cy="345" r="4"/>
+    <circle cx="1020" cy="355" r="4"/><circle cx="1090" cy="310" r="4"/><circle cx="1160" cy="350" r="4"/>
+    <circle cx="1230" cy="385" r="4"/><circle cx="1328" cy="495" r="4"/><circle cx="1290" cy="620" r="4"/>
+  </g>
+
+  <!-- highlighted pins -->
+  <g filter="url(#pinShadow)">
+    <g transform="translate(305 300)">
+      <circle r="28" fill="url(#pinGlow)"/><circle r="10" fill="#0646a8"/><circle r="4" fill="#ffffff"/>
+    </g>
+    <g transform="translate(760 252)">
+      <circle r="28" fill="url(#pinGlow)"/><circle r="10" fill="#0646a8"/><circle r="4" fill="#ffffff"/>
+    </g>
+    <g transform="translate(1020 355)">
+      <circle r="30" fill="url(#pinGlow)"/><circle r="11" fill="#0646a8"/><circle r="4" fill="#ffffff"/>
+    </g>
+    <g transform="translate(1160 350)">
+      <circle r="28" fill="url(#pinGlow)"/><circle r="10" fill="#0646a8"/><circle r="4" fill="#ffffff"/>
+    </g>
+    <g transform="translate(1290 620)">
+      <circle r="28" fill="url(#pinGlow)"/><circle r="10" fill="#0646a8"/><circle r="4" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>

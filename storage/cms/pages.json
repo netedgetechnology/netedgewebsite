@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "achievements",
+    "file": "app/views/pages/achievements.php",
+    "title": "Achievements"
+  },
+  {
+    "slug": "career",
+    "file": "app/views/pages/career.php",
+    "title": "Career"
+  },
+  {
+    "slug": "cloud-infrastructure-management",
+    "file": "app/views/pages/cloud-infrastructure-management.php",
+    "title": "Cloud Infrastructure Management"
+  },
+  {
+    "slug": "company",
+    "file": "app/views/pages/company.php",
+    "title": "Company"
+  },
+  {
+    "slug": "contact-us",
+    "file": "app/views/pages/contact-us.php",
+    "title": "Contact Us"
+  },
+  {
+    "slug": "datacenter-management",
+    "file": "app/views/pages/datacenter-management.php",
+    "title": "Datacenter Management"
+  },
+  {
+    "slug": "dedicated-technical-staff",
+    "file": "app/views/pages/dedicated-technical-staff.php",
+    "title": "Dedicated Technical Staff"
+  },
+  {
+    "slug": "dedicated-technical-staffing",
+    "file": "app/views/pages/dedicated-technical-staffing.php",
+    "title": "Dedicated Staffing"
+  },
+  {
+    "slug": "discuss-a-requirement",
+    "file": "app/views/pages/discuss-a-requirement.php",
+    "title": "Discuss A Requirement"
+  },
+  {
+    "slug": "email-security",
+    "file": "app/views/pages/email-security.php",
+    "title": "Email Security"
+  },
+  {
+    "slug": "game-server-management",
+    "file": "app/views/pages/game-server-management.php",
+    "title": "Game Server Management"
+  },
+  {
+    "slug": "home-office-automation",
+    "file": "app/views/pages/home-office-automation.php",
+    "title": "Home Office Automation"
+  },
+  {
+    "slug": "home",
+    "file": "app/views/pages/home.php",
+    "title": "Home"
+  },
+  {
+    "slug": "inquire",
+    "file": "app/views/pages/inquire.php",
+    "title": "Inquire"
+  },
+  {
+    "slug": "iot-application-development",
+    "file": "app/views/pages/iot-application-development.php",
+    "title": "IoT Application Development"
+  },
+  {
+    "slug": "it-infrastructure-automation",
+    "file": "app/views/pages/it-infrastructure-automation.php",
+    "title": "IT Infrastructure Automation"
+  },
+  {
+    "slug": "jobs",
+    "file": "app/views/pages/jobs.php",
+    "title": "Jobs"
+  },
+  {
+    "slug": "linux-server-management",
+    "file": "app/views/pages/linux-server-management.php",
+    "title": "Linux Server Management"
+  },
+  {
+    "slug": "mobile-application-development",
+    "file": "app/views/pages/mobile-application-development.php",
+    "title": "Mobile Application Management"
+  },
+  {
+    "slug": "monitoring-service",
+    "file": "app/views/pages/monitoring-service.php",
+    "title": "Monitoring Service"
+  },
+  {
+    "slug": "network-tools",
+    "file": "app/views/pages/network-tools.php",
+    "title": "Network Tools"
+  },
+  {
+    "slug": "noc-management",
+    "file": "app/views/pages/noc-management.php",
+    "title": "NOC Management"
+  },
+  {
+    "slug": "our-expertise",
+    "file": "app/views/pages/our-expertise.php",
+    "title": "Our Expertise"
+  },
+  {
+    "slug": "partnership",
+    "file": "app/views/pages/partnership.php",
+    "title": "Partnership"
+  },
+  {
+    "slug": "portfolio",
+    "file": "app/views/pages/portfolio.php",
+    "title": "Portfolio"
+  },
+  {
+    "slug": "privacy-polciy",
+    "file": "app/views/pages/privacy-polciy.php",
+    "title": "Privacy Policy"
+  },
+  {
+    "slug": "privacy-policy",
+    "file": "app/views/pages/privacy-policy.php",
+    "title": "Privacy Policy"
+  },
+  {
+    "slug": "products",
+    "file": "app/views/pages/products.php",
+    "title": "Products"
+  },
+  {
+    "slug": "remote-infrastructure-management",
+    "file": "app/views/pages/remote-infrastructure-management.php",
+    "title": "Remote Infrastructure Management"
+  },
+  {
+    "slug": "s-e-o",
+    "file": "app/views/pages/s-e-o.php",
+    "title": "Search Engine Optimization"
+  },
+  {
+    "slug": "security-services",
+    "file": "app/views/pages/security-services.php",
+    "title": "Security Services"
+  },
+  {
+    "slug": "server-management",
+    "file": "app/views/pages/server-management.php",
+    "title": "Server Management"
+  },
+  {
+    "slug": "shared-technical-staff",
+    "file": "app/views/pages/shared-technical-staff.php",
+    "title": "Shared Technical Staff"
+  },
+  {
+    "slug": "shared-technical-staffing",
+    "file": "app/views/pages/shared-technical-staffing.php",
+    "title": "Shared Staffing"
+  },
+  {
+    "slug": "show",
+    "file": "app/views/pages/show.php",
+    "title": "Show"
+  },
+  {
+    "slug": "software-development",
+    "file": "app/views/pages/software-development.php",
+    "title": "Software Development"
+  },
+  {
+    "slug": "ssl-certificate",
+    "file": "app/views/pages/ssl-certificate.php",
+    "title": "SSL Certificate"
+  },
+  {
+    "slug": "technical-support",
+    "file": "app/views/pages/technical-support.php",
+    "title": "Technical Support"
+  },
+  {
+    "slug": "terms",
+    "file": "app/views/pages/terms.php",
+    "title": "Terms"
+  },
+  {
+    "slug": "testimonials",
+    "file": "app/views/pages/testimonials.php",
+    "title": "Testimonials"
+  },
+  {
+    "slug": "virtualization-management",
+    "file": "app/views/pages/virtualization-management.php",
+    "title": "Virtualization Management"
+  },
+  {
+    "slug": "vps-server-management",
+    "file": "app/views/pages/vps-server-management.php",
+    "title": "VPS Server Management"
+  },
+  {
+    "slug": "web-application-development",
+    "file": "app/views/pages/web-application-development.php",
+    "title": "Web Application Management"
+  },
+  {
+    "slug": "webhosting-support",
+    "file": "app/views/pages/webhosting-support.php",
+    "title": "Webhosting Support"
+  },
+  {
+    "slug": "why-us",
+    "file": "app/views/pages/why-us.php",
+    "title": "Why Us"
+  },
+  {
+    "slug": "windows-server-management",
+    "file": "app/views/pages/windows-server-management.php",
+    "title": "Windows Server Management"
+  }
+]
