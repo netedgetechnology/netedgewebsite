@@ -2,70 +2,74 @@
 
 return [
 
-    'home' => [
-        'title' => 'Netedge Technology | IT Infrastructure, Cloud & Server Management Services',
-        'keywords' => 'IT Infrastructure Management Services, Managed IT Services, Server Management Company, Cloud Infrastructure Services, Technical Support Services',
-        'description' => 'Netedge Technology provides professional server management, cloud infrastructure, NOC management, technical support, virtualization management and software development services for businesses worldwide.'
-    ],
+'home' => [
+    'title' => 'Server Management Company | Infrastructure Management Services | Netedge Technology',
+    'description' => 'Netedge Technology provides 24x7 server management, infrastructure management, virtualization management, cloud support and IT infrastructure services worldwide.',
+],
 
-    'server-management' => [
-        'title' => 'Server Management Services | Linux & Windows Server Support | Netedge Technology',
-        'keywords' => 'Server Management Services, Remote Server Management, Linux Server Management, Windows Server Management, Managed Server Support',
-        'description' => 'Netedge Technology delivers professional Linux and Windows server management services including monitoring, security, optimization, troubleshooting and 24x7 infrastructure support.'
-    ],
+'server-management' => [
+    'title' => '24x7 Server Management Services | Netedge Technology',
+    'description' => 'Professional Linux and Windows server management services including monitoring, security hardening, troubleshooting, optimization and infrastructure support.',
+],
 
-    'virtualization-management' => [
-        'title' => 'Virtualization Management Services | VPS & Hypervisor Management',
-        'keywords' => 'Virtualization Management Services, VPS Management, VMware Management, VPS Node Management, Virtual Server Management',
-        'description' => 'Netedge Technology provides virtualization management services including VPS management, hypervisor administration, node monitoring, optimization and infrastructure support.'
-    ],
+'virtualization-management' => [
+    'title' => 'Virtualization Management Services | Netedge Technology',
+    'description' => 'Professional virtualization management services for VMware, Hyper-V, KVM and Proxmox environments with 24x7 monitoring and infrastructure support.',
+],
 
-    'technical-support' => [
-        'title' => 'Technical Support Services | 24x7 Remote Infrastructure Support',
-        'keywords' => 'Technical Support Services, IT Technical Support, Remote Technical Support, Infrastructure Support, Outsourced Technical Support',
-        'description' => 'Netedge Technology offers professional technical support services including remote troubleshooting, infrastructure support, server administration and 24x7 assistance.'
-    ],
+'technical-support' => [
+    'title' => 'Technical Support Services | Netedge Technology',
+    'description' => '24x7 technical support services for hosting companies, enterprises and cloud infrastructure environments worldwide.',
+],
 
-    'security-services' => [
-        'title' => 'Server Security Services | Infrastructure & Firewall Management',
-        'keywords' => 'Server Security Services, Infrastructure Security, Firewall Management, Linux Server Security, Server Hardening',
-        'description' => 'Netedge Technology provides server security services including firewall management, server hardening, malware protection, vulnerability mitigation and infrastructure security monitoring.'
-    ],
+'security-services' => [
+    'title' => 'Infrastructure Security Services | Netedge Technology',
+    'description' => 'Enterprise infrastructure security services including server hardening, firewall management, patching, monitoring and cyber security support.',
+],
 
-    'webhosting-support' => [
-        'title' => 'Web Hosting Support Services | cPanel & Hosting Server Management',
-        'keywords' => 'Web Hosting Support Services, cPanel Support, Hosting Technical Support, WHM Support Services, Web Hosting Management',
-        'description' => 'Netedge Technology delivers professional web hosting support services including cPanel support, server management, hosting infrastructure monitoring and customer support.'
-    ],
+'webhosting-support' => [
+    'title' => 'Web Hosting Support Services | Netedge Technology',
+    'description' => 'Professional web hosting support services including cPanel, Plesk, migration, troubleshooting and hosting infrastructure management.',
+],
 
-    'datacenter-management' => [
-        'title' => 'Datacenter Management Services | Infrastructure & Remote Hands Support',
-        'keywords' => 'Datacenter Management Services, Datacenter Support, Remote Hands Services, Infrastructure Monitoring, Data Center Operations',
-        'description' => 'Netedge Technology provides datacenter management services including infrastructure monitoring, rack support, remote hands assistance and 24x7 operational support.'
-    ],
+'cloud-infrastructure-management' => [
+    'title' => 'Cloud Infrastructure Management Services | Netedge Technology',
+    'description' => 'Cloud infrastructure management services for AWS, Azure, Google Cloud and hybrid enterprise environments.',
+],
 
-    'it-infrastructure-automation' => [
-        'title' => 'IT Infrastructure Automation Services | DevOps & Server Automation',
-        'keywords' => 'IT Infrastructure Automation, Server Automation, DevOps Automation, Cloud Automation, Automated Server Deployment',
-        'description' => 'Netedge Technology offers IT infrastructure automation services including DevOps automation, server deployment automation, cloud automation and operational workflow optimization.'
-    ],
+'noc-management' => [
+    'title' => 'NOC Management Services | Netedge Technology',
+    'description' => '24x7 NOC management services including infrastructure monitoring, incident management and enterprise operational support.',
+],
 
-    'remote-infrastructure-management' => [
-        'title' => 'Remote Infrastructure Management Services | Managed IT Infrastructure',
-        'keywords' => 'Remote Infrastructure Management, Managed Infrastructure Services, Remote Server Administration, Infrastructure Monitoring, Managed IT Infrastructure',
-        'description' => 'Netedge Technology provides remote infrastructure management services including monitoring, maintenance, server administration and 24x7 operational support.'
-    ],
+'datacenter-management' => [
+    'title' => 'Datacenter Management Services | Netedge Technology',
+    'description' => 'Professional datacenter management services including infrastructure operations, monitoring and enterprise support.',
+],
 
-    'cloud-infrastructure-management' => [
-        'title' => 'Cloud Infrastructure Management Services | Managed Cloud Support',
-        'keywords' => 'Cloud Infrastructure Management, Cloud Management Services, AWS Management, Managed Cloud Services, Cloud Monitoring Services',
-        'description' => 'Netedge Technology provides cloud infrastructure management services including cloud monitoring, AWS support, server optimization and scalable cloud operations.'
-    ],
+'remote-infrastructure-management' => [
+    'title' => 'Remote Infrastructure Management Services | Netedge Technology',
+    'description' => 'Remote infrastructure management services for enterprise IT environments, cloud platforms and hosting infrastructure.',
+],
 
-    'noc-management' => [
-        'title' => 'NOC Management Services | 24x7 Network Operations Center Support',
-        'keywords' => 'NOC Management Services, 24x7 NOC Services, Network Operations Center, Infrastructure Monitoring, Managed NOC Support',
-        'description' => 'Netedge Technology offers 24x7 NOC management services including infrastructure monitoring, alert management, escalation handling and operational support.'
-    ],
+'it-infrastructure-automation' => [
+    'title' => 'IT Infrastructure Automation Services | Netedge Technology',
+    'description' => 'Infrastructure automation services for server provisioning, cloud operations, deployment automation and DevOps environments.',
+],
+
+'home-office-automation' => [
+    'title' => 'Home & Office Automation Solutions | Netedge Technology',
+    'description' => 'Smart home and office automation solutions including surveillance, access control and intelligent infrastructure systems.',
+],
+
+'contact-us' => [
+    'title' => 'Contact Netedge Technology',
+    'description' => 'Contact Netedge Technology for server management, infrastructure management and enterprise IT support services.',
+],
+
+'portfolio' => [
+    'title' => 'Portfolio | Netedge Technology',
+    'description' => 'Explore Netedge Technology portfolio showcasing infrastructure management, server management and enterprise IT solutions.',
+],
 
 ];
