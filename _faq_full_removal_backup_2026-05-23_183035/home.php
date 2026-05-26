@@ -204,7 +204,7 @@
 
     <div class="v17-world-card">
       <div class="v17-map-image-wrap">
-        <img src="<?= e(asset('images/global-map-clean.png')) ?>" alt="Clients Around The World" class="v17-world-map-img">
+        <img src="<?= e(asset('images/clients-world-map.svg')) ?>" alt="Clients Around The World" class="v17-world-map-img">
       </div>
 
       <div class="v17-map-stats">

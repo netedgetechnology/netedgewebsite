@@ -1,0 +1,168 @@
+<?php
+$title = 'Server Management Services | Netedge Technology';
+$description = 'Professional Linux and Windows server management services including monitoring, security, optimization, troubleshooting and 24x7 infrastructure support.';
+?>
+
+<section class="page-hero v11-page-hero">
+  <div class="container">
+    <span class="d3-kicker">Server Management</span>
+    <h1>24x7 Server Management Services</h1>
+    <p>Reliable remote server management, infrastructure monitoring, security hardening and technical support for Linux, Windows and cloud environments.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content-page server-management-clean">
+
+    <section class="sm-clean-intro">
+      <div class="sm-clean-copy">
+        <span class="section-label">Enterprise Infrastructure Support</span>
+        <h2>Professional Remote Server Management</h2>
+
+        <p>
+          Netedge Technology provides professional remote server management services for hosting companies, enterprises, SaaS platforms and growing businesses that require stable, secure and high-performing infrastructure.
+        </p>
+
+        <p>
+          Our team delivers Linux server management, Windows server administration, security hardening, monitoring, troubleshooting, migrations, backup planning and infrastructure optimization with 24x7 operational support.
+        </p>
+      </div>
+
+      <div class="sm-clean-highlight">
+        <div class="sm-clean-badge">
+          <strong>24x7</strong>
+          <span>Infrastructure Support</span>
+        </div>
+
+        <ul>
+          <li>24x7 Monitoring & Incident Response</li>
+          <li>Security Hardening & Patch Management</li>
+          <li>Migration & Backup Support</li>
+          <li>Performance Optimization</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sm-clean-services">
+      <div class="sm-clean-head">
+        <span class="section-label">Our Expertise</span>
+        <h2>Server Management Expertise</h2>
+        <p>
+          Comprehensive infrastructure management services tailored for modern business environments.
+        </p>
+      </div>
+
+      <div class="sm-clean-grid">
+
+        <article class="sm-clean-card">
+          <div class="sm-clean-icon">
+            <img src="<?= e(asset('images/linux-server-management.png')) ?>" alt="Linux Server Management">
+          </div>
+
+          <h3>Linux Server Management</h3>
+
+          <p>
+            Professional Linux server administration and infrastructure support for hosting, SaaS and enterprise workloads.
+          </p>
+
+          <ul>
+            <li>Linux setup & optimization</li>
+            <li>Apache, Nginx & database support</li>
+            <li>Security hardening & firewall management</li>
+            <li>Performance tuning & troubleshooting</li>
+          </ul>
+        </article>
+
+        <article class="sm-clean-card">
+          <div class="sm-clean-icon">
+            <img src="<?= e(asset('images/windows-server-management.png')) ?>" alt="Windows Server Management">
+          </div>
+
+          <h3>Windows Server Management</h3>
+
+          <p>
+            Windows infrastructure management services for enterprise applications, IIS hosting and business operations.
+          </p>
+
+          <ul>
+            <li>Windows administration</li>
+            <li>IIS hosting support</li>
+            <li>MSSQL troubleshooting</li>
+            <li>Maintenance & patching</li>
+          </ul>
+        </article>
+
+        <article class="sm-clean-card">
+          <div class="sm-clean-icon">
+            <img src="<?= e(asset('images/control-panel-management.png')) ?>" alt="Control Panel Management">
+          </div>
+
+          <h3>Control Panel Management</h3>
+
+          <p>
+            Hosting control panel support for cPanel, Plesk, DirectAdmin and enterprise hosting environments.
+          </p>
+
+          <ul>
+            <li>cPanel/WHM & Plesk support</li>
+            <li>DNS & email troubleshooting</li>
+            <li>Migration & backup support</li>
+            <li>Security & monitoring</li>
+          </ul>
+        </article>
+
+        <article class="sm-clean-card">
+          <div class="sm-clean-icon">
+            <img src="<?= e(asset('images/game-server-management.png')) ?>" alt="Game Server Management">
+          </div>
+
+          <h3>Game Server Management</h3>
+
+          <p>
+            Game server setup, optimization and monitoring services for stable and high-performance gaming environments.
+          </p>
+
+          <ul>
+            <li>Server deployment & optimization</li>
+            <li>Latency troubleshooting</li>
+            <li>Infrastructure monitoring</li>
+            <li>Backup & disaster recovery</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="sm-clean-popular">
+      <div class="sm-clean-head">
+        <span class="section-label">Popular Services</span>
+        <h2>Most Popular Server Management Services</h2>
+      </div>
+
+      <div class="sm-clean-popular-grid">
+        <div>24x7 Infrastructure Monitoring</div>
+        <div>Linux & Windows Administration</div>
+        <div>Firewall & Security Hardening</div>
+        <div>Control Panel Troubleshooting</div>
+        <div>Server Migration Assistance</div>
+        <div>Backup & Disaster Recovery</div>
+        <div>Performance Optimization</div>
+        <div>Patch Management</div>
+      </div>
+    </section>
+
+    <section class="content-cta-block">
+      <div>
+        <h2>Need Reliable Server Management Support?</h2>
+        <p>
+          Contact Netedge Technology to discuss your server infrastructure and operational support requirements.
+        </p>
+      </div>
+
+      <a class="btn" href="<?= e(url('contact-us')) ?>">
+        Discuss A Requirement
+      </a>
+    </section>
+
+  </div>
+</section>
