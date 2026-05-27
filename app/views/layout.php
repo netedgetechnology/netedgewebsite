@@ -100,6 +100,7 @@ foreach ($menu as $m) {
               <a href="<?= e(url('technical-support')) ?>">Technical Support</a>
               <a href="<?= e(url('security-services')) ?>">Security Services</a>
               <a href="<?= e(url('webhosting-support')) ?>">Webhosting Support</a>
+              <a href="<?= e(url('controlpanel-server-management')) ?>">Control Panel Management</a>
 
               
             </div>
