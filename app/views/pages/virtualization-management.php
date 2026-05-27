@@ -24,39 +24,55 @@ $description = 'Virtualization Management services from Netedge Technology, desi
       <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Webhosting Suppo<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
     </section>
     <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Virtualization Management Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>VMware/Hyper-V, Proxmox and DirectAdmin support</div>
-<div><span>✓</span>Customer ticket, chat and email support</div>
-<div><span>✓</span>Website, email, DNS and database troubleshooting</div>
-<div><span>✓</span>Migration, backup and restore assistance</div>
+<div><span>✓</span>Virtualization Operations & Technical Support and email support</div>
+<div><span>✓</span>Cluster & Virtual Machine Operations and database troubleshooting</div>
+<div><span>✓</span>Virtual Machine Migration & Infrastructure Continuity and restore assistance</div>
 <div><span>✓</span>Abuse, spam and security issue handling</div>
 <div><span>✓</span>24x7 virtual infrastructure operations support</div></div></section>
     <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Virtualization Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
           <h3>VMware/Hyper-V, Proxmox</h3>
           <p>VMware/Hyper-V, Proxmox and DirectAdmin support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <ul>
+<li>VMware, Hyper-V and Proxmox administration</li>
+<li>Virtual machine monitoring and optimization</li>
+<li>Infrastructure scalability and operational reporting</li>
+</ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Customer ticket, chat</h3>
-          <p>Customer ticket, chat and email support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Virtualization Operations & Technical Support</h3>
+          <p>Virtualization Operations & Technical Support and email support with professional planning, execution and ongoing support.</p>
+          <ul>
+<li>24x7 virtualization infrastructure support</li>
+<li>Incident escalation and operational workflows</li>
+<li>Technical support coordination and reporting</li>
+</ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Website, email, DNS</h3>
-          <p>Website, email, DNS and database troubleshooting with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Cluster & Virtual Machine Operations</h3>
+          <p>Cluster & Virtual Machine Operations and database troubleshooting with professional planning, execution and ongoing support.</p>
+          <ul>
+<li>Cluster administration and VM lifecycle operations</li>
+<li>Infrastructure availability and resource optimization</li>
+<li>Virtual environment maintenance and monitoring</li>
+</ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Migration, backup</h3>
-          <p>Migration, backup and restore assistance with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Virtual Machine Migration & Infrastructure Continuity</h3>
+          <p>Virtual Machine Migration & Infrastructure Continuity and restore assistance with professional planning, execution and ongoing support.</p>
+          <ul>
+<li>Virtual machine migration and continuity planning</li>
+<li>Backup validation and disaster recovery support</li>
+<li>Migration coordination and operational reporting</li>
+</ul>
           <strong>Explore</strong>
         </article></div></section>
-    <section class="content-cta-block"><div><h2>Need webvirtualization management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    <section class="content-cta-block"><div><h2>Need a virtualization management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>

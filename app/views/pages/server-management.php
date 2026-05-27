@@ -31,32 +31,48 @@ $description = 'Server Management services from Netedge Technology, designed for
 <div><span>✓</span>24x7 infrastructure operations support</div></div></section>
     <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Server Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Linux/Windows Server, Cloud Infrastructure</h3>
-          <p>Linux/Windows Server, Cloud Infrastructure and DirectAdmin support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Linux, Windows & Cloud Infrastructure Management</h3>
+          <p>Linux, Windows and cloud infrastructure management services for enterprise environments, hosting providers and operational infrastructure teams.</p>
+          <ul>
+            <li>Linux and Windows server administration</li>
+            <li>AWS, Azure and hybrid cloud infrastructure support</li>
+            <li>Infrastructure monitoring and operational reporting</li>
+          </ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Customer ticket, chat</h3>
-          <p>Customer ticket, chat and email support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Technical Support & Helpdesk Operations</h3>
+          <p>24x7 helpdesk operations and customer support services for hosting providers, SaaS platforms and infrastructure businesses.</p>
+          <ul>
+            <li>Ticket handling and escalation management</li>
+            <li>Customer support workflows and live chat coordination</li>
+            <li>L1/L2 operational support and reporting</li>
+          </ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Website, email, DNS</h3>
-          <p>Website, email, DNS and database troubleshooting with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>CloudLinux & Immunify Management</h3>
+          <p>CloudLinux and Immunify360 management services for shared hosting infrastructure, malware protection and operational security.</p>
+          <ul>
+            <li>CloudLinux & Immunify360 licensing assistance</li>
+            <li>24x7 ticketing and operational support</li>
+            <li>Complete shared hosting server management</li>
+          </ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Migration, backup</h3>
-          <p>Migration, backup and restore assistance with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <h3>Migration & Infrastructure Transition Services</h3>
+          <p>Infrastructure migration services for hosting platforms, virtualization environments, websites and enterprise server operations.</p>
+          <ul>
+            <li>Hosting server and infrastructure migration assistance</li>
+            <li>Website, cloud and virtualization migration support</li>
+            <li>Backup planning and disaster recovery preparation</li>
+          </ul>
           <strong>Explore</strong>
         </article></div></section>
-    <section class="content-cta-block"><div><h2>Need webserver management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    <section class="content-cta-block"><div><h2>Need server management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>
