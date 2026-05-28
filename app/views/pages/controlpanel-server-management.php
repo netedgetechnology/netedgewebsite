@@ -181,7 +181,13 @@ for shared hosting infrastructure environments.
 <li>24x7 ticketing and technical support</li>
 </ul>
 
-<strong>Explore</strong>
+
+<a class="btn"
+style="margin-top:18px;display:inline-flex;"
+href="#">
+Order Now
+</a>
+
 
 </article>
 
@@ -213,7 +219,13 @@ management for VPS and hosting environments.
 <li>24x7 monitoring and operational support</li>
 </ul>
 
-<strong>Explore</strong>
+
+<a class="btn"
+style="margin-top:18px;display:inline-flex;"
+href="#">
+Order Now
+</a>
+
 
 </article>
 

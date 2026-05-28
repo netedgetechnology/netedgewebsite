@@ -6,7 +6,7 @@ $description = 'Server Management services from Netedge Technology, designed for
   <div class="container sm58-hero-grid batch68-hero-grid">
     <div class="sm58-hero-copy">
       <span class="d3-kicker">Server Management</span>
-      <h1>Server Management</h1>
+      <h1>24x7 Server Management Under One Roof</h1>
       <p>Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
       <div class="sm58-hero-pills"><span>Linux/Windows Server,</span><span>Customer</span><span>Website,</span><span>Migration,</span></div>
     </div>
@@ -73,6 +73,227 @@ $description = 'Server Management services from Netedge Technology, designed for
           </ul>
           <strong>Explore</strong>
         </article></div></section>
-    <section class="content-cta-block"><div><h2>Need server management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    
+
+<section class="sm-benefits-section">
+
+  <div class="sm-benefits-heading">
+    <span class="section-label">Benefits</span>
+
+    <h2>
+      Benefits Of Outsourcing Remote Server Management To Netedge
+    </h2>
+
+    <p>
+      Hiring our services will relieve you of any server related tasks and improve all aspects of managing them like server memory management to installations and OS updates. We will also provide you with a highly automated control panel and gated access for your users. Below are some of the other benefits that make us the right choice for your business:
+    </p>
+  </div>
+
+  <div class="sm-benefits-grid">
+
+    <div class="sm-benefit-card">
+      
+<div class="sm-benefit-icon">
+<svg viewBox="0 0 64 64" fill="none">
+<rect x="14" y="12" width="36" height="24" rx="4" stroke="#0b57d0" stroke-width="3"/>
+<path d="M24 50h16M32 36v14" stroke="#0b57d0" stroke-width="3" stroke-linecap="round"/>
+<circle cx="23" cy="24" r="2" fill="#0b57d0"/>
+<circle cx="32" cy="24" r="2" fill="#0b57d0"/>
+<circle cx="41" cy="24" r="2" fill="#0b57d0"/>
+</svg>
+</div>
+
+
+      <h3>
+        Dedicated And Certified Server Management Experts For You
+      </h3>
+
+      <p>
+        At Netedge, we assign the work to only certified and seasoned technocrats to give you an upper edge when it comes to the IT infrastructure. Our team receives
+      </p>
+    </div>
+
+    <div class="sm-benefit-card">
+      
+<div class="sm-benefit-icon">
+<svg viewBox="0 0 64 64" fill="none">
+<path d="M20 30V22a12 12 0 1124 0v8" stroke="#0b57d0" stroke-width="3"/>
+<rect x="16" y="30" width="32" height="22" rx="5" stroke="#0b57d0" stroke-width="3"/>
+<circle cx="32" cy="40" r="3" fill="#0b57d0"/>
+</svg>
+</div>
+
+
+      <h3>
+        High System Stability And Security
+      </h3>
+
+      <p>
+        One of the major benefits of using a wide array of tools and implementation techniques is getting high stability and security. Our solutions are designed to aid
+      </p>
+    </div>
+
+    <div class="sm-benefit-card">
+      
+<div class="sm-benefit-icon">
+<svg viewBox="0 0 64 64" fill="none">
+<path d="M20 44h24a10 10 0 000-20 14 14 0 00-27-2A9 9 0 0020 44Z"
+stroke="#0b57d0" stroke-width="3"/>
+<path d="M26 34l6 6 10-12" stroke="#0b57d0" stroke-width="3" stroke-linecap="round"/>
+</svg>
+</div>
+
+
+      <h3>
+        Unmatched Flexibility For Your Managed Cloud Services
+      </h3>
+
+      <p>
+        With our dedicated server management services, you will get unmatched flexibility for new installations, integrations, as well as adding new functionalities
+      </p>
+    </div>
+
+    <div class="sm-benefit-card">
+      
+<div class="sm-benefit-icon">
+<svg viewBox="0 0 64 64" fill="none">
+<path d="M18 34a14 14 0 0128 0" stroke="#0b57d0" stroke-width="3"/>
+<rect x="14" y="32" width="8" height="16" rx="3" stroke="#0b57d0" stroke-width="3"/>
+<rect x="42" y="32" width="8" height="16" rx="3" stroke="#0b57d0" stroke-width="3"/>
+<path d="M50 46v2a6 6 0 01-6 6h-6" stroke="#0b57d0" stroke-width="3"/>
+</svg>
+</div>
+
+
+      <h3>
+        24x7 Quality Support Available
+      </h3>
+
+      <p>
+        Netedge ensures that you always get professional assistance because every minute matters for online businesses. You can contact us at any time to get our
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+
+
+.sm-benefits-section{
+    max-width:1400px;
+    margin:0 auto;
+    text-align:center;
+
+    padding:90px 0 20px;
+}
+
+
+.sm-benefits-heading{
+    text-align:center;
+
+    max-width:1100px;
+    margin:0 auto 55px;
+    text-align:center;
+}
+
+
+.sm-benefits-heading h2{
+    font-size:48px;
+    line-height:1.18;
+    margin:18px auto 22px;
+    color:#0f172a;
+    max-width:900px;
+    text-align:center;
+}
+
+
+.sm-benefits-heading p{
+    font-size:18px;
+    line-height:1.9;
+    color:#52627a;
+}
+
+.sm-benefits-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:32px;
+}
+
+.sm-benefit-card{
+    background:#fff;
+    border:1px solid #e6edf7;
+    border-radius:28px;
+    padding:42px;
+    transition:.25s ease;
+}
+
+.sm-benefit-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 20px 50px rgba(15,23,42,.08);
+}
+
+
+.sm-benefit-icon{
+    background:#f4f8ff;
+
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    background:#f3f7fd;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+padding:24px;
+
+    
+margin:0 auto 30px;
+box-shadow:0 10px 30px rgba(11,87,208,.08);
+
+}
+
+.sm-benefit-card h3{
+    font-size:30px;
+    line-height:1.3;
+    text-align:center;
+    margin-bottom:24px;
+    color:#0f172a;
+}
+
+.sm-benefit-card p{
+    font-size:17px;
+    line-height:1.9;
+    color:#52627a;
+    text-align:center;
+}
+
+@media(max-width:992px){
+
+.sm-benefits-grid{
+    grid-template-columns:1fr;
+}
+
+.sm-benefits-heading h2{
+    font-size:36px;
+}
+
+.sm-benefit-card{
+    padding:34px;
+}
+
+}
+
+</style>
+
+<section class="content-cta-block"><div><h2>Need server management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>
+
+<style>
+.sm-benefit-icon svg{
+    width:64px;
+    height:64px;
+}
+</style>

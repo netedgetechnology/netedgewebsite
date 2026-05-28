@@ -1,0 +1,179 @@
+<?php
+
+
+
+
+
+$title = 'Server Management | Netedge Technology';
+$description = 'Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+?>
+
+<style id="server-management-hero">
+
+.v11-page-hero{
+    padding:48px 0 34px !important;
+}
+
+.v11-page-hero h1{
+    margin-bottom:12px !important;
+}
+
+.v11-page-hero p{
+    margin-bottom:0 !important;
+}
+
+.hero-actions{
+    margin-top:18px !important;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-hero v11-page-hero"
+style="min-height:260px !important;padding:55px 0 !important;">
+
+  <div class="container">
+    <span class="d3-kicker">Infrastructure Services</span>
+
+    <h1>24x7 Server Management</h1>
+
+    <p>
+      Professional remote server management services for Linux, Windows,
+      VPS, dedicated and enterprise hosting environments.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">
+        Discuss A Requirement
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="section">
+<div class="container">
+
+<div style="
+max-width:1100px;
+margin:0 auto;
+line-height:1.9;
+font-size:17px;
+color:#475569;
+">
+
+<p>
+Servers are the backbone of the IT industry, but most organizations have to focus on their core business. Server administration, maintenance and optimization are time consuming and technically challenging processes. Companies need to ensure that modern tools, monitoring systems and security practices are consistently applied to maintain stable and optimized infrastructure environments.
+</p>
+
+<p>
+This enables businesses to build scalable and competitive software platforms while delivering a seamless user experience. However, many organizations struggle to internally manage IT infrastructure and often seek technical assistance only after facing issues such as server downtime, security incidents or performance degradation.
+</p>
+
+<p>
+Netedge offers premium remote server management services for businesses across Australia, the UK and the US with complete end-to-end infrastructure management support. As an experienced IT infrastructure and server management company, our specialists help organizations optimize server performance, security and operational efficiency.
+</p>
+
+<p>
+We provide 24x7 server monitoring, maintenance, troubleshooting, infrastructure optimization, migrations, integration support and proactive administration services for both Linux and Windows server environments.
+</p>
+
+<p>
+Our hosting control panel management services are trusted by organizations operating shared hosting platforms, VPS environments and dedicated server infrastructures. SaaS providers, data centers and growing technology companies also rely on Netedge for outsourced infrastructure operations and server management support. We additionally provide specialized game server management services as part of our broad infrastructure support portfolio.
+</p>
+
+</div>
+
+</div>
+</section>
+
+
+
+<section class="section">
+<div class="container">
+
+</section>
+
+
+<section class="section">
+  <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="server-support">
+    <section class="sm56-top batch68-top">
+      <div class="sm56-top-copy"><span class="section-label">Server Management</span><h2>Server Management</h2><p>Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
+      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Webhosting Suppo<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
+    </section>
+    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Server Management Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Linux/Windows Server, Cloud Infrastructure and DirectAdmin support</div>
+<div><span>✓</span>Customer ticket, chat and email support</div>
+<div><span>✓</span>Website, email, DNS and database troubleshooting</div>
+<div><span>✓</span>Migration, backup and restore assistance</div>
+<div><span>✓</span>Abuse, spam and security issue handling</div>
+<div><span>✓</span>24x7 infrastructure operations support</div></div></section>
+    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Server Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
+          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
+          <h3>Linux, Windows & Cloud Infrastructure Management</h3>
+          <p>Linux, Windows and cloud infrastructure management services for enterprise environments, hosting providers and operational infrastructure teams.</p>
+          <ul>
+            <li>Linux and Windows server administration</li>
+            <li>AWS, Azure and hybrid cloud infrastructure support</li>
+            <li>Infrastructure monitoring and operational reporting</li>
+          </ul>
+          <strong>Explore</strong>
+        </article>
+<article class="sm56-expert-card batch68-card">
+          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
+          <h3>Technical Support & Helpdesk Operations</h3>
+          <p>24x7 helpdesk operations and customer support services for hosting providers, SaaS platforms and infrastructure businesses.</p>
+          <ul>
+            <li>Ticket handling and escalation management</li>
+            <li>Customer support workflows and live chat coordination</li>
+            <li>L1/L2 operational support and reporting</li>
+          </ul>
+          <strong>Explore</strong>
+        </article>
+<article class="sm56-expert-card batch68-card">
+          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
+          <h3>CloudLinux & Immunify Management</h3>
+          <p>CloudLinux and Immunify360 management services for shared hosting infrastructure, malware protection and operational security.</p>
+          <ul>
+            <li>CloudLinux & Immunify360 licensing assistance</li>
+            <li>24x7 ticketing and operational support</li>
+            <li>Complete shared hosting server management</li>
+          </ul>
+          <strong>Explore</strong>
+        </article>
+<article class="sm56-expert-card batch68-card">
+          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
+          <h3>Migration & Infrastructure Transition Services</h3>
+          <p>Infrastructure migration services for hosting platforms, virtualization environments, websites and enterprise server operations.</p>
+          <ul>
+            <li>Hosting server and infrastructure migration assistance</li>
+            <li>Website, cloud and virtualization migration support</li>
+            <li>Backup planning and disaster recovery preparation</li>
+          </ul>
+          <strong>Explore</strong>
+        </article></div></section>
+    <section class="content-cta-block"><div><h2>Need server management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+  </div>
+</section>
