@@ -63,7 +63,7 @@ foreach ($menu as $m) {
   <div class="v20-topbar">
     <div class="container v20-topbar-inner">
       <div class="v20-top-left">
-        <span class="v20-top-item">☎ +91 33 4062 1000</span>
+        
         <span class="v20-top-item">✉ sales@netedgetechnology.com</span>
       </div>
       <div class="v20-top-right">

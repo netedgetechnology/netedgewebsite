@@ -1,0 +1,306 @@
+<?php
+$title = 'Dedicated Technical Staff | Netedge Technology';
+$description = 'Dedicated technical resources for support, server administration, cloud operations and development teams.';
+?>
+
+
+<section class="page-hero v11-page-hero dedicated-staff-hero">
+
+  <div class="container dedicated-staff-hero-container">
+
+    <div class="dedicated-staff-hero-layout">
+
+      <div class="dedicated-staff-hero-copy">
+
+        <span class="d3-kicker">
+          Staffing Services
+        </span>
+
+        <h1>
+          Dedicated Technical Staffing
+        </h1>
+
+        <p>
+          Dedicated technical resources for support,
+          server administration, cloud operations and
+          development teams.
+        </p>
+
+      </div>
+
+      
+
+<div class="dedicated-staff-hero-image">
+    <img
+        src="/assets/images/hero/dedicated-technical-staff-hero.png"
+        alt="Dedicated Technical Staffing"
+    >
+</div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="section"><div class="container content-page v48-static-page" data-cms-slug="dedicated-technical-staff">
+
+<section class="content-section-block v54-intro-block">
+      <span class="section-label">Content completed</span>
+      <h2>Dedicated Technical Staff</h2>
+      <p>Dedicated technical staff for support, helpdesk, software support, sales support and infrastructure operations.</p>
+    </section>
+
+<section class="content-section-block v54-content-card">
+      <h2>Dedicated Technical Staffing Service</h2>
+      <p>Netedge provides technical staffing for companies that need dedicated support people working as an extension of their team.</p>
+<p>Dedicated staff can support technical support, helpdesk support, software support, sales support and infrastructure operations according to time zone and preferred working hours.</p>
+    </section>
+
+<section class="content-section-block v54-content-card">
+      <h2>Extended Team Model</h2>
+      <p>The dedicated staffing model helps clients serve end customers while Netedge works as an extended hand behind the scenes.</p>
+    </section>
+
+
+<section class="content-cta-block"><div><h2>Need help with this service?</h2><p>Share your requirement and our team will review it with the right technical approach.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+.dedicated-staff-hero{
+    overflow:hidden;
+    padding:70px 0 60px;
+}
+
+.dedicated-staff-hero-container{
+    max-width:1500px;
+    width:100%;
+}
+
+.dedicated-staff-hero-layout{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+    min-height:500px;
+}
+
+.dedicated-staff-hero-copy{
+    position:relative;
+    z-index:2;
+}
+
+.dedicated-staff-hero-copy h1{
+    font-size:64px;
+    line-height:1.05;
+    letter-spacing:-0.04em;
+    margin-bottom:24px;
+    max-width:620px;
+}
+
+.dedicated-staff-hero-copy p{
+    font-size:20px;
+    line-height:1.7;
+    max-width:620px;
+    color:#5b6780;
+}
+
+.dedicated-staff-hero-image{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    overflow:visible;
+}
+
+.dedicated-staff-hero-image img{
+    width:100%;
+    max-width:760px;
+    height:auto;
+    display:block;
+}
+
+.dedicated-staff-hero{
+    background:linear-gradient(
+        90deg,
+        #eef8ff 0%,
+        #f8fbff 35%,
+        #eef4ff 100%
+    );
+}
+
+@media(max-width:1200px){
+
+.dedicated-staff-hero-copy h1{
+    font-size:64px;
+    line-height:1.05;
+    letter-spacing:-0.04em;
+    margin-bottom:24px;
+    max-width:620px;
+}
+
+}
+
+@media(max-width:992px){
+
+.dedicated-staff-hero-layout{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+    min-height:500px;
+}
+
+.dedicated-staff-hero-image{
+    justify-content:center;
+    margin-top:40px;
+}
+
+.dedicated-staff-hero-copy h1{
+    font-size:64px;
+    line-height:1.05;
+    letter-spacing:-0.04em;
+    margin-bottom:24px;
+    max-width:620px;
+}
+
+}
+
+@media(max-width:700px){
+
+.dedicated-staff-hero-copy h1{
+    font-size:64px;
+    line-height:1.05;
+    letter-spacing:-0.04em;
+    margin-bottom:24px;
+    max-width:620px;
+}
+
+.dedicated-staff-hero-copy p{
+    font-size:20px;
+    line-height:1.7;
+    max-width:620px;
+    color:#5b6780;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c1{top:70px;}
+.c2{top:120px;}
+.c3{top:170px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+    
+}
+
+
+
+/* Dedicated Technical Staffing Hero Override */
+.dedicated-staff-hero{
+    padding:40px 0 20px !important;
+    min-height:auto !important;
+}
+
+.dedicated-staff-hero .container{
+    max-width:1400px !important;
+}
+
+.dedicated-staff-hero-layout{
+    display:grid !important;
+    grid-template-columns:48% 52% !important;
+    gap:20px !important;
+    align-items:center !important;
+    min-height:420px !important;
+}
+
+.dedicated-staff-hero-copy{
+    padding-right:20px;
+}
+
+.dedicated-staff-hero-copy h1{
+    font-size:72px !important;
+    line-height:1.0 !important;
+    max-width:650px !important;
+    margin-bottom:22px !important;
+}
+
+.dedicated-staff-hero-copy p{
+    font-size:18px !important;
+    line-height:1.7 !important;
+    max-width:620px !important;
+}
+
+.dedicated-staff-hero-image{
+    justify-content:flex-end !important;
+    align-items:center !important;
+}
+
+.dedicated-staff-hero-image img{
+    width:100% !important;
+    max-width:900px !important;
+    height:auto !important;
+    display:block !important;
+}
+
+@media(max-width:992px){
+
+.dedicated-staff-hero-layout{
+    grid-template-columns:1fr !important;
+}
+
+.dedicated-staff-hero-copy h1{
+    font-size:48px !important;
+}
+
+.dedicated-staff-hero-image{
+    margin-top:20px !important;
+    justify-content:center !important;
+}
+
+}
+
+</style>
+

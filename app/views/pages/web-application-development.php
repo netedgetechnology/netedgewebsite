@@ -1,13 +1,13 @@
 <?php
-$title = 'Web Application Management | Netedge Technology';
-$description = 'Web Application Management services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = 'Web Application Development | Netedge Technology';
+$description = 'Web Application Development services from Netedge Technology, designed for stable, secure and scalable technology operations.';
 ?>
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">
     <div class="sm58-hero-copy">
       <span class="d3-kicker">Software Development</span>
-      <h1>Web Application Management</h1>
-      <p>Web Application Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
+      <h1>Web Application Development</h1>
+      <p>Web Application Development services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
       <div class="sm58-hero-pills"><span>Custom</span><span>Backend,</span><span>API</span><span>Performance,</span></div>
     </div>
     <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
@@ -20,41 +20,41 @@ $description = 'Web Application Management services from Netedge Technology, des
 <section class="section">
   <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="web-application-development">
     <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Software Development</span><h2>Web Application Management</h2><p>Web Application Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
+      <div class="sm56-top-copy"><span class="section-label">Software Development</span><h2>Web Application Development</h2><p>Web Application Development services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
       <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Web Application <br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
     </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Web Application Management Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Custom web application development</div>
+    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Web Application Development Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Custom web application development</div>
 <div><span>✓</span>Backend, frontend and database development</div>
 <div><span>✓</span>API integration and third-party connectivity</div>
 <div><span>✓</span>Performance, security and maintainability focus</div>
 <div><span>✓</span>Application maintenance and enhancement</div>
 <div><span>✓</span>Business workflow digitization</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Web Application Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
+    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Web Application Development Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
           <h3>Custom web application development</h3>
           <p>Custom web application development with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <ul><li>Custom business workflow development</li><li>Scalable architecture planning</li><li>Responsive and user-friendly interfaces</li></ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
           <h3>Backend, frontend</h3>
           <p>Backend, frontend and database development with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <ul><li>Backend API and database development</li><li>Modern frontend technologies</li><li>Optimized application performance</li></ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
           <h3>API integration</h3>
           <p>API integration and third-party connectivity with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <ul><li>Third-party API integrations</li><li>Secure data synchronization</li><li>Payment gateway and CRM connectivity</li></ul>
           <strong>Explore</strong>
         </article>
 <article class="sm56-expert-card batch68-card">
           <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
           <h3>Performance, security</h3>
           <p>Performance, security and maintainability focus with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
+          <ul><li>Application security hardening</li><li>Performance optimization and monitoring</li><li>Long-term maintainability focus</li></ul>
           <strong>Explore</strong>
         </article></div></section>
     <section class="content-cta-block"><div><h2>Need web application management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
