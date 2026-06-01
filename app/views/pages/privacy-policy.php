@@ -19,44 +19,117 @@ $description = 'Privacy Policy services from Netedge Technology, designed for st
 </section>
 <section class="section">
   <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="privacy-policy">
-    <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Privacy</span><h2>Privacy Policy</h2><p>Privacy Policy services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
-      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Privacy Policy<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
-    </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Privacy Policy Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Information may be collected through forms and communication</div>
-<div><span>✓</span>Data is used to respond to inquiries and deliver services</div>
-<div><span>✓</span>Reasonable safeguards are used to protect submitted information</div>
-<div><span>✓</span>Information is not sold to advertisers</div>
-<div><span>✓</span>Third-party tools may be used for communication or delivery</div>
-<div><span>✓</span>Users may contact Netedge for privacy-related requests</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Privacy Policy Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Information may be collected through forms</h3>
-          <p>Information may be collected through forms and communication with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Data is used to respond to inquiries</h3>
-          <p>Data is used to respond to inquiries and deliver services with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Reasonable safeguards are used to protect submitted information</h3>
-          <p>Reasonable safeguards are used to protect submitted information with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Information is not sold to advertisers</h3>
-          <p>Information is not sold to advertisers with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article></div></section>
-    <section class="content-cta-block"><div><h2>Need privacy policy support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    
+<div class="legal-content">
+
+<h2>Privacy Policy</h2>
+
+<h3>Your Information</h3>
+
+<p>
+When you sign up for any of our services we may ask you to provide contact information including your name, address, email address and payment details. When support is required, our staff may need access to information necessary to diagnose and resolve issues. We may also collect certain website visitor information through analytics tools including browser information, device information, operating system details and general geographic information.
+</p>
+
+<h3>How Your Information Is Used</h3>
+
+<p>We may use personal information for the following purposes:</p>
+
+<ul>
+<li>Payment processing and service delivery.</li>
+<li>Providing technical support and customer assistance.</li>
+<li>Sending service announcements, updates and special offers.</li>
+<li>Improving our services, website and customer experience.</li>
+<li>Website analytics, reporting and service optimization.</li>
+</ul>
+
+<p>
+We will never sell your personally identifiable information. Information may only be disclosed to law enforcement agencies when legally required or to service providers acting on our behalf under appropriate confidentiality obligations.
+</p>
+
+<p>
+Our services are not intended for individuals under the age of 13 and we do not knowingly maintain information belonging to children under 13 years of age.
+</p>
+
+<h3>Cookies</h3>
+
+<p>
+This website uses cookies for functionality, authentication, analytics and user experience improvements. Session cookies may expire when a browser session ends while persistent cookies may remain on a device for a longer period. Users may disable cookies through browser settings, however some website functionality may be affected.
+</p>
+
+<h3>Log Files</h3>
+
+<p>
+Like most websites, we automatically collect certain information including IP address, browser type, ISP, referring pages, operating system, timestamps and clickstream information. This information is used for administration, analytics, abuse prevention, security monitoring and service improvement purposes.
+</p>
+
+<h3>Surveys</h3>
+
+<p>
+From time to time Netedge Technology may conduct voluntary surveys to better understand customer requirements and improve products and services. Survey information is used internally and is not sold to third parties.
+</p>
+
+<h3>Communications From The Site</h3>
+
+<p>
+When we receive email communications we use the provided contact information solely to respond to requests, provide support and communicate service-related information. Customers may update communication preferences through their account settings where applicable.
+</p>
+
+<h3>Newsletter</h3>
+
+<p>
+Users may choose to opt-in or opt-out of newsletters and promotional communications at any time. Marketing communications may include company updates, service announcements and promotional offers.
+</p>
+
+<h3>Information Sharing and Disclosure</h3>
+
+<p>
+Website analytics information may be collected using services such as Google Analytics to improve website functionality and user experience. Aggregate information is used for reporting and analysis purposes and is not linked to personally identifiable information.
+</p>
+
+<h3>Personally Identifiable Information</h3>
+
+<p>
+Netedge Technology does not share, sell, rent or trade personally identifiable information with third parties except where necessary to deliver services, comply with legal obligations or protect legitimate business interests.
+</p>
+
+<h3>How You Can Access or Correct Your Information</h3>
+
+<p>
+Customers may review and update account information through their account management area where available. Requests for correction of inaccurate information may also be submitted directly to Netedge Technology for review.
+</p>
+
+<h3>Specific Terms and Conditions</h3>
+
+<p>
+Email communications transmitted through our services are considered private correspondence between sender and recipient. Netedge Technology may access or disclose information only when required by law, legal process, enforcement of service agreements, protection of rights or prevention of abuse.
+</p>
+
+<h3>Legal Disclaimer</h3>
+
+<p>
+We reserve the right to disclose personally identifiable information when required by law or when such disclosure is necessary to protect our rights, comply with legal obligations, court orders or judicial proceedings.
+</p>
+
+<h3>Security</h3>
+
+<p>
+We follow generally accepted industry standards to protect personal information during transmission and storage. While no method of transmission or storage can guarantee absolute security, reasonable safeguards including SSL encryption and operational security controls are used to protect information.
+</p>
+
+<h3>Links To Other Sites</h3>
+
+<p>
+This website may contain links to third-party websites. Netedge Technology is not responsible for the privacy practices, content or policies of external websites and encourages users to review the privacy policies of those websites independently.
+</p>
+
+<h3>Changes To This Privacy Statement</h3>
+
+<p>
+Netedge Technology may modify this Privacy Policy at any time. Updated versions will be published on this website. Users are responsible for reviewing this Privacy Policy periodically to remain informed about how information is collected, used and protected.
+</p>
+
+</div>
+
+<section class="content-cta-block"><div><h2>Need privacy policy support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>
