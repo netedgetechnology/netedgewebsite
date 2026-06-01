@@ -7598,3 +7598,46 @@ line-height:1.8;
 margin-top:80px !important;
 }
 
+
+/* Our Expertise Page */
+
+.expertise-page .featured-card{
+min-height:220px;
+}
+
+.expertise-page .featured-card .author{
+font-size:18px;
+font-weight:700;
+margin-bottom:14px;
+color:#0f172a;
+}
+
+.expertise-page .featured-card .testimonial-text{
+line-height:1.8;
+color:#475569;
+}
+
+.expertise-page h2{
+position:relative;
+padding-bottom:12px;
+}
+
+.expertise-page h2:after{
+content:"";
+position:absolute;
+left:0;
+bottom:0;
+width:70px;
+height:4px;
+border-radius:4px;
+background:#0f4c81;
+}
+
+.expertise-page .feedback-wall{
+margin-top:25px;
+}
+
+.expertise-page .featured-testimonials{
+margin-top:25px;
+}
+

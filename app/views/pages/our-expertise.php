@@ -19,44 +19,181 @@ $description = 'Our Expertise services from Netedge Technology, designed for sta
 </section>
 <section class="section">
   <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="our-expertise">
-    <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Our Expertise</span><h2>Our Expertise</h2><p>Our Expertise services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
-      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Our Expertise<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
-    </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Our Expertise Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Server and virtualization management</div>
-<div><span>✓</span>Webhosting and technical support</div>
-<div><span>✓</span>Cloud infrastructure management</div>
-<div><span>✓</span>NOC monitoring and remote infrastructure management</div>
-<div><span>✓</span>Web and mobile application development</div>
-<div><span>✓</span>Dedicated and shared technical staffing</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Our Expertise Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Server</h3>
-          <p>Server and virtualization management with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Webhosting</h3>
-          <p>Webhosting and technical support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Cloud infrastructure management</h3>
-          <p>Cloud infrastructure management with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>NOC monitoring</h3>
-          <p>NOC monitoring and remote infrastructure management with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article></div></section>
-    <section class="content-cta-block"><div><h2>Need our expertise support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    
+<div class="expertise-page">
+
+<div class="testimonials-intro">
+<span class="section-label">Technology Expertise</span>
+<h2>20+ Years Of Infrastructure & Technology Excellence</h2>
+<p>
+Netedge Technology delivers enterprise-grade server management, cloud operations, software development, infrastructure consulting and managed services to organizations worldwide.
+</p>
+</div>
+
+<div class="testimonial-stats">
+
+<div class="stat-box">
+<strong>20+</strong>
+<span>Years Experience</span>
+</div>
+
+<div class="stat-box">
+<strong>400+</strong>
+<span>Projects Delivered</span>
+</div>
+
+<div class="stat-box">
+<strong>36+</strong>
+<span>Countries Served</span>
+</div>
+
+<div class="stat-box">
+<strong>24x7</strong>
+<span>Support Coverage</span>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Core Technology Domains</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<div class="author">Server Infrastructure</div>
+<div class="testimonial-text">Linux, Windows, virtualization, clustering, hosting platforms and enterprise server administration.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Cloud & DevOps</div>
+<div class="testimonial-text">AWS, Azure, Google Cloud, CI/CD pipelines, automation and cloud-native infrastructure.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Software Development</div>
+<div class="testimonial-text">Custom web applications, portals, SaaS platforms and enterprise software development.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Hosting Platforms</div>
+<div class="testimonial-text">cPanel, Plesk, DirectAdmin, Webmin, ISPConfig and hosting infrastructure management.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Security & Compliance</div>
+<div class="testimonial-text">Server hardening, firewall management, malware protection, audits and security monitoring.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Monitoring & NOC</div>
+<div class="testimonial-text">24x7 monitoring, alerting, incident response and operational support.</div>
+</div>
+
+</div>
+
+<h2 style="margin:70px 0 20px">Technology Expertise Matrix</h2>
+
+<div class="feedback-wall">
+
+<div class="featured-card">
+<div class="author">Server Operating Systems</div>
+<div class="testimonial-text">
+Windows Server, CentOS, RedHat Enterprise Linux, Ubuntu, Debian, CloudLinux, AlmaLinux, Rocky Linux and FreeBSD.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Control Panels</div>
+<div class="testimonial-text">
+cPanel, Plesk, DirectAdmin, InterWorx, Webmin and ISPConfig.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Web Servers</div>
+<div class="testimonial-text">
+Apache, Nginx, LiteSpeed and Microsoft IIS.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Database Technologies</div>
+<div class="testimonial-text">
+MySQL, MariaDB, PostgreSQL and Microsoft SQL Server.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Cloud & Virtualization</div>
+<div class="testimonial-text">
+AWS, Microsoft Azure, Google Cloud, VMware, Proxmox, Hyper-V, KVM and OpenVZ.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Software Development</div>
+<div class="testimonial-text">
+PHP, Laravel, CodeIgniter, .NET, Node.js, React, Angular and Python.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Mail & Collaboration</div>
+<div class="testimonial-text">
+Postfix, Exim, Exchange Server, Spam Filtering and Enterprise Mail Solutions.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Security Solutions</div>
+<div class="testimonial-text">
+Firewalls, IDS/IPS, VPNs, WAF, Malware Protection, Server Hardening and Backup Systems.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Monitoring & NOC</div>
+<div class="testimonial-text">
+Nagios, Zabbix, Grafana, Prometheus, PRTG and custom monitoring platforms.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Datacenter & Network</div>
+<div class="testimonial-text">
+Routing, Switching, DNS Infrastructure, Load Balancers, CDN Integration and Datacenter Operations.
+</div>
+</div>
+
+</div>
+
+<h2 style="margin:70px 0 20px">Why Clients Choose Netedge Technology</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<div class="author">Proven Experience</div>
+<div class="testimonial-text">More than two decades of infrastructure, hosting and server management expertise.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Global Reach</div>
+<div class="testimonial-text">Serving customers across 36+ countries with enterprise-grade support.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">24x7 Operations</div>
+<div class="testimonial-text">Round-the-clock monitoring, support and operational management.</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Multi-Technology Expertise</div>
+<div class="testimonial-text">Deep expertise across operating systems, cloud platforms, applications and infrastructure.</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="content-cta-block"><div><h2>Need our expertise support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>
