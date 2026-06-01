@@ -19,44 +19,198 @@ $description = 'Contact Us services from Netedge Technology, designed for stable
 </section>
 <section class="section">
   <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="contact-us">
-    <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Contact</span><h2>Contact Us</h2><p>Contact Us services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
-      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Contact Us<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
-    </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Contact Us Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Share your service requirement with our team</div>
-<div><span>✓</span>Get help choosing the right support model</div>
-<div><span>✓</span>Discuss infrastructure, software or staffing needs</div>
-<div><span>✓</span>Request consultation for managed services</div>
-<div><span>✓</span>Connect for partnership and offshore delivery</div>
-<div><span>✓</span>Receive response from the appropriate team</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Contact Us Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Share your service requirement with our team</h3>
-          <p>Share your service requirement with our team with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Get help choosing the right support model</h3>
-          <p>Get help choosing the right support model with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Discuss infrastructure, software or staffing needs</h3>
-          <p>Discuss infrastructure, software or staffing needs with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Request consultation for managed services</h3>
-          <p>Request consultation for managed services with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article></div></section>
-    <section class="content-cta-block"><div><h2>Need contact us support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+    
+<div class="contact-page">
+
+<div class="testimonials-intro">
+<span class="section-label">Trusted Since 2002</span>
+<h2>Let's Discuss Your Requirement</h2>
+<p>
+Whether you need server management, cloud infrastructure, software development, technical support or dedicated technical staffing, our team is ready to help.
+</p>
+</div>
+
+<div class="testimonial-stats">
+
+<div class="stat-box">
+<strong>20+</strong>
+<span>Years Experience</span>
+</div>
+
+<div class="stat-box">
+<strong>400+</strong>
+<span>Projects Delivered</span>
+</div>
+
+<div class="stat-box">
+<strong>36+</strong>
+<span>Countries Served</span>
+</div>
+
+<div class="stat-box">
+<strong>24x7</strong>
+<span>Support Operations</span>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Get In Touch</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<div class="author">Sales Enquiries</div>
+<div class="testimonial-text">
+sales@netedgetechnology.com
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Technical Support</div>
+<div class="testimonial-text">
+support@netedgetechnology.com
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Office Address</div>
+<div class="testimonial-text">
+10, Amrapali Axiom<br>
+4th Floor, Opp. Bopal Bridge<br>
+Ambli, Bopal<br>
+Ahmedabad (Bharat) - 380058<br><br>
+
+<strong>Phone:</strong> +91-9909777343
+</div>
+</div>
+
+</div>
+
+<h2 style="margin:70px 0 20px">Send Us Your Requirement</h2>
+
+<div class="contact-form-wrapper">
+
+<?php if (!empty($_SESSION['flash_success'])): ?>
+<div class="notice success">
+<?= e($_SESSION['flash_success']); unset($_SESSION['flash_success']); ?>
+</div>
+<?php endif; ?>
+
+<?php if (!empty($_SESSION['flash_error'])): ?>
+<div class="notice error">
+<?= e($_SESSION['flash_error']); unset($_SESSION['flash_error']); ?>
+</div>
+<?php endif; ?>
+
+<form method="post" action="<?= e(url('contact-us/submit')) ?>" class="enterprise-contact-form">
+
+<?= csrf_field() ?>
+
+<input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
+
+<div class="form-grid">
+
+<div>
+<label>First Name *</label>
+<input type="text" id="first_name" required>
+</div>
+
+<div>
+<label>Last Name *</label>
+<input type="text" id="last_name" required>
+</div>
+
+<div>
+<label>Email-ID *</label>
+<input type="email" name="email" required>
+</div>
+
+<div>
+<label>Mobile Number *</label>
+<input type="text" name="phone" required>
+</div>
+
+<div>
+<label>Company Name</label>
+<input type="text" name="company">
+</div>
+
+<div>
+<label>Service Required</label>
+<select name="service">
+<option value="">Select Service</option>
+<option>Server Management</option>
+<option>Cloud Infrastructure</option>
+<option>Technical Support</option>
+<option>Software Development</option>
+<option>Security Services</option>
+<option>Dedicated Technical Staff</option>
+</select>
+</div>
+
+</div>
+
+<input type="hidden" name="country_code" value="+91">
+
+<input type="hidden" name="name" id="full_name">
+
+<div style="margin-top:20px">
+<label>Comments *</label>
+<textarea name="message" rows="6" required></textarea>
+</div>
+
+<button class="btn" type="submit" style="margin-top:20px">
+Submit Enquiry
+</button>
+
+</form>
+
+<script>
+document.addEventListener('submit', function(e){
+  var f=document.getElementById('first_name').value.trim();
+  var l=document.getElementById('last_name').value.trim();
+  document.getElementById('full_name').value=(f+' '+l).trim();
+});
+</script>
+
+</div>
+
+<h2 style="margin:70px 0 20px">Why Businesses Choose Netedge Technology</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<div class="author">Server Management</div>
+<div class="testimonial-text">
+Comprehensive Linux, Windows and hosting infrastructure management.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Cloud & DevOps</div>
+<div class="testimonial-text">
+AWS, Azure, automation and modern cloud operations.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Software Development</div>
+<div class="testimonial-text">
+Custom web applications, enterprise portals and SaaS solutions.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Dedicated Technical Staff</div>
+<div class="testimonial-text">
+Experienced engineers available for long-term technical engagements.
+</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="content-cta-block"><div><h2>Need contact us support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>

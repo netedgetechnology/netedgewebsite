@@ -85,6 +85,8 @@ spl_autoload_register(function ($class) {
     $paths = [
         __DIR__ . '/../app/' . $relative . '.php',
         __DIR__ . '/../app/' . strtolower($relative) . '.php',
+        __DIR__ . '/../app/controllers/' . basename($relative) . '.php',
+        __DIR__ . '/../app/models/' . basename($relative) . '.php',
     ];
 
     foreach ($paths as $path) {
@@ -203,6 +205,27 @@ if (preg_match('#^/cms/pages/([a-z0-9\-]+)$#', $uri, $m)) {
     } else {
         netedge_call_controller(\App\Controllers\CmsController::class, 'edit', [$m[1]]);
     }
+    exit;
+}
+
+
+if ($uri === '/contact-us/submit' && $routeMethod === 'POST') {
+    netedge_call_controller(\App\Controllers\ContactController::class, 'submit');
+    exit;
+}
+
+if ($uri === '/contact-us' && $routeMethod === 'POST') {
+    netedge_call_controller(\App\Controllers\ContactController::class, 'submit');
+    exit;
+}
+
+if ($uri === '/discuss-a-requirement/submit' && $routeMethod === 'POST') {
+    netedge_call_controller(\App\Controllers\ContactController::class, 'discussSubmit');
+    exit;
+}
+
+if ($uri === '/inquire/submit' && $routeMethod === 'POST') {
+    netedge_call_controller(\App\Controllers\ContactController::class, 'inquireSubmit');
     exit;
 }
 
