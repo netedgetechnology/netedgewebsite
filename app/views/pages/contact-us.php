@@ -105,6 +105,8 @@ Ahmedabad (Bharat) - 380058<br><br>
 <form method="post" action="<?= e(url('contact-us/submit')) ?>" class="enterprise-contact-form">
 
 <?= csrf_field() ?>
+<input type="hidden" name="form_started" value="<?= time() ?>">
+<input type="hidden" name="form_started" value="<?= time() ?>">
 
 <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
 

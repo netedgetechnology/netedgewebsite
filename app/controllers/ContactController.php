@@ -35,6 +35,18 @@ final class ContactController {
     private function handleSubmit(string $redirectSlug): void {
         verify_csrf();
 
+        $formStarted = (int)($_POST['form_started'] ?? 0);
+
+        if (
+            $formStarted > 0 &&
+            (time() - $formStarted) < 5
+        ) {
+            $_SESSION['flash_error'] = 'Please take a moment to complete the form.';
+            header('Location: '.url($redirectSlug));
+            exit;
+        }
+
+
         if (!empty($_POST['website'])) {
             header('Location: '.url($redirectSlug).'?sent=1');
             exit;
