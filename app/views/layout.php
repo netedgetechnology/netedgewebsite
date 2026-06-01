@@ -189,6 +189,7 @@ foreach ($menu as $m) {
       <h4>Company</h4>
       <a href="<?= e(url('company')) ?>">About Company</a>
       <a href="<?= e(url('achievements')) ?>">Achievements</a>
+      <a href="<?= e(url('our-expertise')) ?>">Our Expertise</a>
       <a href="<?= e(url('why-us')) ?>">Why Us</a>
       <a href="<?= e(url('career')) ?>">Career</a>
       <a href="<?= e(url('contact-us')) ?>">Contact Us</a>
