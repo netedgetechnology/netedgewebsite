@@ -120,7 +120,7 @@ final class ContactController {
         if ($hostname === $ipAddress || trim((string)$hostname) === '') {
             $hostname = 'Not Available';
         }
-        $submittedAt = gmdate('Y-m-d H:i:s') . ' UTC';
+        $submittedAt = date('d M Y, h:i A') . ' IST';
 
         $browser = 'Unknown';
         $os = 'Unknown';
@@ -170,7 +170,7 @@ final class ContactController {
 
         $adminBody = '
 <html>
-<body style="margin:0;padding:0;background:#eef2f7;font-family:Arial,sans-serif;">
+<body style="margin:0;padding:0;background:#eef2f7;font-family:Roboto, Arial, Helvetica, sans-serif;">
 
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
@@ -264,7 +264,7 @@ https://www.netedgetechnology.com
 
         $customerBody = '
 <html>
-<body style="margin:0;padding:0;background:#eef2f7;font-family:Arial,sans-serif;">
+<body style="margin:0;padding:0;background:#eef2f7;font-family:Roboto, Arial, Helvetica, sans-serif;">
 
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
