@@ -16,14 +16,27 @@ $description = 'Contact Us services from Netedge Technology, designed for stable
       <div class="sm58-hero-badge badge-one">24x7</div><div class="sm58-hero-badge badge-two">Managed</div><div class="sm58-hero-badge badge-three">Secure</div>
     </div>
   </div>
+
 </section>
+
+<?php if (!empty($_SESSION['flash_success'])): ?>
+<section class="section" style="padding-top:25px;padding-bottom:0">
+<div class="container">
+<div class="notice success" style="font-size:16px;padding:18px 24px">
+<?= e($_SESSION['flash_success']); unset($_SESSION['flash_success']); ?>
+</div>
+</div>
+</section>
+<?php endif; ?>
+
 <section class="section">
+
   <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="contact-us">
     
 <div class="contact-page">
 
 <div class="testimonials-intro">
-<span class="section-label">Trusted Since 2002</span>
+<span class="section-label">Trusted Since 2007</span>
 <h2>Let's Discuss Your Requirement</h2>
 <p>
 Whether you need server management, cloud infrastructure, software development, technical support or dedicated technical staffing, our team is ready to help.
@@ -78,9 +91,7 @@ support@netedgetechnology.com
 10, Amrapali Axiom<br>
 4th Floor, Opp. Bopal Bridge<br>
 Ambli, Bopal<br>
-Ahmedabad (Bharat) - 380058<br><br>
-
-<strong>Phone:</strong> +91-9909777343
+Ahmedabad (Bharat) - 380058
 </div>
 </div>
 
@@ -90,11 +101,7 @@ Ahmedabad (Bharat) - 380058<br><br>
 
 <div class="contact-form-wrapper">
 
-<?php if (!empty($_SESSION['flash_success'])): ?>
-<div class="notice success">
-<?= e($_SESSION['flash_success']); unset($_SESSION['flash_success']); ?>
-</div>
-<?php endif; ?>
+
 
 <?php if (!empty($_SESSION['flash_error'])): ?>
 <div class="notice error">
@@ -106,7 +113,6 @@ Ahmedabad (Bharat) - 380058<br><br>
 
 <?= csrf_field() ?>
 <input type="hidden" name="form_started" value="<?= time() ?>">
-<input type="hidden" name="form_started" value="<?= time() ?>">
 
 <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
 
@@ -114,12 +120,12 @@ Ahmedabad (Bharat) - 380058<br><br>
 
 <div>
 <label>First Name *</label>
-<input type="text" id="first_name" required>
+<input type="text" id="first_name" name="first_name" required>
 </div>
 
 <div>
 <label>Last Name *</label>
-<input type="text" id="last_name" required>
+<input type="text" id="last_name" name="last_name" required>
 </div>
 
 <div>
@@ -152,7 +158,24 @@ Ahmedabad (Bharat) - 380058<br><br>
 
 </div>
 
-<input type="hidden" name="country_code" value="+91">
+
+<div style="margin-top:20px">
+<label>Country *</label>
+<select id="country" required>
+<option value="+91">India (+91)</option>
+<option value="+1">United States (+1)</option>
+<option value="+44">United Kingdom (+44)</option>
+<option value="+61">Australia (+61)</option>
+<option value="+49">Germany (+49)</option>
+<option value="+33">France (+33)</option>
+<option value="+971">United Arab Emirates (+971)</option>
+<option value="+65">Singapore (+65)</option>
+<option value="+1">Canada (+1)</option>
+</select>
+</div>
+
+<input type="hidden" name="country_code" id="country_code" value="+91">
+
 
 <input type="hidden" name="name" id="full_name">
 
@@ -172,6 +195,10 @@ document.addEventListener('submit', function(e){
   var f=document.getElementById('first_name').value.trim();
   var l=document.getElementById('last_name').value.trim();
   document.getElementById('full_name').value=(f+' '+l).trim();
+});
+
+document.getElementById('country').addEventListener('change', function(){
+  document.getElementById('country_code').value=this.value;
 });
 </script>
 

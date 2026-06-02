@@ -35,6 +35,42 @@ final class ContactController {
     private function handleSubmit(string $redirectSlug): void {
         verify_csrf();
 
+        $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+
+        $limitDir = STORAGE_PATH . '/rate-limit';
+
+        if (!is_dir($limitDir)) {
+            @mkdir($limitDir, 0755, true);
+        }
+
+        $limitFile = $limitDir . '/' . md5($ip) . '.json';
+
+        $history = [];
+
+        if (is_file($limitFile)) {
+            $history = json_decode((string)file_get_contents($limitFile), true) ?: [];
+        }
+
+        $history = array_values(array_filter(
+            $history,
+            fn($t) => ($t > time() - 3600)
+        ));
+
+        if (count($history) >= 5) {
+            $_SESSION['flash_error'] =
+                'Too many enquiries submitted. Please try again later.';
+            header('Location: '.url($redirectSlug));
+            exit;
+        }
+
+        $history[] = time();
+
+        file_put_contents(
+            $limitFile,
+            json_encode($history),
+            LOCK_EX
+        );
+
         $formStarted = (int)($_POST['form_started'] ?? 0);
 
         if (
@@ -53,6 +89,13 @@ final class ContactController {
         }
 
         $name=trim((string)($_POST['name'] ?? ''));
+
+        if ($name === '') {
+            $name = trim(
+                (string)($_POST['first_name'] ?? '') . ' ' .
+                (string)($_POST['last_name'] ?? '')
+            );
+        }
         $email=trim((string)($_POST['email'] ?? ''));
         $country_code=trim((string)($_POST['country_code'] ?? ''));
         $phone=trim((string)($_POST['phone'] ?? ''));
@@ -70,29 +113,232 @@ final class ContactController {
         $phone = $phone_full;
         Contact::create(compact('name','email','phone','company','service','message'));
 
-        $subject = 'New website inquiry - Netedge Technology';
-        $body = "New website inquiry\n\n"
-            ."Name: {$name}\n"
-            ."Email: {$email}\n"
-            ."Phone: {$phone}\n"
-            ."Company: {$company}\n"
-            ."Service: {$service}\n\n"
-            ."Message:\n{$message}\n";
-        $headers = "From: Netedge Website <sales@netedgetechnology.com>\r\n"
-            ."Reply-To: {$email}\r\n";
-        @mail('sales@netedgetechnology.com', $subject, $body, $headers);
+        $ipAddress = $_SERVER['REMOTE_ADDR'] ?? '';
+        $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+        $hostname = $ipAddress ? @gethostbyaddr($ipAddress) : '';
+
+        if ($hostname === $ipAddress || trim((string)$hostname) === '') {
+            $hostname = 'Not Available';
+        }
+        $submittedAt = gmdate('Y-m-d H:i:s') . ' UTC';
+
+        $browser = 'Unknown';
+        $os = 'Unknown';
+
+        if (stripos($userAgent, 'Firefox') !== false) {
+            $browser = 'Firefox';
+        } elseif (stripos($userAgent, 'Edg') !== false) {
+            $browser = 'Microsoft Edge';
+        } elseif (stripos($userAgent, 'Chrome') !== false) {
+            $browser = 'Chrome';
+        } elseif (stripos($userAgent, 'Safari') !== false) {
+            $browser = 'Safari';
+        }
+
+        if (stripos($userAgent, 'Windows') !== false) {
+            $os = 'Windows';
+        } elseif (stripos($userAgent, 'Linux') !== false) {
+            $os = 'Linux';
+        } elseif (stripos($userAgent, 'Mac') !== false) {
+            $os = 'macOS';
+        }
+
+        $spamScore = 0;
+
+        if (preg_match('/https?:\/\//i', $message)) {
+            $spamScore += 40;
+        }
+
+        if (preg_match('/[^\x00-\x7F]/', $message)) {
+            $spamScore += 20;
+        }
+
+        if (substr_count(strtolower($message), 'http') > 1) {
+            $spamScore += 20;
+        }
+
+        $riskLevel = 'Low';
+
+        if ($spamScore >= 60) {
+            $riskLevel = 'High';
+        } elseif ($spamScore >= 30) {
+            $riskLevel = 'Medium';
+        }
+
+        
+        $logoUrl = 'https://www.netedgetechnology.com/assets/images/logo.png';
+
+        $adminBody = '
+<html>
+<body style="margin:0;padding:0;background:#eef2f7;font-family:Arial,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<table width="700" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid #dbe3ee;">
+<tr>
+<td>
+
+
+<div style="background:#0f172a;padding:18px 24px">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left" width="120">
+<img src="'.$logoUrl.'" width="180" alt="Netedge Technology" border="0">
+</td>
+<td align="right">
+<div style="color:#ffffff;font-size:22px;font-weight:700">
+Website Inquiry Notification
+</div>
+<div style="color:#94a3b8;font-size:13px;margin-top:4px">
+Netedge Technology Lead Capture System
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div style="background:#2563eb;color:#ffffff;padding:14px 24px">
+<table width="100%">
+<tr>
+<td><strong>Submitted:</strong> '.$submittedAt.'</td>
+<td align="center"><strong>Risk:</strong> '.$riskLevel.'</td>
+<td align="right"><strong>Spam Score:</strong> '.$spamScore.'</td>
+</tr>
+</table>
+</div>
+
+<div style="padding:30px">
+
+<div style="margin-top:10px;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;padding:20px"><h2 style="margin-top:0;color:#1d4ed8;border-bottom:2px solid #dbeafe;padding-bottom:8px">Contact Information</h2>
+
+<table width="100%" cellpadding="8" border="0">
+<tr><td><strong>Name</strong></td><td>'.htmlspecialchars($name).'</td></tr>
+<tr><td><strong>Email</strong></td><td>'.htmlspecialchars($email).'</td></tr>
+<tr><td><strong>Phone</strong></td><td>'.htmlspecialchars($phone).'</td></tr>
+<tr><td><strong>Company</strong></td><td>'.htmlspecialchars($company).'</td></tr>
+<tr><td><strong>Service</strong></td><td>'.htmlspecialchars($service).'</td></tr>
+</table></div><div style="margin-top:20px;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;padding:20px"><h2 style="margin-top:0;color:#1d4ed8;border-bottom:2px solid #dbeafe;padding-bottom:8px">Message</h2>
+
+<div style="background:#f8fafc;border:1px solid #dbeafe;border-left:4px solid #2563eb;padding:18px">
+'.nl2br(htmlspecialchars($message)).'
+</div><div style="margin-top:20px;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;padding:20px"><h2 style="margin-top:0;color:#1d4ed8;border-bottom:2px solid #dbeafe;padding-bottom:8px">Lead Intelligence</h2>
+
+<table width="100%" cellpadding="8" border="0">
+<tr><td><strong>IP Address</strong></td><td>'.htmlspecialchars($ipAddress).'</td></tr>
+<tr><td><strong>Hostname</strong></td><td>'.htmlspecialchars($hostname).'</td></tr>
+<tr><td><strong>Browser</strong></td><td>'.$browser.'</td></tr>
+<tr><td><strong>Operating System</strong></td><td>'.$os.'</td></tr>
+<tr><td><strong>Risk Level</strong></td><td>'.$riskLevel.'</td></tr>
+<tr><td><strong>Spam Score</strong></td><td>'.$spamScore.'</td></tr>
+<tr><td><strong>Submitted</strong></td><td>'.$submittedAt.'</td></tr>
+</table></div><div style="background:#f8fafc;padding:24px;text-align:center;color:#64748b;margin-top:24px">
+<strong>Netedge Technology</strong><br>Trusted Since 2007<br>
+https://www.netedgetechnology.com
+</div>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>';
+
+        $adminSubject = (($riskLevel === 'High') ? '[HIGH RISK] ' : '') . 'New Website Inquiry - Netedge Technology';
+
+        $adminHeaders =
+            "MIME-Version: 1.0\r\n" .
+            "Content-Type: text/html; charset=UTF-8\r\n" .
+            "From: Netedge Website <sales@netedgetechnology.com>\r\n" .
+            "Reply-To: {$email}\r\n";
+
+        @mail(
+            'sales@netedgetechnology.com',
+            '=?UTF-8?B?'.base64_encode($adminSubject).'?=',
+            $adminBody,
+            $adminHeaders
+        );
+
+        $customerBody = '
+<html>
+<body style="margin:0;padding:0;background:#eef2f7;font-family:Arial,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+<table width="700" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid #dbe3ee;">
+<tr>
+<td>
+
+
+<div style="background:#0f172a;padding:18px 24px">
+<table width="100%">
+<tr>
+<td align="left">
+<img src="'.$logoUrl.'" width="180" alt="Netedge Technology" border="0">
+</td>
+<td align="right" style="color:#ffffff;font-size:18px;font-weight:700">
+Inquiry Received
+</td>
+</tr>
+</table>
+</div>
+
+<div style="padding:30px">
+
+<h2>Thank You For Contacting Netedge Technology</h2>
+
+<p>Dear '.htmlspecialchars($name).',</p>
+
+<p>
+We have successfully received your inquiry.
+Our team will review your requirement and respond shortly.
+</p>
+
+<table width="100%" cellpadding="8">
+<tr><td><strong>Service</strong></td><td>'.htmlspecialchars($service).'</td></tr>
+<tr><td><strong>Phone</strong></td><td>'.htmlspecialchars($phone).'</td></tr>
+<tr><td><strong>Submitted</strong></td><td>'.$submittedAt.'</td></tr>
+</table>
+
+<p style="margin-top:30px">
+Website: https://www.netedgetechnology.com
+</p>
+
+<p>
+Regards,<br>
+Netedge Technology
+</p>
+
+</div>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>';
 
         $customerSubject = 'We received your inquiry - Netedge Technology';
-        $customerBody = "Dear {$name},\n\n"
-            ."Thank you for contacting Netedge Technology. We have received your inquiry and our team will review it shortly.\n\n"
-            ."Submitted details:\n"
-            ."Service: {$service}\n"
-            ."Phone: {$phone}\n\n"
-            ."Message:\n{$message}\n\n"
-            ."Regards,\nNetedge Technology\n";
-        $customerHeaders = "From: Netedge Technology <sales@netedgetechnology.com>\r\n"
-            ."Reply-To: sales@netedgetechnology.com\r\n";
-        @mail($email, $customerSubject, $customerBody, $customerHeaders);
+
+        $customerHeaders =
+            "MIME-Version: 1.0\r\n" .
+            "Content-Type: text/html; charset=UTF-8\r\n" .
+            "From: Netedge Technology <sales@netedgetechnology.com>\r\n" .
+            "Reply-To: sales@netedgetechnology.com\r\n";
+
+        @mail(
+            $email,
+            '=?UTF-8?B?'.base64_encode($customerSubject).'?=',
+            $customerBody,
+            $customerHeaders
+        );
+
 
         $_SESSION['flash_success']='Thank you. Your inquiry has been submitted successfully. A confirmation email has been sent to you.';
         header('Location: '.url($redirectSlug).'?sent=1');
