@@ -120,7 +120,7 @@ final class ContactController {
         if ($hostname === $ipAddress || trim((string)$hostname) === '') {
             $hostname = 'Not Available';
         }
-        $submittedAt = date('d M Y, h:i A') . ' IST';
+        $submittedAt = gmdate('d M Y, h:i A', time() + 19800) . ' IST';
 
         $browser = 'Unknown';
         $os = 'Unknown';
