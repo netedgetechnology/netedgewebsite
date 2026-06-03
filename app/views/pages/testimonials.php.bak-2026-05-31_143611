@@ -1,0 +1,105 @@
+<section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
+  <div class="container sm58-hero-grid batch68-hero-grid">
+    <div class="sm58-hero-copy">
+      <span class="d3-kicker">What Our Client Says</span>
+      <h1>Testimonials</h1>
+      <p>Testimonials services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
+      <div class="sm58-hero-pills"><span>Reliable</span><span>Responsive</span><span>Long-term</span><span>Professional</span></div>
+    </div>
+    <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
+      <div class="sm60-network-ring"><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="line l1"></i><i class="line l2"></i><i class="line l3"></i></div>
+      <div class="batch68-visual-core"><div class="batch68-screen"><span></span><span></span><span></span></div><div class="batch68-mini m1"></div><div class="batch68-mini m2"></div><div class="batch68-mini m3"></div></div>
+      <div class="sm58-hero-badge badge-one">24x7</div><div class="sm58-hero-badge badge-two">Managed</div><div class="sm58-hero-badge badge-three">Secure</div>
+    </div>
+  </div>
+</section>
+<section class="section">
+<div class="container content-page v48-static-page batch68-page" data-cms-slug="testimonials">
+
+<div class="testimonial-section-title">
+  <span class="section-label">What Our Client Says</span>
+  <h2>Testimonials</h2>
+  <p>Real feedback from clients across server management, cloud operations, DevOps, hosting support and infrastructure projects.</p>
+</div>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Great worker! Worked hard to fix unexpected issues and handled them with incredible professionalism. We will continue to work with this worker on all our future system projects. Extremely highly recommended!</div>
+<div class="testimonial-author">Dnsgroup</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Helped us quick, also helped us with issues which were not anticipated and were out of scope as per initial definition of the project. Highly Recommended!</div>
+<div class="testimonial-author">Erad</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">It was the utmost pleasure to work with netedge, they are very professional, quick and patient. They will do anything you ask them to do. Communication was great. They will not rest until you are completely satisfied. If you can get them to work on your project just grab them! Will use again soon.</div>
+<div class="testimonial-author">Margucci</div>
+<div class="testimonial-location">USA</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Although at first quality of work was not up to standard, improvements were shown after expectations were established and feedback given. I have confidence that Netedgetechnology will be a creditble source of your IT needs. I will be using their services continually</div>
+<div class="testimonial-author">Workforcoders</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">This turned out to be a much larger job than both myself and the worker planned for and so we had many challenges. The worker was there for me when I needed him and he assisted me to make the migration a smooth operation in the end. Thank you for your hard work and efforts and patience on this one Hardik</div>
+<div class="testimonial-author">Vanya</div>
+<div class="testimonial-location">Australia</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Good worker to work with. Hardy is one of the few people who is available readily and rare on RAC. I appreciate his work and cooperation. He went out of his way to finish this proejct and wrorked very very hard. Well done Hardy, Best of luck!</div>
+<div class="testimonial-author">Crazywolf</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Hardy is one of the best programmer /tech that i have used on rent a worker. i have now elected to give him all my jobs for him and his team. he was very diligent and effective and he understood my needs.</div>
+<div class="testimonial-author">Themediamatrix</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">amazing work. 24 hour support is always online and available to help with any situation or problem. 10/10 thanks! will use again and ongoing. [14 February, 2013] These guys are great! They promise "24 hour system admin support" which is the truth. Someone is always available to look into an issue or make a change. I will continue to use their ongoing system admin support services. [25 February, 2013] 10/10 thank you [25 February, 2013] thank you very much for the 24 hour support. [19 March, 2013] great will continue to work together [19 March, 2013] great will continue to work together [07 June, 2013] great work and always on time will use again thanks [08 June, 2013] always a pleasure working with this team [17 July, 2013] Excellent!! This group provides world class support at affordable prices. 24 hours is always reliable and online. 10/10</div>
+<div class="testimonial-author">Mlsfacebook</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">This was a difficult move. Netedgetechnology worked through all the problems. They asked question and were very resposive to my requests.</div>
+<div class="testimonial-author">Jwforman</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Excellent Communication. My project was delayed months due to my falling ill. No one could have been more patient than this team throughout my illness relapse & convalescence. Definitely will hire again.</div>
+<div class="testimonial-author">Sanjayarora</div>
+<div class="testimonial-location">India</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Was really satisfied with this company and delivered the work on time in professional manner. Would definitely recommend and would like to work with this company in future</div>
+<div class="testimonial-author">Smithdustin670</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">I am really impressed with the service and dedication of server team to manage the aws servers and services. Amazing company with really good customer service! Highly recommended :)</div>
+<div class="testimonial-author">Jayesh Maheta</div>
+<div class="testimonial-location">India</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">We have great experience with team during our server setup project. Very supporting and try their best to setup the server.</div>
+<div class="testimonial-author">Indarpal Uppal</div>
+<div class="testimonial-location">India</div>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-quote">Thanks for your kind, honest and great service. We will keep on doing business with NetEdge Technologies.</div>
+<div class="testimonial-author">Julio Delgado</div>
+<div class="testimonial-location">Mexico</div>
+</div>
+
+</div>
+
+    <section class="content-cta-block"><div><h2>Need testimonials support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>

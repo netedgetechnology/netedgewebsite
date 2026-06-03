@@ -94,36 +94,36 @@ foreach ($menu as $m) {
         <div class="design3-mega v20-mega">
           <div class="v20-mega-grid">
             <div class="v20-mega-col">
-              <h4><span class="v20-head-icon infra"></span>INFRASTRUCTURE</h4>
+              <h4><span class="v20-head-icon server"></span>SERVER MANAGEMENT</h4>
               <a href="<?= e(url('server-management')) ?>">Server Management</a>
-              <a href="<?= e(url('aws-infrastructure-management')) ?>">AWS Infrastructure Management</a>
-              <a href="<?= e(url('cloud-infrastructure-management')) ?>">Cloud Infrastructure Management</a>
-              <a href="<?= e(url('datacenter-management')) ?>">Datacenter Management</a>
-              <a href="<?= e(url('remote-infrastructure-management')) ?>">Remote Infrastructure Management</a>
-              <a href="<?= e(url('webhosting-support')) ?>">Webhosting Support</a>
-            </div>
-
-            <div class="v20-mega-col">
-              <h4><span class="v20-head-icon server"></span>SERVER SECURITY & MANAGEMENT</h4>
-              <a href="<?= e(url('security-services')) ?>">Security Services</a>
-              <a href="<?= e(url('technical-support')) ?>">Technical Support</a>
-              <a href="<?= e(url('noc-management')) ?>">NOC Management</a>
-              <a href="<?= e(url('linux-server-management')) ?>">Linux Server Management</a>
-              <a href="<?= e(url('windows-server-management')) ?>">Windows Server Management</a>
               <a href="<?= e(url('virtualization-management')) ?>">Virtualization Management</a>
+              <a href="<?= e(url('technical-support')) ?>">Technical Support</a>
+              <a href="<?= e(url('security-services')) ?>">Security Services</a>
+              <a href="<?= e(url('webhosting-support')) ?>">Webhosting Support</a>
+              <a href="<?= e(url('controlpanel-server-management')) ?>">Control Panel Management</a>
 
               
             </div>
 
             <div class="v20-mega-col">
-              <h4><span class="v20-head-icon software"></span>DEVELOPMENT</h4>
-              <a href="<?= e(url('web-application-development')) ?>">Web Application Development</a>
-              <a href="<?= e(url('mobile-application-development')) ?>">Mobile Application Development</a>
-              <a href="<?= e(url('iot-application-development')) ?>">IoT Application Development</a>
+              <h4><span class="v20-head-icon infra"></span>INFRASTRUCTURE MANAGEMENT</h4>
+              <a href="<?= e(url('datacenter-management')) ?>">Datacenter Management</a>
+              <a href="<?= e(url('it-infrastructure-automation')) ?>">IT Infrastructure Automation</a>
+              <a href="<?= e(url('remote-infrastructure-management')) ?>">Remote Infrastructure Management</a>
+              <a href="<?= e(url('cloud-infrastructure-management')) ?>">Cloud Infrastructure Management</a>
+              <a href="<?= e(url('noc-management')) ?>">NOC Management</a>
+              <a href="<?= e(url('home-office-automation')) ?>">Home & Office Automation</a>
             </div>
 
             <div class="v20-mega-col">
-              <h4><span class="v20-head-icon staffing"></span>STAFFING</h4>
+              <h4><span class="v20-head-icon software"></span>SOFTWARE DEVELOPMENT</h4>
+              <a href="<?= e(url('web-application-development')) ?>">Web Application Development</a>
+              <a href="<?= e(url('mobile-application-development')) ?>">Mobile Application Development</a>
+              <a href="<?= e(url('iot-application-development')) ?>">IOT Application Development</a>
+            </div>
+
+            <div class="v20-mega-col">
+              <h4><span class="v20-head-icon staffing"></span>STAFFING SERVICES</h4>
               <a href="<?= e(url('dedicated-technical-staff')) ?>">Dedicated Technical Staff</a>
               <a href="<?= e(url('shared-technical-staff')) ?>">Shared Technical Staff</a>
             </div>
@@ -145,7 +145,6 @@ foreach ($menu as $m) {
         <div class="design3-dropdown v20-dropdown">
           <a href="<?= e(url('company')) ?>">Company</a>
           <a href="<?= e(url('why-us')) ?>">Why Us</a>
-          <a href="<?= e(url('achievements')) ?>">Achievements</a>
           <a href="<?= e(url('testimonials')) ?>">Testimonials</a>
 <!--           <a href="<?= e(url('portfolio')) ?>">Portfolio</a> -->
           <a href="<?= e(url('our-expertise')) ?>">Our Expertise</a>
@@ -189,6 +188,7 @@ foreach ($menu as $m) {
     <a href="<?= e(url('cloud-infrastructure-management')) ?>">Cloud Infrastructure Management</a>
     <a href="<?= e(url('security-services')) ?>">Security Services</a>
     <a href="<?= e(url('technical-support')) ?>">Technical Support</a>
+    <a href="<?= e(url('software-development')) ?>">Software Development</a>
     <a href="<?= e(url('dedicated-technical-staff')) ?>">Dedicated Technical Staff</a>
   </div>
 
@@ -198,6 +198,7 @@ foreach ($menu as $m) {
     <a href="<?= e(url('s-e-o')) ?>">SEO Services</a>
     <a href="<?= e(url('it-infrastructure-automation')) ?>">IT Infrastructure Automation</a>
     <a href="<?= e(url('control-panel-security')) ?>">Control Panel Security</a>
+    <a href="<?= e(url('email-security')) ?>">Email Security</a>
     <a href="<?= e(url('vps-server-management')) ?>">VPS Server Management</a>
     <a href="<?= e(url('windows-server-management')) ?>">Windows Server Management</a>
   </div>
@@ -217,17 +218,7 @@ foreach ($menu as $m) {
 
 <div class="container v11-footer-bottom">
 <span>© <?= date('Y') ?> Netedge Technology. All rights reserved.</span>
-
-<span>
-<a href="<?= e(url('privacy-policy')) ?>">Privacy Policy</a> |
-<a href="<?= e(url('terms')) ?>">Terms & Conditions</a>
-</span>
-
-<span class="footer-payments">
-<img src="<?= e(asset('images/payments/visa.png')) ?>" alt="Visa">
-<img src="<?= e(asset('images/payments/mastercard.svg')) ?>" alt="Mastercard">
-<img src="<?= e(asset('images/payments/paypal.svg')) ?>" alt="PayPal">
-</span>
+<span><a href="<?= e(url('privacy-policy')) ?>">Privacy Policy</a> | <a href="<?= e(url('terms')) ?>">Terms & Conditions</a></span>
 </div>
 </footer>
 

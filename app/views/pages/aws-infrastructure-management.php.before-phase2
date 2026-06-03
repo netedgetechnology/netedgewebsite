@@ -1,0 +1,224 @@
+<?php
+$title = 'AWS Infrastructure Management Services | Netedge Technology';
+$description = 'AWS Infrastructure Management, AWS Migration, DevOps, Monitoring, Security Hardening, Cost Optimization and 24x7 Managed AWS Support.';
+?>
+
+<section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
+  <div class="container sm58-hero-grid batch68-hero-grid">
+    <div class="sm58-hero-copy">
+      <span class="d3-kicker">AWS Cloud Services</span>
+      <h1>AWS Infrastructure Management Services</h1>
+      <p>
+        Managed AWS infrastructure, cloud migration, DevOps automation,
+        security hardening, monitoring and 24x7 operational support for
+        businesses that require secure, scalable and highly available cloud environments.
+      </p>
+
+      <div class="sm58-hero-pills">
+        <span>AWS</span>
+        <span>DevOps</span>
+        <span>Migration</span>
+        <span>24x7 Support</span>
+      </div>
+    </div>
+
+    <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
+      <div class="sm60-network-ring">
+        <i class="dot d1"></i>
+        <i class="dot d2"></i>
+        <i class="dot d3"></i>
+        <i class="dot d4"></i>
+        <i class="line l1"></i>
+        <i class="line l2"></i>
+        <i class="line l3"></i>
+      </div>
+
+      <div class="batch68-visual-core">
+        <div class="batch68-screen">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="batch68-mini m1"></div>
+        <div class="batch68-mini m2"></div>
+        <div class="batch68-mini m3"></div>
+      </div>
+
+      <div class="sm58-hero-badge badge-one">AWS</div>
+      <div class="sm58-hero-badge badge-two">Secure</div>
+      <div class="sm58-hero-badge badge-three">24x7</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+<div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page"
+data-cms-slug="aws-infrastructure-management">
+
+<div class="expertise-page">
+
+<div class="testimonials-intro">
+<span class="section-label">Trusted Since 2002</span>
+<h2>Enterprise AWS Infrastructure Management</h2>
+<p>
+Netedge Technology helps organizations design, migrate, secure,
+optimize and manage AWS environments through proactive monitoring,
+automation, operational excellence and round-the-clock support.
+</p>
+</div>
+
+<div class="testimonial-stats">
+
+<div class="stat-box">
+<strong>20+</strong>
+<span>Years Experience</span>
+</div>
+
+<div class="stat-box">
+<strong>400+</strong>
+<span>Projects Delivered</span>
+</div>
+
+<div class="stat-box">
+<strong>36+</strong>
+<span>Countries Served</span>
+</div>
+
+<div class="stat-box">
+<strong>24x7</strong>
+<span>AWS Operations</span>
+</div>
+
+</div>
+
+<div class="content-section-block">
+<h2>AWS Infrastructure Management Services</h2>
+
+<ul>
+<li>AWS Infrastructure Architecture Design</li>
+<li>AWS Migration Services</li>
+<li>AWS Infrastructure Administration</li>
+<li>AWS Monitoring & Alerting</li>
+<li>AWS Security Hardening</li>
+<li>AWS Cost Optimization</li>
+<li>AWS Backup & Disaster Recovery</li>
+<li>AWS DevOps Automation</li>
+<li>AWS Performance Optimization</li>
+<li>AWS High Availability Architecture</li>
+</ul>
+</div>
+
+<div class="content-section-block">
+<h2>AWS Platform Expertise</h2>
+
+<ul>
+<li>Amazon EC2</li>
+<li>Amazon RDS</li>
+<li>Amazon S3</li>
+<li>Amazon VPC</li>
+<li>Amazon Route53</li>
+<li>Amazon CloudFront</li>
+<li>Elastic Load Balancer</li>
+<li>Auto Scaling</li>
+<li>CloudWatch</li>
+<li>IAM</li>
+<li>CloudFormation</li>
+<li>AWS Backup</li>
+</ul>
+</div>
+
+<div class="content-section-block">
+<h2>AWS Migration & Modernization</h2>
+
+<p>
+Our team assists organizations with end-to-end migration planning,
+execution and optimization for AWS cloud adoption.
+</p>
+
+<ul>
+<li>Physical Server To AWS Migration</li>
+<li>Dedicated Server To AWS Migration</li>
+<li>VMware To AWS Migration</li>
+<li>Colocation To AWS Migration</li>
+<li>Cloud Modernization Projects</li>
+<li>Legacy Infrastructure Transformation</li>
+</ul>
+</div>
+
+<div class="content-section-block">
+<h2>Why Businesses Choose Netedge Technology</h2>
+
+<ul>
+<li>24x7 Infrastructure Monitoring</li>
+<li>Security Best Practices</li>
+<li>Cloud Cost Optimization</li>
+<li>Automation Driven Operations</li>
+<li>Proactive Maintenance</li>
+<li>High Availability Design</li>
+<li>Performance Optimization</li>
+<li>Experienced Infrastructure Team</li>
+</ul>
+</div>
+
+<div class="content-section-block">
+<h2>Industries We Support</h2>
+
+<ul>
+<li>SaaS Platforms</li>
+<li>Hosting Providers</li>
+<li>E-Commerce Businesses</li>
+<li>Technology Startups</li>
+<li>Enterprise Organizations</li>
+<li>Digital Agencies</li>
+<li>Healthcare Applications</li>
+<li>Education Platforms</li>
+</ul>
+</div>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<div class="author">AWS Customer Success</div>
+<div class="testimonial-text">
+I am really impressed with the service and dedication of server team
+to manage the AWS servers and services. Amazing company with really
+good customer service. Highly recommended.
+</div>
+<div class="testimonial-location">Jayesh Maheta</div>
+</div>
+
+<div class="featured-card">
+<div class="author">Cost Optimization</div>
+<div class="testimonial-text">
+Reduce unnecessary cloud spending while maintaining performance,
+availability and operational reliability.
+</div>
+</div>
+
+<div class="featured-card">
+<div class="author">24x7 Managed Operations</div>
+<div class="testimonial-text">
+Continuous monitoring, proactive support and rapid response to
+infrastructure events around the clock.
+</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="content-cta-block">
+<div>
+<h2>Need AWS Infrastructure Management Support?</h2>
+<p>
+Share your AWS requirement and our team will review the most suitable
+architecture, migration or management approach for your business.
+</p>
+</div>
+
+<a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">
+Discuss A Requirement
+</a>
+</section>
+
+</div>
+</section>

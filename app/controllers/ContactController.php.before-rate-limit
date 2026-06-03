@@ -1,0 +1,185 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Controllers;
+
+use App\Models\Contact;
+
+final class ContactController {
+    public function inquire(): void {
+        $title = 'Get a Quote / Inquire | Netedge Technology';
+        $description = 'Send your project or IT service inquiry to Netedge Technology.';
+        $view = 'pages/inquire';
+        require APP_PATH . '/views/layout.php';
+    }
+
+    public function inquireSubmit(): void {
+        $this->handleSubmit('inquire');
+    }
+
+    public function discuss(): void {
+        $title = 'Discuss A Requirement | Netedge Technology';
+        $description = 'Discuss your IT support, cloud, hosting, software development or staffing requirement with Netedge Technology.';
+        $view = 'pages/discuss-a-requirement';
+        require APP_PATH . '/views/layout.php';
+    }
+
+    public function discussSubmit(): void {
+        $this->handleSubmit('discuss-a-requirement');
+    }
+
+    public function submit(): void {
+        $this->handleSubmit('contact-us');
+    }
+
+    private function handleSubmit(string $redirectSlug): void {
+        verify_csrf();
+
+        $formStarted = (int)($_POST['form_started'] ?? 0);
+
+        if (
+            $formStarted > 0 &&
+            (time() - $formStarted) < 5
+        ) {
+            $_SESSION['flash_error'] = 'Please take a moment to complete the form.';
+            header('Location: '.url($redirectSlug));
+            exit;
+        }
+
+
+        if (!empty($_POST['website'])) {
+            header('Location: '.url($redirectSlug).'?sent=1');
+            exit;
+        }
+
+        $name=trim((string)($_POST['name'] ?? ''));
+
+        if ($name === '') {
+            $name = trim(
+                (string)($_POST['first_name'] ?? '') . ' ' .
+                (string)($_POST['last_name'] ?? '')
+            );
+        }
+        $email=trim((string)($_POST['email'] ?? ''));
+        $country_code=trim((string)($_POST['country_code'] ?? ''));
+        $phone=trim((string)($_POST['phone'] ?? ''));
+        $company=trim((string)($_POST['company'] ?? ''));
+        $service=trim((string)($_POST['service'] ?? ''));
+        $message=trim((string)($_POST['message'] ?? ''));
+        $phone_full = trim(($country_code !== '' ? $country_code.' ' : '').$phone);
+
+        if($name==='' || !filter_var($email,FILTER_VALIDATE_EMAIL) || $phone_full==='' || $message===''){
+            $_SESSION['flash_error']='Please fill all required fields correctly.';
+            header('Location: '.url($redirectSlug));
+            exit;
+        }
+
+        $phone = $phone_full;
+        Contact::create(compact('name','email','phone','company','service','message'));
+
+        $ipAddress = $_SERVER['REMOTE_ADDR'] ?? '';
+        $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+        $hostname = $ipAddress ? @gethostbyaddr($ipAddress) : '';
+
+        if ($hostname === $ipAddress || trim((string)$hostname) === '') {
+            $hostname = 'Not Available';
+        }
+        $submittedAt = gmdate('Y-m-d H:i:s') . ' UTC';
+
+        $adminSubject = 'New Website Inquiry - Netedge Technology';
+
+        $adminBody = '
+<html>
+<body style="font-family:Arial,sans-serif;color:#333">
+<h2>New Website Inquiry</h2>
+
+<h3>Contact Information</h3>
+<table cellpadding="6" cellspacing="0" border="1">
+<tr><td><strong>Name</strong></td><td>'.htmlspecialchars($name).'</td></tr>
+<tr><td><strong>Email</strong></td><td>'.htmlspecialchars($email).'</td></tr>
+<tr><td><strong>Phone</strong></td><td>'.htmlspecialchars($phone).'</td></tr>
+<tr><td><strong>Company</strong></td><td>'.htmlspecialchars($company).'</td></tr>
+<tr><td><strong>Service</strong></td><td>'.htmlspecialchars($service).'</td></tr>
+</table>
+
+<h3>Message</h3>
+<div style="padding:12px;border:1px solid #ddd;background:#fafafa">
+'.nl2br(htmlspecialchars($message)).'
+</div>
+
+<h3>Source Information</h3>
+<table cellpadding="6" cellspacing="0" border="1">
+<tr><td><strong>IP Address</strong></td><td>'.htmlspecialchars($ipAddress).'</td></tr>
+<tr><td><strong>Hostname</strong></td><td>'.htmlspecialchars($hostname).'</td></tr>
+<tr><td><strong>User Agent</strong></td><td>'.htmlspecialchars($userAgent).'</td></tr>
+<tr><td><strong>Submitted</strong></td><td>'.$submittedAt.'</td></tr>
+</table>
+
+</body>
+</html>';
+
+        $adminHeaders =
+            "MIME-Version: 1.0\r\n" .
+            "Content-Type: text/html; charset=UTF-8\r\n" .
+            "From: Netedge Website <sales@netedgetechnology.com>\r\n" .
+            "Reply-To: {$email}\r\n";
+
+        @mail(
+            'sales@netedgetechnology.com',
+            '=?UTF-8?B?'.base64_encode($adminSubject).'?=',
+            $adminBody,
+            $adminHeaders
+        );
+
+        $customerSubject = 'We received your inquiry - Netedge Technology';
+
+        $customerBody = '
+<html>
+<body style="font-family:Arial,sans-serif;color:#333">
+<h2>Thank You For Contacting Netedge Technology</h2>
+
+<p>Dear '.htmlspecialchars($name).',</p>
+
+<p>
+We have successfully received your inquiry.
+Our team will review your requirement and respond shortly.
+</p>
+
+<h3>Submitted Details</h3>
+
+<table cellpadding="6" cellspacing="0" border="1">
+<tr><td><strong>Service</strong></td><td>'.htmlspecialchars($service).'</td></tr>
+<tr><td><strong>Phone</strong></td><td>'.htmlspecialchars($phone).'</td></tr>
+<tr><td><strong>Submitted</strong></td><td>'.$submittedAt.'</td></tr>
+</table>
+
+<p>
+Thank you for your interest in Netedge Technology.
+</p>
+
+<p>
+Regards,<br>
+Netedge Technology
+</p>
+
+</body>
+</html>';
+
+        $customerHeaders =
+            "MIME-Version: 1.0\r\n" .
+            "Content-Type: text/html; charset=UTF-8\r\n" .
+            "From: Netedge Technology <sales@netedgetechnology.com>\r\n" .
+            "Reply-To: sales@netedgetechnology.com\r\n";
+
+        @mail(
+            $email,
+            '=?UTF-8?B?'.base64_encode($customerSubject).'?=',
+            $customerBody,
+            $customerHeaders
+        );
+
+        $_SESSION['flash_success']='Thank you. Your inquiry has been submitted successfully. A confirmation email has been sent to you.';
+        header('Location: '.url($redirectSlug).'?sent=1');
+        exit;
+    }
+}

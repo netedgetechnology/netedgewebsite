@@ -1,0 +1,39 @@
+<?php
+$title = 'Testimonials | Netedge Technology';
+$description = 'Testimonials services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+?>
+<section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
+  <div class="container sm58-hero-grid batch68-hero-grid">
+    <div class="sm58-hero-copy">
+      <span class="d3-kicker">What Our Client Says</span>
+      <h1>Testimonials</h1>
+      <p>Testimonials services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
+      <div class="sm58-hero-pills"><span>Reliable</span><span>Responsive</span><span>Long-term</span><span>Professional</span></div>
+    </div>
+    <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
+      <div class="sm60-network-ring"><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="line l1"></i><i class="line l2"></i><i class="line l3"></i></div>
+      <div class="batch68-visual-core"><div class="batch68-screen"><span></span><span></span><span></span></div><div class="batch68-mini m1"></div><div class="batch68-mini m2"></div><div class="batch68-mini m3"></div></div>
+      <div class="sm58-hero-badge badge-one">24x7</div><div class="sm58-hero-badge badge-two">Managed</div><div class="sm58-hero-badge badge-three">Secure</div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container content-page v48-static-page batch68-page" data-cms-slug="testimonials">
+
+    <section class="section-heading">
+      <span class="section-label">Client Feedback</span>
+      <h2>Trusted By Businesses Worldwide</h2>
+      <p>
+        For more than two decades, Netedge Technology has provided server management,
+        hosting support, cloud operations, DevOps assistance, and infrastructure services
+        to businesses across the globe. The testimonials below are from real customers
+        who have worked with our team on projects ranging from server migrations and
+        monitoring to dedicated support and managed infrastructure.
+      </p>
+    </section>
+
+    <!-- TESTIMONIAL CONTENT WILL BE INSERTED HERE -->
+
+<section class="content-cta-block"><div><h2>Need testimonials support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+  </div>
+</section>

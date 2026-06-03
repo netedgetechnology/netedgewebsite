@@ -94,16 +94,6 @@ foreach ($menu as $m) {
         <div class="design3-mega v20-mega">
           <div class="v20-mega-grid">
             <div class="v20-mega-col">
-              <h4><span class="v20-head-icon infra"></span>INFRASTRUCTURE</h4>
-              <a href="<?= e(url('server-management')) ?>">Server Management</a>
-              <a href="<?= e(url('aws-infrastructure-management')) ?>">AWS Infrastructure Management</a>
-              <a href="<?= e(url('cloud-infrastructure-management')) ?>">Cloud Infrastructure Management</a>
-              <a href="<?= e(url('datacenter-management')) ?>">Datacenter Management</a>
-              <a href="<?= e(url('remote-infrastructure-management')) ?>">Remote Infrastructure Management</a>
-              <a href="<?= e(url('webhosting-support')) ?>">Webhosting Support</a>
-            </div>
-
-            <div class="v20-mega-col">
               <h4><span class="v20-head-icon server"></span>SERVER SECURITY & MANAGEMENT</h4>
               <a href="<?= e(url('security-services')) ?>">Security Services</a>
               <a href="<?= e(url('technical-support')) ?>">Technical Support</a>
@@ -113,6 +103,16 @@ foreach ($menu as $m) {
               <a href="<?= e(url('virtualization-management')) ?>">Virtualization Management</a>
 
               
+            </div>
+
+            <div class="v20-mega-col">
+              <h4><span class="v20-head-icon infra"></span>INFRASTRUCTURE</h4>
+              <a href="<?= e(url('server-management')) ?>">Server Management</a>
+              <a href="<?= e(url('aws-infrastructure-management')) ?>">AWS Infrastructure Management</a>
+              <a href="<?= e(url('cloud-infrastructure-management')) ?>">Cloud Infrastructure Management</a>
+              <a href="<?= e(url('datacenter-management')) ?>">Datacenter Management</a>
+              <a href="<?= e(url('remote-infrastructure-management')) ?>">Remote Infrastructure Management</a>
+              <a href="<?= e(url('webhosting-support')) ?>">Webhosting Support</a>
             </div>
 
             <div class="v20-mega-col">
@@ -198,6 +198,7 @@ foreach ($menu as $m) {
     <a href="<?= e(url('s-e-o')) ?>">SEO Services</a>
     <a href="<?= e(url('it-infrastructure-automation')) ?>">IT Infrastructure Automation</a>
     <a href="<?= e(url('control-panel-security')) ?>">Control Panel Security</a>
+    <a href="<?= e(url('email-security')) ?>">Email Security</a>
     <a href="<?= e(url('vps-server-management')) ?>">VPS Server Management</a>
     <a href="<?= e(url('windows-server-management')) ?>">Windows Server Management</a>
   </div>
@@ -217,17 +218,7 @@ foreach ($menu as $m) {
 
 <div class="container v11-footer-bottom">
 <span>© <?= date('Y') ?> Netedge Technology. All rights reserved.</span>
-
-<span>
-<a href="<?= e(url('privacy-policy')) ?>">Privacy Policy</a> |
-<a href="<?= e(url('terms')) ?>">Terms & Conditions</a>
-</span>
-
-<span class="footer-payments">
-<img src="<?= e(asset('images/payments/visa.png')) ?>" alt="Visa">
-<img src="<?= e(asset('images/payments/mastercard.svg')) ?>" alt="Mastercard">
-<img src="<?= e(asset('images/payments/paypal.svg')) ?>" alt="PayPal">
-</span>
+<span><a href="<?= e(url('privacy-policy')) ?>">Privacy Policy</a> | <a href="<?= e(url('terms')) ?>">Terms & Conditions</a></span>
 </div>
 </footer>
 
