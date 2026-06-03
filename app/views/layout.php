@@ -139,7 +139,6 @@ foreach ($menu as $m) {
       </div>
 
       <a class="nav-link" href="<?= e(url('partnership')) ?>">PARTNERSHIP</a>
-      <a class="nav-link" href="<?= e(url('products')) ?>">PRODUCTS</a>
 
       <div class="nav-item design3-company v20-company">
         <a class="nav-link" href="<?= e(url('company')) ?>">COMPANY <span class="chev" aria-hidden="true"></span></a>
@@ -147,9 +146,8 @@ foreach ($menu as $m) {
           <a href="<?= e(url('company')) ?>">Company</a>
           <a href="<?= e(url('why-us')) ?>">Why Us</a>
           <a href="<?= e(url('testimonials')) ?>">Testimonials</a>
-          <a href="<?= e(url('portfolio')) ?>">Portfolio</a>
+<!--           <a href="<?= e(url('portfolio')) ?>">Portfolio</a> -->
           <a href="<?= e(url('our-expertise')) ?>">Our Expertise</a>
-          <a href="<?= e(url('career')) ?>">Career</a>
           <a href="<?= e(url('contact-us')) ?>">Contact Us</a>
         </div>
       </div>
@@ -191,7 +189,6 @@ foreach ($menu as $m) {
       <a href="<?= e(url('achievements')) ?>">Achievements</a>
       <a href="<?= e(url('our-expertise')) ?>">Our Expertise</a>
       <a href="<?= e(url('why-us')) ?>">Why Us</a>
-      <a href="<?= e(url('career')) ?>">Career</a>
       <a href="<?= e(url('contact-us')) ?>">Contact Us</a>
       <a href="<?= e(url('privacy-policy')) ?>">Privacy Policy</a>
       <a href="<?= e(url('terms')) ?>">Terms</a>
