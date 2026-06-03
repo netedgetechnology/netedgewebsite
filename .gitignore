@@ -2,3 +2,6 @@
 storage/cache/*
 storage/logs/*
 *.log
+
+# Runtime cache files
+storage/rate-limit/*.json
