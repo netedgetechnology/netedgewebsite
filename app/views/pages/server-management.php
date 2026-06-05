@@ -1,299 +1,318 @@
 <?php
-$title = 'Server Management | Netedge Technology';
-$description = 'Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = '24x7 Server Management Services | Netedge Technology';
+$description = 'Professional Linux and Windows server management services including monitoring, security hardening, troubleshooting, optimization, cloud infrastructure support and 24x7 operational management.';
 ?>
+
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">
+
     <div class="sm58-hero-copy">
-      <span class="d3-kicker">Server Management</span>
+      <span class="d3-kicker">Server Management Services</span>
+
       <h1>24x7 Server Management Under One Roof</h1>
-      <p>Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
-      <div class="sm58-hero-pills"><span>Linux/Windows Server,</span><span>Customer</span><span>Website,</span><span>Migration,</span></div>
+
+      <p>
+        Deliver exceptional customer experiences through professional helpdesk operations, ticket management, live chat support and technical support services backed by experienced support professionals.
+      </p>
+
+      <div class="sm58-hero-pills">
+        <span>20+ Years</span>
+        <span>24x7 Managed Services</span>
+        <span>L1/L2/L3 Support</span>
+        <span>Customer Experience</span>
+      </div>
     </div>
+
     <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
-      <div class="sm60-network-ring"><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="line l1"></i><i class="line l2"></i><i class="line l3"></i></div>
-      <div class="batch68-visual-core"><div class="batch68-screen"><span></span><span></span><span></span></div><div class="batch68-mini m1"></div><div class="batch68-mini m2"></div><div class="batch68-mini m3"></div></div>
-      <div class="sm58-hero-badge badge-one">24x7</div><div class="sm58-hero-badge badge-two">Managed</div><div class="sm58-hero-badge badge-three">Secure</div>
+      <div class="sm60-network-ring">
+        <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i>
+        <i class="line l1"></i><i class="line l2"></i><i class="line l3"></i>
+      </div>
+
+      <div class="batch68-visual-core">
+        <div class="batch68-screen">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="batch68-mini m1"></div>
+        <div class="batch68-mini m2"></div>
+        <div class="batch68-mini m3"></div>
+      </div>
+
+      <div class="sm58-hero-badge badge-one">24x7</div>
+      <div class="sm58-hero-badge badge-two">Managed</div>
+      <div class="sm58-hero-badge badge-three">Responsive</div>
     </div>
+
   </div>
 </section>
+
 <section class="section">
-  <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="server-support">
-    <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Server Management</span><h2>Server Management</h2><p>Server Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
-      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Webhosting Suppo<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
-    </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Server Management Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Linux/Windows Server, Cloud Infrastructure and DirectAdmin support</div>
-<div><span>✓</span>Customer ticket, chat and email support</div>
-<div><span>✓</span>Website, email, DNS and database troubleshooting</div>
-<div><span>✓</span>Migration, backup and restore assistance</div>
-<div><span>✓</span>Abuse, spam and security issue handling</div>
-<div><span>✓</span>24x7 infrastructure operations support</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Server Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Linux, Windows & Cloud Infrastructure Management</h3>
-          <p>Linux, Windows and cloud infrastructure management services for enterprise environments, hosting providers and operational infrastructure teams.</p>
-          <ul>
-            <li>Linux and Windows server administration</li>
-            <li>AWS, Azure and hybrid cloud infrastructure support</li>
-            <li>Infrastructure monitoring and operational reporting</li>
-          </ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Technical Support & Helpdesk Operations</h3>
-          <p>24x7 helpdesk operations and customer support services for hosting providers, SaaS platforms and infrastructure businesses.</p>
-          <ul>
-            <li>Ticket handling and escalation management</li>
-            <li>Customer support workflows and live chat coordination</li>
-            <li>L1/L2 operational support and reporting</li>
-          </ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>CloudLinux & Immunify Management</h3>
-          <p>CloudLinux and Immunify360 management services for shared hosting infrastructure, malware protection and operational security.</p>
-          <ul>
-            <li>CloudLinux & Immunify360 licensing assistance</li>
-            <li>24x7 ticketing and operational support</li>
-            <li>Complete shared hosting server management</li>
-          </ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Migration & Infrastructure Transition Services</h3>
-          <p>Infrastructure migration services for hosting platforms, virtualization environments, websites and enterprise server operations.</p>
-          <ul>
-            <li>Hosting server and infrastructure migration assistance</li>
-            <li>Website, cloud and virtualization migration support</li>
-            <li>Backup planning and disaster recovery preparation</li>
-          </ul>
-          <strong>Explore</strong>
-        </article></div></section>
-    
+<div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page">
 
-<section class="sm-benefits-section">
+<div class="achievements-page">
 
-  <div class="sm-benefits-heading">
-    <span class="section-label">Benefits</span>
+<div class="testimonials-intro">
 
-    <h2>
-      Benefits Of Outsourcing Remote Server Management To Netedge
-    </h2>
+<span class="section-label">Why Professional Technical Support</span>
 
-    <p>
-      Hiring our services will relieve you of any server related tasks and improve all aspects of managing them like server memory management to installations and OS updates. We will also provide you with a highly automated control panel and gated access for your users. Below are some of the other benefits that make us the right choice for your business:
-    </p>
-  </div>
+<h2>Managing Mission-Critical Linux, Windows & Cloud Infrastructure</h2>
 
-  <div class="sm-benefits-grid">
+<p>
+Customers expect responsive support, fast issue resolution and professional communication. Effective technical support operations directly impact customer satisfaction, retention and business reputation.
+</p>
 
-    <div class="sm-benefit-card">
-      
-<div class="sm-benefit-icon">
-<svg viewBox="0 0 64 64" fill="none">
-<rect x="14" y="12" width="36" height="24" rx="4" stroke="#0b57d0" stroke-width="3"/>
-<path d="M24 50h16M32 36v14" stroke="#0b57d0" stroke-width="3" stroke-linecap="round"/>
-<circle cx="23" cy="24" r="2" fill="#0b57d0"/>
-<circle cx="32" cy="24" r="2" fill="#0b57d0"/>
-<circle cx="41" cy="24" r="2" fill="#0b57d0"/>
-</svg>
+<p>
+Netedge Technology provides comprehensive helpdesk services, ticket management, technical troubleshooting and customer support operations designed to improve service quality and operational efficiency.
+</p>
+
 </div>
 
+<div class="testimonial-stats">
 
-      <h3>
-        Dedicated And Certified Server Management Experts For You
-      </h3>
-
-      <p>
-        At Netedge, we assign the work to only certified and seasoned technocrats to give you an upper edge when it comes to the IT infrastructure. Our team receives
-      </p>
-    </div>
-
-    <div class="sm-benefit-card">
-      
-<div class="sm-benefit-icon">
-<svg viewBox="0 0 64 64" fill="none">
-<path d="M20 30V22a12 12 0 1124 0v8" stroke="#0b57d0" stroke-width="3"/>
-<rect x="16" y="30" width="32" height="22" rx="5" stroke="#0b57d0" stroke-width="3"/>
-<circle cx="32" cy="40" r="3" fill="#0b57d0"/>
-</svg>
+<div class="stat-box">
+<strong>20+</strong>
+<span>Years Experience</span>
 </div>
 
-
-      <h3>
-        High System Stability And Security
-      </h3>
-
-      <p>
-        One of the major benefits of using a wide array of tools and implementation techniques is getting high stability and security. Our solutions are designed to aid
-      </p>
-    </div>
-
-    <div class="sm-benefit-card">
-      
-<div class="sm-benefit-icon">
-<svg viewBox="0 0 64 64" fill="none">
-<path d="M20 44h24a10 10 0 000-20 14 14 0 00-27-2A9 9 0 0020 44Z"
-stroke="#0b57d0" stroke-width="3"/>
-<path d="M26 34l6 6 10-12" stroke="#0b57d0" stroke-width="3" stroke-linecap="round"/>
-</svg>
+<div class="stat-box">
+<strong>24x7</strong>
+<span>Support Coverage</span>
 </div>
 
-
-      <h3>
-        Unmatched Flexibility For Your Managed Cloud Services
-      </h3>
-
-      <p>
-        With our dedicated server management services, you will get unmatched flexibility for new installations, integrations, as well as adding new functionalities
-      </p>
-    </div>
-
-    <div class="sm-benefit-card">
-      
-<div class="sm-benefit-icon">
-<svg viewBox="0 0 64 64" fill="none">
-<path d="M18 34a14 14 0 0128 0" stroke="#0b57d0" stroke-width="3"/>
-<rect x="14" y="32" width="8" height="16" rx="3" stroke="#0b57d0" stroke-width="3"/>
-<rect x="42" y="32" width="8" height="16" rx="3" stroke="#0b57d0" stroke-width="3"/>
-<path d="M50 46v2a6 6 0 01-6 6h-6" stroke="#0b57d0" stroke-width="3"/>
-</svg>
+<div class="stat-box">
+<strong>L1/L2/L3</strong>
+<span>Technical Expertise</span>
 </div>
 
+<div class="stat-box">
+<strong>Global</strong>
+<span>Service Delivery</span>
+</div>
 
-      <h3>
-        24x7 Quality Support Available
-      </h3>
+</div>
 
-      <p>
-        Netedge ensures that you always get professional assistance because every minute matters for online businesses. You can contact us at any time to get our
-      </p>
-    </div>
+<h2 style="margin:60px 0 20px">Server Management Services</h2>
 
-  </div>
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>Linux Server Administration</h3>
+<p>Comprehensive Linux server administration, monitoring, maintenance and operational support.</p>
+</div>
+
+<div class="featured-card">
+<h3>Windows Server Administration</h3>
+<p>Windows server management, Active Directory support and enterprise infrastructure administration.</p>
+</div>
+
+<div class="featured-card">
+<h3>Cloud Infrastructure Management</h3>
+<p>AWS, Azure, Google Cloud and hybrid infrastructure management services.</p>
+</div>
+
+<div class="featured-card">
+<h3>Security Hardening</h3>
+<p>Server hardening, vulnerability remediation and security best practices implementation.</p>
+</div>
+
+<div class="featured-card">
+<h3>Performance Optimization</h3>
+<p>Performance tuning, resource optimization and workload efficiency improvements.</p>
+</div>
+
+<div class="featured-card">
+<h3>24x7 Monitoring & Incident Response</h3>
+<p>Proactive monitoring, alert management and rapid incident response services.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Platforms We Support</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Ubuntu</div>
+<div><span>✓</span>Debian</div>
+<div><span>✓</span>AlmaLinux</div>
+<div><span>✓</span>Rocky Linux</div>
+<div><span>✓</span>Red Hat Enterprise Linux</div>
+<div><span>✓</span>Windows Server</div>
+<div><span>✓</span>AWS</div>
+<div><span>✓</span>Azure</div>
+<div><span>✓</span>Google Cloud</div>
+<div><span>✓</span>Apache</div>
+<div><span>✓</span>Nginx</div>
+<div><span>✓</span>MySQL</div>
+<div><span>✓</span>MariaDB</div>
+<div><span>✓</span>PostgreSQL</div>
+<div><span>✓</span>Docker</div>
+<div><span>✓</span>Kubernetes</div>
+
+
+
+
+
+
+
+
+</div>
+
+<h2 style="margin:60px 0 20px">Server Administration Expertise</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>Linux Administration</h3>
+<p>Server deployment, upgrades, maintenance and Linux operational management.</p>
+</div>
+
+<div class="featured-card">
+<h3>Windows Administration</h3>
+<p>Windows infrastructure, Active Directory and enterprise platform administration.</p>
+</div>
+
+<div class="featured-card">
+<h3>Cloud Operations</h3>
+<p>Cloud infrastructure provisioning, monitoring and operational management.</p>
+</div>
+
+<div class="featured-card">
+<h3>Web Server Management</h3>
+<p>Apache, Nginx, reverse proxy and application hosting environments.</p>
+</div>
+
+<div class="featured-card">
+<h3>Database Administration</h3>
+<p>MySQL, MariaDB and PostgreSQL administration and optimization.</p>
+</div>
+
+<div class="featured-card">
+<h3>Security Management</h3>
+<p>Security monitoring, hardening and compliance-focused operations.</p>
+</div>
+
+<div class="featured-card">
+<h3>Backup & Disaster Recovery</h3>
+<p>Data protection, backup validation and disaster recovery readiness.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Server Management Methodology</h2>
+
+<div class="testimonial-stats" style="grid-template-columns:repeat(6,1fr)">
+
+<div class="stat-box"><strong>1</strong><span>Assess</span></div>
+<div class="stat-box"><strong>2</strong><span>Secure</span></div>
+<div class="stat-box"><strong>3</strong><span>Monitor</span></div>
+<div class="stat-box"><strong>4</strong><span>Support</span></div>
+<div class="stat-box"><strong>5</strong><span>Maintain</span></div>
+<div class="stat-box"><strong>6</strong><span>Support</span></div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Security & Reliability</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Security Hardening</div>
+<div><span>✓</span>Patch Management</div>
+<div><span>✓</span>Access Control</div>
+<div><span>✓</span>Backup Validation</div>
+<div><span>✓</span>Disaster Recovery Planning</div>
+<div><span>✓</span>Compliance Readiness</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Industries We Support</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Hosting Providers</div>
+<div><span>✓</span>SaaS Companies</div>
+<div><span>✓</span>Technology Businesses</div>
+<div><span>✓</span>E-Commerce</div>
+<div><span>✓</span>Healthcare</div>
+<div><span>✓</span>Financial Services</div>
+<div><span>✓</span>Education</div>
+<div><span>✓</span>Professional Services</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Why Businesses Choose Netedge</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>20+ Years Experience</h3>
+<p>Extensive experience supporting technology businesses and service operations.</p>
+</div>
+
+<div class="featured-card">
+<h3>Linux & Windows Specialists</h3>
+<p>Experienced engineers with deep Linux, Windows and cloud expertise.</p>
+</div>
+
+<div class="featured-card">
+<h3>24x7 Operations</h3>
+<p>Continuous operational support for business-critical environments.</p>
+</div>
+
+<div class="featured-card">
+<h3>Cloud & Hosting Expertise</h3>
+<p>Extensive experience managing hosting, cloud and enterprise infrastructure.</p>
+</div>
+
+<div class="featured-card">
+<h3>Proactive Monitoring</h3>
+<p>Proactive monitoring and preventative maintenance reduce operational risk.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Engagement Models</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Dedicated Server Administrators</div>
+<div><span>✓</span>Shared Server Management</div>
+<div><span>✓</span>24x7 Managed Services</div>
+<div><span>✓</span>Emergency Support</div>
+<div><span>✓</span>Long-Term Infrastructure Management</div>
+
+</div>
+
+<div class="testimonials-intro" style="margin-top:60px">
+
+<span class="section-label">Customer Success</span>
+
+<h2>Helping Businesses Maintain Stable & Secure Infrastructure</h2>
+
+<p>
+Organizations worldwide rely on Netedge Technology to manage Linux, Windows and cloud infrastructure environments that support business-critical applications and services.
+</p>
+
+<p>
+Our focus is helping businesses deliver professional, responsive and consistent customer support across every interaction.
+</p>
+
+</div>
+
+<section class="content-cta-block">
+
+<div>
+<h2>Need Professional Server Management Services?</h2>
+<p>
+Discuss your support requirements with our experienced team and discover the right service model for your business.
+</p>
+</div>
+
+<a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">
+Discuss A Requirement
+</a>
 
 </section>
 
-<style>
-
-
-.sm-benefits-section{
-    max-width:1400px;
-    margin:0 auto;
-    text-align:center;
-
-    padding:90px 0 20px;
-}
-
-
-.sm-benefits-heading{
-    text-align:center;
-
-    max-width:1100px;
-    margin:0 auto 55px;
-    text-align:center;
-}
-
-
-.sm-benefits-heading h2{
-    font-size:48px;
-    line-height:1.18;
-    margin:18px auto 22px;
-    color:#0f172a;
-    max-width:900px;
-    text-align:center;
-}
-
-
-.sm-benefits-heading p{
-    font-size:18px;
-    line-height:1.9;
-    color:#52627a;
-}
-
-.sm-benefits-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:32px;
-}
-
-.sm-benefit-card{
-    background:#fff;
-    border:1px solid #e6edf7;
-    border-radius:28px;
-    padding:42px;
-    transition:.25s ease;
-}
-
-.sm-benefit-card:hover{
-    transform:translateY(-4px);
-    box-shadow:0 20px 50px rgba(15,23,42,.08);
-}
-
-
-.sm-benefit-icon{
-    background:#f4f8ff;
-
-    width:110px;
-    height:110px;
-    border-radius:50%;
-    background:#f3f7fd;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    
-padding:24px;
-
-    
-margin:0 auto 30px;
-box-shadow:0 10px 30px rgba(11,87,208,.08);
-
-}
-
-.sm-benefit-card h3{
-    font-size:30px;
-    line-height:1.3;
-    text-align:center;
-    margin-bottom:24px;
-    color:#0f172a;
-}
-
-.sm-benefit-card p{
-    font-size:17px;
-    line-height:1.9;
-    color:#52627a;
-    text-align:center;
-}
-
-@media(max-width:992px){
-
-.sm-benefits-grid{
-    grid-template-columns:1fr;
-}
-
-.sm-benefits-heading h2{
-    font-size:36px;
-}
-
-.sm-benefit-card{
-    padding:34px;
-}
-
-}
-
-</style>
-
-<section class="content-cta-block"><div><h2>Need server management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
-  </div>
+</div>
+</div>
 </section>
-
-<style>
-.sm-benefit-icon svg{
-    width:64px;
-    height:64px;
-}
-</style>
