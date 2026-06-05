@@ -1,7 +1,12 @@
+<?php
+$title = 'Client Testimonials | Netedge Technology';
+$description = 'Read client testimonials and feedback from businesses worldwide that trust Netedge Technology for infrastructure management, cloud services, software development and technical support.';
+?>
+
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">
     <div class="sm58-hero-copy">
-      <span class="d3-kicker">What Our Client Says</span>
+      <span class="d3-kicker">What Our Clients Say</span>
       <h1>Testimonials</h1>
       <p>Real feedback from businesses worldwide who trust Netedge Technology for server management, cloud operations, hosting support and infrastructure services.</p>
       <div class="sm58-hero-pills"><span>Reliable</span><span>Responsive</span><span>Long-term</span><span>Professional</span></div>
@@ -203,6 +208,6 @@ Thank you forTRULLY being 24/7 customer support.“Netedge Technology finds a wa
 
 </div>
 
-<section class="content-cta-block"><div><h2>Need testimonials support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+<section class="content-cta-block"><div><h2>Need A Reliable Technology Partner?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
 
 </div>

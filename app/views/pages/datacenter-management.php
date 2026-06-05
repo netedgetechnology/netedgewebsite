@@ -1,280 +1,303 @@
 <?php
-$title = 'Datacenter Management | Netedge Technology';
-$description = 'Datacenter Management services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = 'Datacenter Management Services | Netedge Technology';
+$description = 'Enterprise datacenter management services including server provisioning, rack management, remote hands, infrastructure operations, monitoring, asset management and 24x7 datacenter support.';
 ?>
+
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">
+
     <div class="sm58-hero-copy">
-      <span class="d3-kicker">Datacenter Support / Management</span>
-      <h1>Datacenter Management</h1>
-      <p>Datacenter Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
-      <div class="sm58-hero-pills"><span>Server</span><span>Monitoring,</span><span>Network,</span><span>Backup,</span></div>
+      <span class="d3-kicker">Datacenter Management Services</span>
+
+      <h1>Enterprise Datacenter Management Services</h1>
+
+      <p>
+        Deliver exceptional customer experiences through professional helpdesk operations, ticket management, live chat support and technical support services backed by experienced support professionals.
+      </p>
+
+      <div class="sm58-hero-pills">
+        <span>20+ Years</span>
+        <span>24x7 Operations</span>
+        <span>L1/L2/L3 Support</span>
+        <span>Customer Experience</span>
+      </div>
     </div>
+
     <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
-      <div class="sm60-network-ring"><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="line l1"></i><i class="line l2"></i><i class="line l3"></i></div>
-      <div class="batch68-visual-core"><div class="batch68-screen"><span></span><span></span><span></span></div><div class="batch68-mini m1"></div><div class="batch68-mini m2"></div><div class="batch68-mini m3"></div></div>
-      <div class="sm58-hero-badge badge-one">24x7</div><div class="sm58-hero-badge badge-two">Managed</div><div class="sm58-hero-badge badge-three">Secure</div>
+      <div class="sm60-network-ring">
+        <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i>
+        <i class="line l1"></i><i class="line l2"></i><i class="line l3"></i>
+      </div>
+
+      <div class="batch68-visual-core">
+        <div class="batch68-screen">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="batch68-mini m1"></div>
+        <div class="batch68-mini m2"></div>
+        <div class="batch68-mini m3"></div>
+      </div>
+
+      <div class="sm58-hero-badge badge-one">24x7</div>
+      <div class="sm58-hero-badge badge-two">Managed</div>
+      <div class="sm58-hero-badge badge-three">Responsive</div>
     </div>
+
   </div>
 </section>
-<section class="section">
-  <div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page" data-cms-slug="datacenter-management">
-    <section class="sm56-top batch68-top">
-      <div class="sm56-top-copy"><span class="section-label">Datacenter Support / Management</span><h2>Datacenter Management</h2><p>Datacenter Management services from Netedge Technology, designed for stable, secure and scalable technology operations.</p><p>Netedge Technology provides process-driven services with a focus on stability, security, scalability and long-term operational support. This static page is structured to move into the CMS later.</p></div>
-      <div class="sm56-circle-wrap"><div class="sm56-orbit batch68-orbit"><div class="sm56-center"><strong>24x7</strong><span>Datacenter Manag<br>Support</span></div><div class="sm56-node n1"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Plan</span></div><div class="sm56-node n2"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Build</span></div><div class="sm56-node n3"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Secure</span></div><div class="sm56-node n4"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Monitor</span></div><div class="sm56-node n5"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Support</span></div><div class="sm56-node n6"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg><span>Report</span></div></div></div>
-    </section>
-    <section class="sm56-benefits"><div class="sm56-section-title"><span class="section-label">Service coverage</span><h2>Datacenter Management Services</h2></div><div class="sm56-check-grid"><div><span>✓</span>Server provisioning and remote hands coordination</div>
-<div><span>✓</span>Monitoring, alerts and incident response</div>
-<div><span>✓</span>Network, rack and hardware coordination</div>
-<div><span>✓</span>Backup, maintenance and change support</div>
-<div><span>✓</span>Vendor and datacenter communication</div>
-<div><span>✓</span>Operational reporting and documentation</div></div></section>
-    <section class="sm56-expertise"><div class="sm56-section-title center"><span class="section-label">Expertise</span><h2>Our Datacenter Management Expertise</h2><p>Professional service coverage designed around your business requirement and operational goals.</p></div><div class="sm56-card-grid batch68-card-grid"><article class="sm56-expert-card batch68-card">
-          
 
-<div class="sm56-card-icon" aria-hidden="true">
-<svg viewBox="0 0 64 64" fill="none">
-<circle cx="32" cy="32" r="16" stroke="white" stroke-width="3"/>
-<path d="M32 22v10l7 7" stroke="white" stroke-width="3" stroke-linecap="round"/>
-<path d="M12 32h6M46 32h6M32 12v6M32 46v6" stroke="white" stroke-width="3" stroke-linecap="round"/>
-</svg>
+<section class="section">
+<div class="container content-page v48-static-page server-management-content server-management-v56 batch68-page">
+
+<div class="achievements-page">
+
+<div class="testimonials-intro">
+
+<span class="section-label">Why Professional Technical Support</span>
+
+<h2>Managing Mission-Critical Datacenter Infrastructure</h2>
+
+<p>
+Customers expect responsive support, fast issue resolution and professional communication. Effective technical support operations directly impact customer satisfaction, retention and business reputation.
+</p>
+
+<p>
+Netedge Technology provides comprehensive helpdesk services, ticket management, technical troubleshooting and customer support operations designed to improve service quality and operational efficiency.
+</p>
+
 </div>
 
+<div class="testimonial-stats">
 
-          <h3>Server provisioning</h3>
-          <p>Server provisioning and remote hands coordination with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Monitoring, alerts</h3>
-          <p>Monitoring, alerts and incident response with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Network, rack</h3>
-          <p>Network, rack and hardware coordination with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article>
-<article class="sm56-expert-card batch68-card">
-          <div class="sm56-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4V6Z"/><path d="M8 10h8M8 14h5M7 21h10M12 18v3"/></svg></div>
-          <h3>Backup, maintenance</h3>
-          <p>Backup, maintenance and change support with professional planning, execution and ongoing support.</p>
-          <ul><li>Process-driven delivery</li><li>Security and reliability focus</li><li>Documentation and reporting</li></ul>
-          <strong>Explore</strong>
-        </article></div></section>
-    
+<div class="stat-box">
+<strong>20+</strong>
+<span>Years Experience</span>
+</div>
 
-<section class="dc-custom-services">
+<div class="stat-box">
+<strong>24x7</strong>
+<span>Support Coverage</span>
+</div>
 
-  <div class="sm56-section-title center">
-    <span class="section-label">Professional Services</span>
-    <h2>Datacenter Consulting & Ongoing Management</h2>
-    <p>
-      Enterprise-grade datacenter consulting and management services designed for scalability, operational stability and long-term infrastructure growth.
-    </p>
-  </div>
+<div class="stat-box">
+<strong>L1/L2/L3</strong>
+<span>Technical Expertise</span>
+</div>
 
-  <div class="dc-custom-grid">
+<div class="stat-box">
+<strong>Global</strong>
+<span>Service Delivery</span>
+</div>
 
-    <article class="sm56-expert-card batch68-card dc-custom-card">
+</div>
 
-      <div class="sm56-card-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24">
-          <path d="M4 6h16v12H4V6Z"/>
-          <path d="M8 10h8M8 14h5M7 21h10M12 18v3"/>
-        </svg>
-      </div>
+<h2 style="margin:60px 0 20px">Datacenter Management Services</h2>
 
-      <h3>Technical Consulting</h3>
+<div class="featured-testimonials">
 
-      <p>
-        By providing Technical Consulting Service we help organizations to design, implement or improve the infrastructure. Technical consulting services are specific services that covers all the consulting service starting from basic requirement understanding to implementation or entire infrastructure. By providing technical consulting service of datacenter we make sure that we have covered all the aspects of the business requirement like best optimized setup, scalability etc.
-      </p>
+<div class="featured-card">
+<h3>Server Provisioning & Deployment</h3>
+<p>Deployment, configuration and commissioning of physical and virtual servers within datacenter environments.</p>
+</div>
 
-      <ul>
-        <li>Knowing current profile</li>
-        <li>Knowing purpose</li>
-        <li>Understanding requirement</li>
-        <li>Physical infrastructure</li>
-        <li>Expected results</li>
-        <li>Designing network infrastructure</li>
-        <li>Designing server infrastructure</li>
-      </ul>
+<div class="featured-card">
+<h3>Rack & Stack Services</h3>
+<p>Rack installation, cabling, hardware deployment and infrastructure setup services.</p>
+</div>
 
-    </article>
+<div class="featured-card">
+<h3>Remote Hands Services</h3>
+<p>Remote hands support for troubleshooting, hardware replacement, diagnostics and operational assistance.</p>
+</div>
 
-    <article class="sm56-expert-card batch68-card dc-custom-card">
+<div class="featured-card">
+<h3>Network Infrastructure</h3>
+<p>Management of switching, routing, connectivity and network infrastructure within datacenter environments.</p>
+</div>
 
-      <div class="sm56-card-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24">
-          <path d="M4 6h16v12H4V6Z"/>
-          <path d="M8 10h8M8 14h5M7 21h10M12 18v3"/>
-        </svg>
-      </div>
+<div class="featured-card">
+<h3>Asset Management</h3>
+<p>Asset lifecycle management, inventory tracking and infrastructure documentation.</p>
+</div>
 
-      <h3>Ongoing Management</h3>
+<div class="featured-card">
+<h3>Vendor Coordination</h3>
+<p>Coordination with hardware vendors, datacenter providers and technology partners.</p>
+</div>
 
-      <p>
-        We are providing ongoing datacenter management service. It includes onsite and remote. We do provide resources and manage entire datacenter remotely by providing support to your clients through your ticketing system and chat.
-      </p>
+</div>
 
-      <ul>
-        <li>Asset Management</li>
-        <li>Change Management</li>
-        <li>Scalability Management</li>
-        <li>Appointing support staff</li>
-        <li>24x7 coverage</li>
-        <li>Weekly and Monthly maintenance</li>
-        <li>Security configuration and auditing</li>
-        <li>24x7 monitoring</li>
-        <li>24x7 chat and ticketing support</li>
-      </ul>
+<h2 style="margin:60px 0 20px">Datacenter Services We Provide</h2>
 
-    </article>
+<div class="sm56-check-grid">
 
-  </div>
+<div><span>✓</span>Server Provisioning & Deployment</div>
+<div><span>✓</span>Rack & Stack Services</div>
+<div><span>✓</span>Remote Hands Services</div>
+<div><span>✓</span>Infrastructure Monitoring</div>
+<div><span>✓</span>Asset Management</div>
+<div><span>✓</span>Vendor Coordination</div>
+<div><span>✓</span>Capacity Planning</div>
+<div><span>✓</span>Datacenter Operations</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Datacenter Infrastructure Expertise</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>Network Infrastructure</h3>
+<p>Design, implementation and management of enterprise datacenter network infrastructure.</p>
+</div>
+
+<div class="featured-card">
+<h3>Power & Environmental Management</h3>
+<p>Power systems, environmental monitoring and facility infrastructure oversight.</p>
+</div>
+
+<div class="featured-card">
+<h3>Storage Infrastructure</h3>
+<p>Storage infrastructure administration, capacity planning and operational management.</p>
+</div>
+
+<div class="featured-card">
+<h3>Virtualization Platforms</h3>
+<p>Management of virtualization platforms supporting enterprise workloads and services.</p>
+</div>
+
+<div class="featured-card">
+<h3>Disaster Recovery Readiness</h3>
+<p>Business continuity planning, disaster recovery preparedness and operational resilience.</p>
+</div>
+
+<div class="featured-card">
+<h3>Capacity Planning</h3>
+<p>Forecasting infrastructure growth, utilization trends and future capacity requirements.</p>
+</div>
+
+<div class="featured-card">
+<h3>Datacenter Operations</h3>
+<p>24x7 datacenter monitoring, operational management and infrastructure oversight.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Datacenter Operations Methodology</h2>
+
+<div class="testimonial-stats" style="grid-template-columns:repeat(6,1fr)">
+
+<div class="stat-box"><strong>1</strong><span>Assess</span></div>
+<div class="stat-box"><strong>2</strong><span>Design</span></div>
+<div class="stat-box"><strong>3</strong><span>Deploy</span></div>
+<div class="stat-box"><strong>4</strong><span>Monitor</span></div>
+<div class="stat-box"><strong>5</strong><span>Optimize</span></div>
+<div class="stat-box"><strong>6</strong><span>Optimize</span></div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Operational Governance & SLA Management</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Asset Management</div>
+<div><span>✓</span>Change Management</div>
+<div><span>✓</span>Security Management</div>
+<div><span>✓</span>Vendor Coordination</div>
+<div><span>✓</span>Operational Documentation</div>
+<div><span>✓</span>SLA Governance</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Industries We Support</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Hosting Providers</div>
+<div><span>✓</span>SaaS Companies</div>
+<div><span>✓</span>Cloud Providers</div>
+<div><span>✓</span>E-Commerce</div>
+<div><span>✓</span>Healthcare</div>
+<div><span>✓</span>Financial Services</div>
+<div><span>✓</span>Education</div>
+<div><span>✓</span>Professional Services</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Why Businesses Choose Netedge</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>20+ Years Experience</h3>
+<p>Extensive experience supporting technology businesses and service operations.</p>
+</div>
+
+<div class="featured-card">
+<h3>24x7 Operations</h3>
+<p>Continuous support availability for customers across different time zones.</p>
+</div>
+
+<div class="featured-card">
+<h3>Datacenter Specialists</h3>
+<p>Integrated support across tickets, chat, email and customer service channels.</p>
+</div>
+
+<div class="featured-card">
+<h3>Scalable Operations</h3>
+<p>Flexible support models that grow alongside your business.</p>
+</div>
+
+<div class="featured-card">
+<h3>Security-First Approach</h3>
+<p>Focused on customer satisfaction, retention and service excellence.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Engagement Models</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Dedicated Support Teams</div>
+<div><span>✓</span>Shared Support Services</div>
+<div><span>✓</span>24x7 Operations</div>
+<div><span>✓</span>After-Hours Support</div>
+<div><span>✓</span>Long-Term Support Contracts</div>
+
+</div>
+
+<div class="testimonials-intro" style="margin-top:60px">
+
+<span class="section-label">Customer Success</span>
+
+<h2>Supporting Stable, Secure & Scalable Datacenter Operations</h2>
+
+<p>
+Organizations rely on Netedge Technology to manage customer support operations, technical support desks and helpdesk services that improve customer satisfaction and operational efficiency.
+</p>
+
+<p>
+Our focus is helping businesses deliver professional, responsive and consistent customer support across every interaction.
+</p>
+
+</div>
+
+<section class="content-cta-block">
+
+<div>
+<h2>Need Professional Datacenter Management Services?</h2>
+<p>
+Discuss your support requirements with our experienced team and discover the right service model for your business.
+</p>
+</div>
+
+<a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">
+Discuss A Requirement
+</a>
 
 </section>
 
-<style>
-
-.dc-custom-services{
-    padding-top:70px;
-}
-
-.dc-custom-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:34px;
-    margin-top:45px;
-}
-
-.dc-custom-card{
-    height:100%;
-}
-
-.dc-custom-card h3{
-    margin-bottom:20px;
-}
-
-
-.dc-custom-card p{
-    display:block !important;
-    width:100% !important;
-    float:none !important;
-
-    margin-bottom:26px;
-    line-height:1.9;
-}
-
-.dc-custom-card ul{
-    margin:0;
-    padding-left:18px;
-}
-
-.dc-custom-card li{
-    margin-bottom:12px;
-    line-height:1.7;
-}
-
-@media(max-width:992px){
-
-.dc-custom-grid{
-    grid-template-columns:1fr;
-}
-
-}
-
-
-
-.dc-custom-card ul{
-    display:block !important;
-    width:100% !important;
-    clear:both !important;
-    margin-top:18px !important;
-}
-
-.dc-custom-card li{
-    display:list-item !important;
-}
-
-
-
-
-.dc-custom-card{
-    display:block !important;
-}
-
-.dc-custom-card .sm56-card-icon,
-.dc-custom-card h3,
-.dc-custom-card p,
-.dc-custom-card ul{
-    grid-column:auto !important;
-    grid-row:auto !important;
-}
-
-.dc-custom-card ul{
-    margin-top:22px !important;
-    display:block !important;
-}
-
-.dc-custom-card li{
-    white-space:normal !important;
-    overflow:visible !important;
-    text-overflow:unset !important;
-    border-radius:14px !important;
-    margin-bottom:12px !important;
-}
-
-
-
-
-.dc-custom-card .sm56-card-icon{
-    float:left;
-    margin-right:18px !important;
-    margin-bottom:12px !important;
-}
-
-.dc-custom-card h3{
-    min-height:58px;
-    display:flex;
-    align-items:center;
-}
-
-.dc-custom-card p{
-    clear:both;
-}
-
-
-
-
-.dc-custom-services .sm56-section-title.center{
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:center !important;
-    justify-content:center !important;
-    text-align:center !important;
-    max-width:900px !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-}
-
-.dc-custom-services .sm56-section-title.center h2,
-.dc-custom-services .sm56-section-title.center p,
-.dc-custom-services .sm56-section-title.center .section-label{
-    text-align:center !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-}
-
-
-</style>
-
-<section class="content-cta-block"><div><h2>Need datacenter management support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
-  </div>
+</div>
+</div>
 </section>

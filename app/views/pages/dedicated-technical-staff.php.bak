@@ -79,16 +79,17 @@ $description = 'Dedicated technical resources for support, server administration
 
 
 
+
 <style>
 
 .dedicated-staff-hero{
-    overflow:hidden;
-    padding:70px 0 60px;
+    background:linear-gradient(180deg,#ffffff 0%,#f7f9fc 100%);
+    border-bottom:1px solid #e6edf5;
+    padding:70px 0;
 }
 
 .dedicated-staff-hero-container{
-    max-width:1500px;
-    width:100%;
+    max-width:1400px;
 }
 
 .dedicated-staff-hero-layout{
@@ -96,211 +97,64 @@ $description = 'Dedicated technical resources for support, server administration
     grid-template-columns:1fr 1fr;
     gap:50px;
     align-items:center;
-    min-height:500px;
 }
 
 .dedicated-staff-hero-copy{
-    position:relative;
-    z-index:2;
+    max-width:650px;
 }
 
 .dedicated-staff-hero-copy h1{
-    font-size:64px;
-    line-height:1.05;
+    font-size:56px;
+    line-height:1.08;
     letter-spacing:-0.04em;
-    margin-bottom:24px;
-    max-width:620px;
+    margin:12px 0 24px;
 }
 
 .dedicated-staff-hero-copy p{
-    font-size:20px;
-    line-height:1.7;
-    max-width:620px;
+    font-size:18px;
+    line-height:1.8;
     color:#5b6780;
+    margin:0;
 }
 
 .dedicated-staff-hero-image{
     display:flex;
-    align-items:center;
     justify-content:flex-end;
-    overflow:visible;
+    align-items:center;
 }
 
 .dedicated-staff-hero-image img{
     width:100%;
-    max-width:760px;
+    max-width:720px;
     height:auto;
     display:block;
 }
 
-.dedicated-staff-hero{
-    background:linear-gradient(
-        90deg,
-        #eef8ff 0%,
-        #f8fbff 35%,
-        #eef4ff 100%
-    );
-}
-
-@media(max-width:1200px){
-
-.dedicated-staff-hero-copy h1{
-    font-size:64px;
-    line-height:1.05;
-    letter-spacing:-0.04em;
-    margin-bottom:24px;
-    max-width:620px;
-}
-
-}
-
 @media(max-width:992px){
 
-.dedicated-staff-hero-layout{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:50px;
-    align-items:center;
-    min-height:500px;
-}
+    .dedicated-staff-hero-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
 
-.dedicated-staff-hero-image{
-    justify-content:center;
-    margin-top:40px;
-}
+    .dedicated-staff-hero-copy{
+        max-width:100%;
+    }
 
-.dedicated-staff-hero-copy h1{
-    font-size:64px;
-    line-height:1.05;
-    letter-spacing:-0.04em;
-    margin-bottom:24px;
-    max-width:620px;
-}
+    .dedicated-staff-hero-copy h1{
+        font-size:42px;
+    }
 
-}
+    .dedicated-staff-hero-image{
+        justify-content:center;
+    }
 
-@media(max-width:700px){
-
-.dedicated-staff-hero-copy h1{
-    font-size:64px;
-    line-height:1.05;
-    letter-spacing:-0.04em;
-    margin-bottom:24px;
-    max-width:620px;
-}
-
-.dedicated-staff-hero-copy p{
-    font-size:20px;
-    line-height:1.7;
-    max-width:620px;
-    color:#5b6780;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.c1{top:70px;}
-.c2{top:120px;}
-.c3{top:170px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:992px){
-    
-}
-
-
-
-/* Dedicated Technical Staffing Hero Override */
-.dedicated-staff-hero{
-    padding:40px 0 20px !important;
-    min-height:auto !important;
-}
-
-.dedicated-staff-hero .container{
-    max-width:1400px !important;
-}
-
-.dedicated-staff-hero-layout{
-    display:grid !important;
-    grid-template-columns:48% 52% !important;
-    gap:20px !important;
-    align-items:center !important;
-    min-height:420px !important;
-}
-
-.dedicated-staff-hero-copy{
-    padding-right:20px;
-}
-
-.dedicated-staff-hero-copy h1{
-    font-size:72px !important;
-    line-height:1.0 !important;
-    max-width:650px !important;
-    margin-bottom:22px !important;
-}
-
-.dedicated-staff-hero-copy p{
-    font-size:18px !important;
-    line-height:1.7 !important;
-    max-width:620px !important;
-}
-
-.dedicated-staff-hero-image{
-    justify-content:flex-end !important;
-    align-items:center !important;
-}
-
-.dedicated-staff-hero-image img{
-    width:100% !important;
-    max-width:900px !important;
-    height:auto !important;
-    display:block !important;
-}
-
-@media(max-width:992px){
-
-.dedicated-staff-hero-layout{
-    grid-template-columns:1fr !important;
-}
-
-.dedicated-staff-hero-copy h1{
-    font-size:48px !important;
-}
-
-.dedicated-staff-hero-image{
-    margin-top:20px !important;
-    justify-content:center !important;
-}
+    .dedicated-staff-hero-image img{
+        max-width:520px;
+    }
 
 }
 
 </style>
+
 

@@ -4,7 +4,7 @@ return [
 
 'home' => [
     'title' => 'Server Management Company | Infrastructure Management Services | Netedge Technology',
-    'description' => 'Netedge Technology provides 24x7 server management, infrastructure management, virtualization management, cloud support and IT infrastructure services worldwide.',
+    'description' => 'Netedge Technology provides 24x7 infrastructure management, cloud services, server management, cybersecurity, software development and technical staffing solutions worldwide.',
 ],
 
 'server-management' => [

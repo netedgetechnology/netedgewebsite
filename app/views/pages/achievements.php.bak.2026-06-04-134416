@@ -1,13 +1,13 @@
 <?php
-$title = 'Achievements & Milestones | Netedge Technology';
-$description = 'Explore Netedge Technology achievements, business milestones, industry experience and successful technology engagements delivered worldwide.';
+$title = 'Achievements | Netedge Technology';
+$description = 'Achievements services from Netedge Technology, designed for stable, secure and scalable technology operations.';
 ?>
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">
     <div class="sm58-hero-copy">
       <span class="d3-kicker">Our Achievements</span>
       <h1>Achievements</h1>
-      <p>Explore the milestones, customer successes and business achievements that reflect Netedge Technology's commitment to delivering reliable technology solutions worldwide.</p>
+      <p>Achievements services from Netedge Technology, designed for stable, secure and scalable technology operations.</p>
       <div class="sm58-hero-pills"><span>20+</span><span>934</span><span>400+</span><span>19000+</span></div>
     </div>
     <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
@@ -128,6 +128,6 @@ Migrated 13 ecommerce websites from ePages to WooCommerce within one week includ
 
 </div>
 
-<section class="content-cta-block"><div><h2>Need A Reliable Technology Partner?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
+<section class="content-cta-block"><div><h2>Need achievements support?</h2><p>Share your requirement and our team will review the right support model for your business.</p></div><a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">Discuss A Requirement</a></section>
   </div>
 </section>

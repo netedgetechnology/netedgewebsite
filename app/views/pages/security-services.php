@@ -180,6 +180,101 @@ Netedge Technology provides technical readiness, remediation and infrastructure 
 
 </div>
 
+
+<h2 style="margin:60px 0 20px">Security Coverage</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Linux Server Security</div>
+<div><span>✓</span>Windows Server Security</div>
+<div><span>✓</span>Cloud Security Management</div>
+<div><span>✓</span>AWS Security Hardening</div>
+<div><span>✓</span>Azure Security Management</div>
+<div><span>✓</span>Google Cloud Security</div>
+<div><span>✓</span>Firewall Administration</div>
+<div><span>✓</span>IDS / IPS Monitoring</div>
+<div><span>✓</span>Web Application Security</div>
+<div><span>✓</span>Access Management</div>
+<div><span>✓</span>Patch Management</div>
+<div><span>✓</span>Backup Security Validation</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Industries We Support</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Hosting Providers</div>
+<div><span>✓</span>Cloud Service Providers</div>
+<div><span>✓</span>SaaS Companies</div>
+<div><span>✓</span>Healthcare</div>
+<div><span>✓</span>Financial Services</div>
+<div><span>✓</span>E-Commerce</div>
+<div><span>✓</span>Education</div>
+<div><span>✓</span>Enterprise Organizations</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Why Businesses Choose Netedge</h2>
+
+<div class="featured-testimonials">
+
+<div class="featured-card">
+<h3>20+ Years Experience</h3>
+<p>Extensive experience securing enterprise infrastructure and business-critical environments.</p>
+</div>
+
+<div class="featured-card">
+<h3>Security-First Approach</h3>
+<p>Infrastructure protection, risk reduction and operational resilience at every layer.</p>
+</div>
+
+<div class="featured-card">
+<h3>24x7 Monitoring Focus</h3>
+<p>Continuous visibility and proactive response to security-related events.</p>
+</div>
+
+<div class="featured-card">
+<h3>Experienced Engineers</h3>
+<p>Infrastructure, cloud and server specialists with real-world security expertise.</p>
+</div>
+
+<div class="featured-card">
+<h3>Long-Term Partnerships</h3>
+<p>Trusted security and infrastructure support for organizations worldwide.</p>
+</div>
+
+</div>
+
+<h2 style="margin:60px 0 20px">Engagement Models</h2>
+
+<div class="sm56-check-grid">
+
+<div><span>✓</span>Managed Security Services</div>
+<div><span>✓</span>Security Consulting</div>
+<div><span>✓</span>Compliance Readiness Projects</div>
+<div><span>✓</span>Security Hardening Engagements</div>
+<div><span>✓</span>Infrastructure Security Audits</div>
+<div><span>✓</span>Long-Term Security Support</div>
+
+</div>
+
+<div class="testimonials-intro" style="margin-top:60px">
+
+<span class="section-label">Customer Success</span>
+
+<h2>Helping Organizations Build Stronger Security Posture</h2>
+
+<p>
+Netedge Technology helps organizations reduce risk, strengthen infrastructure security and improve operational resilience through proactive security management and best-practice implementation.
+</p>
+
+<p>
+Our objective is to create secure, stable and well-managed technology environments that support business growth and continuity.
+</p>
+
+</div>
+
 <section class="content-cta-block">
 
 <div>

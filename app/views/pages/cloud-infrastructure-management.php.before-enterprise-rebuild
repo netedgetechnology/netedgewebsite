@@ -1,0 +1,140 @@
+<?php
+$title = 'Cloud Infrastructure Management Services | Netedge Technology';
+$description = 'Cloud infrastructure management services for AWS, Microsoft Azure, Google Cloud Platform, private cloud, hybrid cloud environments, cloud migration, monitoring, security and optimization.';
+?>
+
+<section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
+  <div class="container sm58-hero-grid batch68-hero-grid">
+
+    <div class="sm58-hero-copy">
+      <span class="d3-kicker">Cloud Infrastructure Management</span>
+
+      <h1>Enterprise Cloud Infrastructure Management Services</h1>
+
+      <p>
+        Netedge Technology helps businesses design, deploy, manage, secure and optimize cloud environments across AWS, Microsoft Azure, Google Cloud Platform and hybrid cloud infrastructures with 24x7 operational support.
+      </p>
+
+      <div class="sm58-hero-pills">
+        <span>AWS</span>
+        <span>Azure</span>
+        <span>Hybrid Cloud</span>
+        <span>24x7 Support</span>
+      </div>
+    </div>
+
+    <div class="sm58-hero-visual sm60-hero-visual batch68-hero-visual" aria-hidden="true">
+      <div class="sm60-network-ring">
+        <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i>
+        <i class="line l1"></i><i class="line l2"></i><i class="line l3"></i>
+      </div>
+
+      <div class="batch68-visual-core">
+        <div class="batch68-screen"><span></span><span></span><span></span></div>
+        <div class="batch68-mini m1"></div>
+        <div class="batch68-mini m2"></div>
+        <div class="batch68-mini m3"></div>
+      </div>
+
+      <div class="sm58-hero-badge badge-one">24x7</div>
+      <div class="sm58-hero-badge badge-two">Cloud</div>
+      <div class="sm58-hero-badge badge-three">Managed</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+<div class="container content-page">
+
+<h2>Helping Businesses Build, Manage & Optimize Cloud Infrastructure</h2>
+
+<p>
+Modern organizations rely on cloud infrastructure for scalability, agility and business continuity. Netedge Technology provides end-to-end cloud infrastructure management services covering architecture design, deployment, monitoring, security, optimization and operational support.
+</p>
+
+<h2>Cloud Platforms We Manage</h2>
+
+<h3>AWS Infrastructure Management</h3>
+<p>Management of Amazon EC2, RDS, S3, VPC, Load Balancers, CloudWatch, Route53 and related AWS services.</p>
+
+<h3>Microsoft Azure Management</h3>
+<p>Administration of Azure virtual machines, storage services, networking, identity management and enterprise cloud workloads.</p>
+
+<h3>Google Cloud Platform Management</h3>
+<p>Support for GCP infrastructure including compute, storage, networking and cloud-native application environments.</p>
+
+<h3>Private Cloud Management</h3>
+<p>Management of VMware, Hyper-V, Proxmox and other private cloud platforms for enterprise workloads.</p>
+
+<h3>Hybrid Cloud Management</h3>
+<p>Integration and management of on-premises infrastructure with public cloud environments.</p>
+
+<h3>Public Cloud Operations</h3>
+<p>Operational management, monitoring, security and optimization of public cloud workloads.</p>
+
+<h2>Cloud Infrastructure Services</h2>
+
+<ul>
+<li>Cloud architecture planning and deployment</li>
+<li>Cloud migration and modernization</li>
+<li>Infrastructure monitoring and alerting</li>
+<li>Cloud security hardening</li>
+<li>Backup and disaster recovery planning</li>
+<li>Performance optimization</li>
+<li>Cost optimization and resource utilization review</li>
+<li>High availability and business continuity planning</li>
+<li>Infrastructure automation and DevOps support</li>
+<li>24x7 operational support</li>
+</ul>
+
+<h2>Cloud Migration & Modernization</h2>
+
+<p>
+We assist organizations with cloud adoption initiatives, infrastructure migration projects, workload modernization and cloud-native transformation strategies while minimizing operational risk and downtime.
+</p>
+
+<h2>Cloud Security & Governance</h2>
+
+<p>
+Our cloud management approach incorporates identity management, access controls, security monitoring, compliance practices, backup validation and operational governance to maintain a secure cloud environment.
+</p>
+
+<h2>Industries We Support</h2>
+
+<p>
+We support hosting companies, software businesses, SaaS providers, enterprises, eCommerce organizations, healthcare companies, educational institutions and technology-driven businesses worldwide.
+</p>
+
+<h2>Why Businesses Choose Netedge Technology</h2>
+
+<ul>
+<li>20+ years of infrastructure management experience</li>
+<li>Multi-cloud expertise across AWS, Azure and GCP</li>
+<li>24x7 operational support capability</li>
+<li>Security-focused delivery approach</li>
+<li>Flexible engagement models</li>
+<li>Long-term technology partnership mindset</li>
+</ul>
+
+<h2>Engagement Models</h2>
+
+<p>
+Choose from monthly managed services, dedicated technical staffing, project-based engagements, migration assistance or fully outsourced cloud operations support.
+</p>
+
+<section class="content-cta-block">
+<div>
+<h2>Need Expert Cloud Infrastructure Management?</h2>
+<p>
+Discuss your cloud requirements with our team and discover the right cloud strategy, migration approach or operational support model for your business.
+</p>
+</div>
+
+<a class="btn" href="<?= e(url('discuss-a-requirement')) ?>">
+Discuss A Requirement
+</a>
+</section>
+
+</div>
+</section>
