@@ -1,6 +1,6 @@
 <?php
-$title = 'Shared Staffing | Netedge Technology';
-$description = 'Shared Staffing services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = 'Shared Technical Staffing Services | Netedge Technology';
+$description = 'Shared technical staffing services providing cost-effective access to server administrators, cloud engineers, DevOps specialists and technical support professionals.';
 ?>
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">

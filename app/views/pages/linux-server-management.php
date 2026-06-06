@@ -1,5 +1,5 @@
 <?php
-$title = 'Linux Server Management | Netedge Technology';
+$title = 'Linux Server Management Services | Netedge Technology';
 $description = 'Linux server management, administration, monitoring, security hardening, DevOps support and enterprise Linux infrastructure services.';
 ?>
 

@@ -1,6 +1,8 @@
 <?php
 $title = '24x7 Server Management Services | Netedge Technology';
 $description = 'Professional Linux and Windows server management services including monitoring, security hardening, troubleshooting, optimization, cloud infrastructure support and 24x7 operational management.';
+
+
 ?>
 
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">

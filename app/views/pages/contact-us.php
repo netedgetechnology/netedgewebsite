@@ -1,6 +1,6 @@
 <?php
-$title = 'Contact Us | Netedge Technology';
-$description = 'Contact Us services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = 'Contact Netedge Technology | IT Infrastructure & Software Development Experts';
+$description = 'Contact Netedge Technology for server management, cloud infrastructure, software development, technical staffing and IT support services.';
 ?>
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">

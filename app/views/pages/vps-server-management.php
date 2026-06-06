@@ -1,5 +1,5 @@
 <?php
-$title = 'VPS Server Management | Netedge Technology';
+$title = 'VPS Server Management Services | Netedge Technology';
 $description = 'Linux VPS management, Windows VPS administration, security hardening, monitoring, troubleshooting and managed VPS services.';
 ?>
 

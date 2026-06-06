@@ -1,6 +1,6 @@
 <?php
-$title = 'Dedicated Staffing | Netedge Technology';
-$description = 'Dedicated Staffing services from Netedge Technology, designed for stable, secure and scalable technology operations.';
+$title = 'Dedicated Technical Staffing Services | Netedge Technology';
+$description = 'Dedicated technical staffing services including Linux administrators, Windows engineers, cloud specialists, DevOps engineers, NOC professionals and technical support resources.';
 ?>
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">
   <div class="container sm58-hero-grid batch68-hero-grid">

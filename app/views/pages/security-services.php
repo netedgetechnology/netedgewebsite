@@ -1,6 +1,6 @@
 <?php
-$title = 'Security Services | Netedge Technology';
-$description = 'Infrastructure security, compliance readiness, security hardening, vulnerability management, monitoring and security consulting services.';
+$title = 'Infrastructure Security Services | Netedge Technology';
+$description = 'Infrastructure security services including server hardening, vulnerability management, compliance readiness, security monitoring, risk assessment and enterprise security consulting.';
 ?>
 
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">

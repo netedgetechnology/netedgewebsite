@@ -107,4 +107,65 @@
     <priority>0.6</priority>
   </url>
 
+
+  <url>
+    <loc>https://www.netedgetechnology.com/aws-infrastructure-management</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/linux-server-management</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/windows-server-management</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/vps-server-management</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/iot-application-development</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/software-development</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/s-e-o</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/control-panel-security</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/cloudlinux-immunify360-management</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/email-security</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/monitoring-service</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.netedgetechnology.com/partnership</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

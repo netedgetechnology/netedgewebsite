@@ -1,6 +1,6 @@
 <?php
-$title = 'NOC Management | Netedge Technology';
-$description = '24x7 NOC management, infrastructure monitoring, incident response, network operations and enterprise monitoring services.';
+$title = '24x7 NOC Management Services | Netedge Technology';
+$description = '24x7 NOC management services including infrastructure monitoring, incident response, alert management, network operations, performance monitoring and enterprise operational support.';
 ?>
 
 <section class="page-hero v11-page-hero sm58-page-hero batch68-page-hero">

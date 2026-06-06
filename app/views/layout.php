@@ -54,6 +54,28 @@ foreach ($menu as $m) {
     <meta name="twitter:image" content="<?= e(asset('images/logo.png')) ?>">
   <link rel="canonical" href="<?= e(url(trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?: '/', '/'))) ?>">
   <link rel="stylesheet" href="<?= e(asset('css/style.css')) ?>">
+
+<?php if (!empty($schema)): ?>
+<script type="application/ld+json">
+<?= json_encode($schema, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT) ?>
+</script>
+<?php endif; ?>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Netedge Technology",
+  "url":"https://www.netedgetechnology.com",
+  "logo":"https://www.netedgetechnology.com/assets/images/logo.png",
+  "email":"sales@netedgetechnology.com",
+  "sameAs":[
+    "https://www.facebook.com/Netedge",
+    "https://x.com/thenetedge"
+  ]
+}
+</script>
+
 </head>
 <body>
 

@@ -1,5 +1,5 @@
 <?php
-$title = 'Windows Server Management | Netedge Technology';
+$title = 'Windows Server Management Services | Netedge Technology';
 $description = 'Windows Server management, Active Directory administration, IIS support, security hardening, monitoring and enterprise Windows infrastructure services.';
 ?>
 

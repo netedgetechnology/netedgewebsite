@@ -63,7 +63,7 @@ return [
 ],
 
 'contact-us' => [
-    'title' => 'Contact Netedge Technology',
+    'title' => 'Contact Netedge Technology | IT Infrastructure & Software Development Experts',
     'description' => 'Contact Netedge Technology for server management, infrastructure management and enterprise IT support services.',
 ],
 
