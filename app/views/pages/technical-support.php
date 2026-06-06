@@ -1,5 +1,5 @@
 <?php
-$title = 'Technical Support | Netedge Technology';
+$title = '24x7 Technical Support Services | Netedge Technology';
 $description = '24x7 technical support, helpdesk operations, ticket management, live chat support and customer service solutions from Netedge Technology.';
 ?>
 

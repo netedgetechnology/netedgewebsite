@@ -1,5 +1,5 @@
 <?php
-$title = 'Monitoring Service | Netedge Technology';
+$title = '24x7 Infrastructure Monitoring Services | Netedge Technology';
 $description = 'Server and service monitoring to identify outages, performance issues and availability problems.';
 ?>
 <section class="page-hero v11-page-hero"><div class="container"><span class="d3-kicker">Other</span><h1>Monitoring Service</h1><p>Server and service monitoring to identify outages, performance issues and availability problems.</p></div></section>

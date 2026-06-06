@@ -1,5 +1,5 @@
 <?php
-$title = 'Software Development | Netedge Technology';
+$title = 'Custom Software Development Services | Netedge Technology';
 $description = 'Custom software development, web applications, mobile applications, AI solutions, IoT systems and enterprise software services from Netedge Technology.';
 ?>
 

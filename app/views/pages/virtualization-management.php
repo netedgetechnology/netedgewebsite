@@ -1,5 +1,5 @@
 <?php
-$title = 'Virtualization Management | Netedge Technology';
+$title = 'Virtualization Management Services | Netedge Technology';
 $description = 'VMware, Hyper-V, Proxmox, KVM, virtual infrastructure management, migration, monitoring and enterprise virtualization services.';
 ?>
 
